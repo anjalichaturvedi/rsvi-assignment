@@ -1,0 +1,61 @@
+.icon{
+    height: 100px;
+}
+
+.holder{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-image: url('./Images/background.png');
+}
+
+.text{
+    margin: 0;
+    padding: 45px;
+    font-size: 40px;
+    font-weight: bolder;
+    justify-content: center;
+    color: rgb(100, 100, 100);
+}
+
+.iconlist{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.caption{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.counter{
+    color: black;
+    display: block;
+    font-size: 40px;
+}
+
+.progressbar .progress {
+    height: 100%;
+    border-radius: 4px;
+    background-color: black;
+    transition: width 3s ease-in-out;
+}
+  
+.progressbar {
+    width: 78%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+}
+
+.year{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}

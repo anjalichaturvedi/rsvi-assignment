@@ -1,0 +1,28 @@
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbrand{
+    width: 100px;
+    text-align: center;
+}
+
+.navlinkbar{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+}
+
+.navlink{
+    font-size: 23px;
+}
+
+.navicon{
+    width: 100px;
+    height: 100px;
+}

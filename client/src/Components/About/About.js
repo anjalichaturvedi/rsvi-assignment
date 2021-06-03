@@ -19,24 +19,23 @@ class About extends Component {
                   </p>
               </Row>
               <Row>
-              <img src={bgimage} alt='dummy' className={styles.bgimage}/>
+                <img src={bgimage} alt='dummy' className={styles.bgimage}/>
               </Row>
               <Row>
               <Col>
-              <img src={boxbg} alt='dummy' className={styles.boxbgmain}/>
+                <img src={boxbg} alt='dummy' className={styles.boxbgmain}/>
                 <p className={styles.sbox}> About Us </p>
               </Col>
               <Col>
-              <img src={boxbg} alt='dummy' className={styles.boxbg}/>
+                <img src={boxbg} alt='dummy' className={styles.boxbg}/>
                 <p className={styles.sbox}> About Us </p>
               </Col>
               <Col>
-              <img src={boxbg} alt='dummy' className={styles.boxbg}/>
+                <img src={boxbg} alt='dummy' className={styles.boxbg}/>
                 <p className={styles.sbox}> About Us </p>
               </Col>
               </Row>
           </Container>
-
         )
     }
 }

@@ -1,0 +1,321 @@
+/*************** Details of RSVI, the Green Portion, a picture & Why started with Answer *****************/
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin-left: -.7rem;
+  width: 100%;
+}
+
+.section3 {
+  height: 500px;
+  display: flex;
+}
+.content {
+  background-image: url('./images/background.png');
+  margin-top: 100px;
+  height: 500;
+}
+
+.content p {
+  margin-left: 64px;
+  margin-right: 164px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: justify;
+}
+
+.imageBox {
+  position: absolute;
+  margin-top: 100px;
+  height: 500px;
+  align-items: center;
+  text-align: center;
+  /* background-color: rgb(195, 245, 138); */
+}
+
+.imageBox img {
+  position: absolute;
+  top: 9%;
+  align-items: center;
+  text-align: center;
+  transition: 500ms ease-in-out;
+}
+
+.section4 {
+  margin-top: 200px;
+  width: 100%;
+}
+
+.whyStarted {
+  height: 80px;
+  background: rgb(130, 217, 233);
+}
+
+.whyStarted h1 {
+  margin-left: 64px;
+  line-height: 80px;
+  background-image: url(./images/background_half.png);
+}
+
+.reasonForStart {
+  margin-top: 40px;
+}
+
+.reasonForStart p {
+  font-size: 2.6ex;
+  margin-left: 64px;
+  margin-right: 64px;
+  text-align: justify;
+}
+
+@media screen and (min-width: 1201px) {
+  .content {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    height: 500px;
+    width: 56.7rem;
+    z-index: 2;
+  }
+
+  .content p {
+    font-size: 2.55ex;
+    margin-top: 25px;
+  }
+
+  .imageBox {
+    left: 48rem;
+  }
+
+  .imageBox img {
+    z-index: 1;
+  }
+
+  .imageBox img:hover {
+    transform: scale(1.3);
+    margin-left: -90.5px;
+    z-index: 5;
+  }
+
+  .whyStarted {
+    width: 86.9rem;
+  }
+
+  .reasonForStart {
+    width: 86.9rem;
+  }
+
+  .reasonForStart p {
+    font-size: 2.6ex;
+  }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1280px) {
+  .content {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    height: 500px;
+    width: 49.9rem;
+    z-index: 2;
+  }
+
+  .content p {
+    margin-top: 20px;
+    font-size: 2.35ex;
+  }
+
+  .imageBox {
+    left: 42rem;
+  }
+
+  .imageBox img {
+    z-index: 1;
+  }
+
+  .imageBox img:hover {
+    transform: scale(1.3);
+    margin-left: -90.5px;
+    z-index: 5;
+  }
+
+  .whyStarted {
+    width: 80.7rem;
+  }
+
+  .reasonForStart {
+    width: 80.7rem;
+  }
+
+  .reasonForStart p {
+    font-size: 2.4ex;
+  }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1150px) {
+  .content {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    height: 500px;
+    width: 40.2rem;
+    z-index: 2;
+  }
+  .content p {
+    margin-top: 25px;
+    margin-right: 143px;
+    font-size: 2.1ex;
+  }
+
+  .imageBox {
+    left: 34rem;
+  }
+
+  .imageBox img {
+    z-index: 1;
+  }
+
+  .imageBox img:hover {
+    transform: scale(1.3);
+    margin-left: -90.5px;
+    z-index: 5;
+  }
+
+  .whyStarted {
+    width: 72.7rem;
+  }
+
+  .reasonForStart {
+    width: 72.7rem;
+  }
+
+  .reasonForStart p {
+    font-size: 2.1ex;
+  }
+}
+
+@media screen and (min-width: 880px) and (max-width: 1050px) {
+  .content {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    height: 500px;
+    width: 35.7rem;
+    z-index: 2;
+  }
+  .content p {
+    margin-right: 115px;
+    margin-top: 25px;
+    font-size: 1.95ex;
+  }
+
+  .imageBox {
+    left: 30rem;
+  }
+
+  .imageBox img {
+    z-index: 1;
+  }
+
+  .imageBox img:hover {
+    transform: scale(1.3);
+    margin-left: -90.5px;
+    z-index: 5;
+  }
+
+  .whyStarted {
+    width: 68.7rem;
+  }
+
+  .reasonForStart {
+    width: 68.7rem;
+  }
+
+  .reasonForStart p {
+    font-size: 1.9ex;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 879px) { 
+  .content p {
+    width: 61.5rem;
+    font-size: 2.3ex;
+    margin-top: 40px;
+    margin-right: 64px;
+    width: 47rem;
+  }
+
+  .imageBox {
+    margin-top: 500px;
+    height: 500px;
+    width: 100%;
+  }
+
+  .imageBox img {
+    display: block;
+    margin-left: 9rem;
+    width: 600px;
+    transition: 500ms ease-in-out;
+  }
+
+  .imageBox img:hover {
+    transform: scale(1.3);
+  }
+
+  .startReason {
+    margin-top: 420px;
+  }
+
+  .whyStarted {
+    margin-top: 520px;
+    width: 55.7rem;
+  }
+
+  .reasonForStart {
+    width: 55.7rem;
+  }
+
+  .reasonForStart p {
+    margin-right: 64px;
+    font-size: 2.3ex;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .content p {
+    font-size: 2.3ex;
+    margin-top: 50px;
+    width: 54.7rem;
+    margin-right: 64px;
+  }
+
+  .imageBox {
+    margin-top: 500px;
+    height: 500px;
+    width: 100%;
+  }
+
+  .imageBox img {
+    display: block;
+    margin-left: 12rem;
+    /* margin-right: auto; */
+    width: 600px;
+    transition: 500ms ease-in-out;
+  }
+
+  .imageBox img:hover {
+    transform: scale(1.3);
+  }
+
+  .startReason {
+    margin-top: 420px;
+  }
+
+  .whyStarted {
+    margin-top: 520px;
+    width: 62.7rem;
+  }
+
+  .reasonForStart {
+    width: 62.7rem;
+  }
+
+  .reasonForStart p {
+    font-size: 2.3ex;
+  }
+}

@@ -9,15 +9,24 @@
 .bgimage:hover {
   z-index: 1;
 }
+
+@media screen and (max-width: 800px) {
+  .bgimage {
+     position: relative;
+     margin-left: 10px;
+     width: auto;
+     margin-right: 30px;
+     margin-top: 10px;
+  }
+}
+
 .section5 {
   font-size: 25px;
   margin-top: 50px;
   margin-bottom: 50px;
   background-size: 100% 90%;
   height: 400px;
-  position: relative;
   background-image: url('./Images/background-red.png');
-  background-position: center;
   position: absolute;
 }
 
@@ -25,15 +34,73 @@
   z-index: -1;
 }
 
+@media screen and (max-width: 800px) {
+  .section5 {
+     margin-top: 120px;
+     z-index: 0;
+     width: 100%;
+     height: 900px;
+     margin-right: 0;
+  }
+}
+
 .para1 {
   padding: 50px 40px 0px 40px;
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  .para1 {
+    font-size: 20px;
+  }
+}
+
+.para2 {
+  padding: 0px 40px 0px 40px;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .para2 {
+    font-size: 20px;
+  }
 }
 
 .boxbg {
   height: 400px;
   margin-left: 40px;
   margin-top: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .boxbg {
+   height: 300px;
+   justify-content: center;
+   align-items: center;
+   margin-right: 20px;
+   margin-left: 30px;
+   margin-top: 40px;
+  }
+}
+
+.boxbgmain {
+  height: 400px;
+  margin-left: 40px;
+  margin-top: 130px;
+}
+
+@media screen and (max-width: 800px) {
+  .boxbgmain {
+   margin-top: 950px;
+   height: 300px;
+   justify-content: center;
+   align-items: center;
+   margin-right: 20px;
+   margin-left: 30px;
+  }
 }
 
 .sbox {
@@ -49,4 +116,14 @@
   left: 50%;
   transform: translate(0%, -30%);
   font-size: 26px;
+}
+
+@media screen and (max-width: 800px) {
+  .sbox {
+    height: 45px;
+    width: 150px;
+    transform: translate(-24%, -30%);
+    font-size: 23px;
+    align-items: center;
+  }
 }

@@ -23,7 +23,7 @@ class About extends Component {
               </Row>
               <Row>
               <Col>
-              <img src={boxbg} alt='dummy' className={styles.boxbg}/>
+              <img src={boxbg} alt='dummy' className={styles.boxbgmain}/>
                 <p className={styles.sbox}> About Us </p>
               </Col>
               <Col>

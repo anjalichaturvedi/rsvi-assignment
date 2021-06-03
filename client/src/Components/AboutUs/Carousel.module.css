@@ -1,0 +1,39 @@
+.carouselDiv > ol > li {
+  position: relative;
+  top: 24px;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.carouselDiv span {
+  /* background-color: skyblue; */
+  width: 30%;
+  height: 30%;
+}
+.carouselDiv img{
+  margin: 1px 0 4px 0;
+}
+@media screen and (min-width: 768px) {
+  .carouselDiv img {
+   
+    width: 95vw;
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carouselDiv img {
+    width: 95vw;
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 444px) {
+  .carouselDiv img {
+    width: 90vw;
+    height: 20vh;
+  }
+}
+
+.carouselDiv {
+  background-image: url("./images/4.png");
+}

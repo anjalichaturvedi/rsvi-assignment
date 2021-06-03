@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
+.groupImg {
+  position: relative;
+  left: 5rem;
+}
+/* styling for intro div */
+.intro {
+  background-color: orange;
+  background-image: url("./images/1.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  /* margin-right: 0.5rem; */
+  align-content: center;
+}
+.intro h1 {
+  animation-name: change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes change {
+  0% {
+    letter-spacing: 0px;
+  }
+  25% {
+    letter-spacing: 2px;
+  }
+  50% {
+    letter-spacing: 4px;
+  }
+  75% {
+    letter-spacing: 2px;
+  }
+  100% {
+    letter-spacing: 0px;
+  }
+}
+.headerOfSection2 {
+  background-color: yellow;
+  background-image: url("./images/2.png");
+  background-size: cover;
+  background-position: left;
+  height: 6rem;
+  padding-left: 3.3rem;
+}
+.headerOfSection2 > h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bolder;
+}
+.intro p {
+  color: grey;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: "Source Sans Pro";
+  word-spacing: 3px;
+}
+.introPara {
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  color: grey;
+  word-spacing: 5px;
+}
+@media screen and (min-width: 768px) {
+  .intro > div {
+    margin-left: 6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .groupImg {
+    left: 0;
+  }
+  .intro {
+    margin-right: 0;
+  }
+  .headerOfSection2 > h1 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (width: 768px) {
+  .intro > div {
+    margin-left: 5rem;
+  }
+  @keyframes change {
+    0% {
+      letter-spacing: 0px;
+    }
+    25% {
+      letter-spacing: 1.5px;
+    }
+    50% {
+      letter-spacing: 0px;
+    }
+    75% {
+      letter-spacing: 1.5px;
+    }
+    100% {
+      letter-spacing: 0px;
+    }
+  }
+}
+.trapezium {
+  background-image: url("./images/3.png");
+  height: 16rem;
+  transform: skew(-30deg, 0deg);
+  width: 60%;
+  position: relative;
+  top: 0;
+  right: 50px;
+}
+.trapezium > p {
+  transform: skew(30deg, 0deg);
+  padding-left: 65px;
+  padding-right: 0.7px;
+}

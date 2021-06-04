@@ -1,0 +1,66 @@
+.mainAboutUs{
+
+}
+
+.container{
+
+}
+
+/* Default Css Shataxi for Row 1 and Row 2 */
+
+/* Default Css Shadab  for Row 3 and Row 4 */
+
+/* Default Css Anjali for Row 5 and Row 6 */
+
+/* Default Css Shadab  for Row 7 */
+
+/* Default Css Anjali for Row 8 */
+
+/* Default Css Shataxi for Row 9 */
+
+/* ****************************** Media Queries **************************** */
+
+@media screen and (min-width: 1590px) {
+    /* Changed Css Shataxi */
+    /* Changed Css Shadab  */
+    /* Changed Css Anjali  */
+}
+
+/*** Assuming default css will be applied from 1300px to 1589px ***/
+
+@media screen and (min-width: 1260px) and (max-width: 1299px) {
+    /* Changed Css Shataxi */
+    /* Changed Css Shadab  */
+    /* Changed Css Anjali  */
+}
+
+@media screen and (min-width: 1126px) and (max-width: 1259px) {
+    /* Changed Css Shataxi */
+    /* Changed Css Shadab  */
+    /* Changed Css Anjali  */
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1125px) {
+    /* Changed Css Shataxi */
+    /* Changed Css Shadab  */
+    /* Changed Css Anjali  */
+}
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+    /* Changed Css Shataxi */
+    /* Changed Css Shadab  */
+    /* Changed Css Anjali  */
+}
+
+/* Mobile screen can begin from here */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    /* Changed Css Shataxi */
+    /* Changed Css Shadab  */
+    /* Changed Css Anjali  */
+}
+
+@media screen and (max-width: 575px){
+    /* Changed Css Shataxi */
+    /* Changed Css Shadab  */
+    /* Changed Css Anjali  */
+}

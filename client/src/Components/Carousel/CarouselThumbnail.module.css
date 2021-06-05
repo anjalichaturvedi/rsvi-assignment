@@ -1,0 +1,44 @@
+.carouselWrapper{
+
+}
+
+.carousel .control-dots .dot{
+background: blue!important;
+}
+/* #carouselRoot1>div{
+  display:flex;
+  justify-content:center;
+  background-image: url("./images/4.png");
+} */
+.carouselRoot>div{
+  display:flex;
+  justify-content:center;
+  background-image: url("./images/4.png");
+}
+.carouselDiv img {
+  width:50%;
+  padding: 4px;
+}
+@media screen and (min-width: 768px) {
+  .carouselDiv img {
+    width: 50%;
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carouselDiv img {
+    width: 95vw;
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 444px) {
+  .carouselDiv img {
+    width: 90vw;
+    height: 20vh;
+  }
+}
+
+.carouselDiv {
+  background-image: url("./images/4.png");
+}

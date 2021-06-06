@@ -1,12 +1,75 @@
-.mainAboutUs{
-
+.mainAboutUs {
 }
 
-.container{
-
+.container {
 }
 
 /* Default Css Shataxi for Row 1 and Row 2 */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
+.rowOneColOne {
+  position: relative;
+  left: 5rem;
+}
+/* styling for rowOneColTwo div */
+.rowOneColTwo {
+  background-color: orange;
+  background-image: url("../AboutUsImages/1.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  /* margin-right: 0.5rem; */
+  align-content: center;
+}
+.rowOneColTwo h1 {
+  animation-name: change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes change {
+  0% {
+    letter-spacing: 0px;
+  }
+  25% {
+    letter-spacing: 2px;
+  }
+  50% {
+    letter-spacing: 4px;
+  }
+  75% {
+    letter-spacing: 2px;
+  }
+  100% {
+    letter-spacing: 0px;
+  }
+}
+.rowTwoDiv {
+  background-color: yellow;
+  background-image: url("../AboutUsImages/2.png");
+  background-size: cover;
+  background-position: left;
+  height: 6rem;
+  width: 100%;
+}
+.rowTwoDiv > h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bolder;
+  padding-left: 2.2rem;
+}
+.rowOneColTwo p {
+  color: grey;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: "Source Sans Pro";
+  word-spacing: 3px;
+}
+.rowTwoRowPara {
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  color: grey;
+  word-spacing: 5px;
+  background-color: cornsilk;
+}
 
 /* Default Css Shadab  for Row 3 and Row 4 */
 
@@ -17,50 +80,179 @@
 /* Default Css Anjali for Row 8 */
 
 /* Default Css Shataxi for Row 9 */
+.rowNineCarouselWrapper{
+  background-image: url("../../AboutUsImages/4.png");
+}
+.rowNineCarouselRoot>div{
+  display:flex;
+  justify-content:center;
+
+}
+.rowNineCarouselDiv img {
+  width:50%;
+  padding: 2px;
+}
 
 /* ****************************** Media Queries **************************** */
 
 @media screen and (min-width: 1590px) {
-    /* Changed Css Shataxi */
-    /* Changed Css Shadab  */
-    /* Changed Css Anjali  */
+  /* Changed Css Shataxi */
+  .rowOneColTwo > div {
+    margin-left: 6rem;
+  }
+  .rowNineCarouselDiv img {
+    width: 50%;
+    height: 65vh;
+  }
+  /* Changed Css Shadab  */
+  /* Changed Css Anjali  */
 }
 
 /*** Assuming default css will be applied from 1300px to 1589px ***/
 
 @media screen and (min-width: 1260px) and (max-width: 1299px) {
-    /* Changed Css Shataxi */
-    /* Changed Css Shadab  */
-    /* Changed Css Anjali  */
+  /* Changed Css Shataxi */
+  .rowOneColTwo > div {
+    margin-left: 6rem;
+  }
+  .rowNineCarouselDiv img {
+    width: 50%;
+    height: 65vh;
+  }
+  /* Changed Css Shadab  */
+  /* Changed Css Anjali  */
 }
 
 @media screen and (min-width: 1126px) and (max-width: 1259px) {
-    /* Changed Css Shataxi */
-    /* Changed Css Shadab  */
-    /* Changed Css Anjali  */
+  /* Changed Css Shataxi */
+  .rowOneColTwo > div {
+    margin-left: 6rem;
+  }
+  .rowNineCarouselDiv img {
+    width: 50%;
+    height: 65vh;
+  }
+  /* Changed Css Shadab  */
+  /* Changed Css Anjali  */
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1125px) {
-    /* Changed Css Shataxi */
-    /* Changed Css Shadab  */
-    /* Changed Css Anjali  */
+  /* Changed Css Shataxi */
+  .rowOneColTwo > div {
+    margin-left: 6rem;
+  }
+  .rowNineCarouselDiv img {
+    width: 50%;
+    height: 65vh;
+  }
+  /* Changed Css Shadab  */
+  /* Changed Css Anjali  */
 }
 
 @media screen and (min-width: 769px) and (max-width: 999px) {
-    /* Changed Css Shataxi */
-    /* Changed Css Shadab  */
-    /* Changed Css Anjali  */
+  /* Changed Css Shataxi */
+  .rowOneColTwo > div {
+    margin-left: 6rem;
+  }
+  .rowNineCarouselDiv img {
+    width: 50%;
+    height: 65vh;
+  }
+  /* Changed Css Shadab  */
+  /* Changed Css Anjali  */
 }
-
+@media screen and (width: 768px) {
+  .rowOneColTwo > div {
+    margin-left: 5rem;
+  }
+  @keyframes change {
+    0% {
+      letter-spacing: 0px;
+    }
+    25% {
+      letter-spacing: 1.5px;
+    }
+    50% {
+      letter-spacing: 0px;
+    }
+    75% {
+      letter-spacing: 1.5px;
+    }
+    100% {
+      letter-spacing: 0px;
+    }
+  }
+  .rowNineCarouselDiv img {
+    width: 50%;
+    height: 65vh;
+  }
+}
 /* Mobile screen can begin from here */
 @media screen and (min-width: 576px) and (max-width: 768px) {
-    /* Changed Css Shataxi */
-    /* Changed Css Shadab  */
-    /* Changed Css Anjali  */
+  /* Changed Css Shataxi */
+  .rowOneColOne {
+    left: 0;
+  }
+  .rowOneColTwo {
+    margin-right: 0;
+  }
+  .rowTwoDiv > h1 {
+    font-size: 2.2rem;
+  }
+  .rowNineCarouselDiv img {
+    width: 95vw;
+    height: 40vh;
+  }
+  /* Changed Css Shadab  */
+  /* Changed Css Anjali  */
 }
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 575px) {
+  /* Changed Css Shataxi */
+  .rowOneColOne {
+    left: 0;
+  }
+  .rowOneColTwo {
+    margin-right: 0;
+  }
+  .rowTwoDiv > h1 {
+    font-size: 2.2rem;
+  }
+  .rowNineCarouselDiv img {
+    width: 95vw;
+    height: 40vh;
+  }
+  /* Changed Css Shadab  */
+  /* Changed Css Anjali  */
+}
+@media screen and (max-width: 444px) {
+   /* Changed Css Shataxi */
+  .rowNineCarouselDiv img {
+    width: 90vw;
+    height: 20vh;
+  }
+}
+@media screen and (max-width: 323px) {
     /* Changed Css Shataxi */
-    /* Changed Css Shadab  */
-    /* Changed Css Anjali  */
+  .rowOneColTwo h1 {
+    font-size: xx-large;
+  }
+  @keyframes change {
+    0% {
+      letter-spacing: -1px;
+    }
+    25% {
+      letter-spacing: 1px;
+    }
+    50% {
+      letter-spacing: -1px;
+    }
+    75% {
+      letter-spacing: 1px;
+    }
+    100% {
+      letter-spacing: -1px;
+    }
+  }
+ 
 }

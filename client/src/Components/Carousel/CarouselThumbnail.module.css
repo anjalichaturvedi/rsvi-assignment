@@ -1,0 +1,32 @@
+.rowNineCarouselWrapper{
+  background-image: url("../../AboutUsImages/4.png");
+}
+.rowNineCarouselRoot>div{
+  display:flex;
+  justify-content:center;
+
+}
+.rowNineCarouselDiv img {
+  width:50%;
+  padding: 2px;
+}
+@media screen and (min-width: 768px) {
+  .rowNineCarouselDiv img {
+    width: 50%;
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rowNineCarouselDiv img {
+    width: 95vw;
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 444px) {
+  .rowNineCarouselDiv img {
+    width: 90vw;
+    height: 20vh;
+  }
+}
+

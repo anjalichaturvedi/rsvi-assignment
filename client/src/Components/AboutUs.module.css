@@ -81,7 +81,7 @@
 
 /* Default Css Shataxi for Row 9 */
 .rowNineCarouselWrapper{
-  background-image: url("../../AboutUsImages/4.png");
+  background-image: url("../AboutUsImages/4.png");
 }
 .rowNineCarouselRoot>div{
   display:flex;

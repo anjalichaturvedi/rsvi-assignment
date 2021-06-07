@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Row, Container, Col} from 'react-bootstrap';
 import styles from './About.module.css';
 import boxbg from './Images/dummy-box.jpg';
-import bg from './Images/background-red.png';
 import bgimage from './Images/dummy-bg.jpg';
 
 class About extends Component {
@@ -18,8 +17,8 @@ class About extends Component {
                   As a matter of fact, the disability sector in the state of Uttar Pradesh requires more attention from the government and the people than in many other States and Union Territories of Our Country. The picture appears to be quite bleak. Hence, RSVI is a ray of hope for the above-mentioned challenges with respect to Visual Impairment.
                   </p>
               </Row>
-              <Row>
-                <img src={bgimage} alt='dummy' className={styles.bgimage}/>
+              <Row className={styles.bgimage}>
+                <img src={bgimage} alt='dummy'/>
               </Row>
               <Row>
               <Col>

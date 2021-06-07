@@ -11,7 +11,7 @@ function App() {
     <div>
     <AboutComponent/>
       <AboutUs />
-      <About /> 
+      <About />
       <CarouselComponent/>
     </div>
   );

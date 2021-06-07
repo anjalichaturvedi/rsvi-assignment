@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Modules from "AboutUs.module.css";
+import Modules from 'AboutUs.module.css';
 import { Carousel } from "react-responsive-carousel";
 import "./Carousel/Carousel.css";
+import boxbg from 'AboutUsImages/dummy-box.jpg';
+import bgimage from 'AboutUsImages/dummy-bg.jpg';
 
 class AboutUs extends Component {
   render() {
@@ -11,7 +13,7 @@ class AboutUs extends Component {
       <div className={`${Modules.mainAboutUs}`}>
         <Container className={`${Modules.container}`}>
           {/* Accepted classNames...
-                    Examples: 
+                    Examples:
                     1. if row1 -> className = rowOne or sectionOne
                     2. if column1 in row 1 -> className = rowOneColOne or contentWrap
                     3. if header in row2 -> className = rowTwoHeader
@@ -82,15 +84,54 @@ class AboutUs extends Component {
 
           {/* **************** Row 5 **************** */}
           {/* Anjali */}
-          {/* **************** Row 6 **************** */}
-          {/* Anjali */}
-
+          <Container fluid>
+              <Row className={Modules.section5}>
+                  <p className={Modules.para1}>
+                  Besides there are other issues to be addressed, such as availability of Aids & Appliances (Assistive Devices) for the blind students and professionals, availability of assistive technology, information & communication technology, community services, awareness, advocacy services, skill development & Vocational Training, Psychological and Social Adjustments, Availability of Sports & Entertainment Facilities, Training in Daily Living Skills, resource crunch etc.
+                  </p>
+                  <p className={Modules.para2}>
+                  As a matter of fact, the disability sector in the state of Uttar Pradesh requires more attention from the government and the people than in many other States and Union Territories of Our Country. The picture appears to be quite bleak. Hence, RSVI is a ray of hope for the above-mentioned challenges with respect to Visual Impairment.
+                  </p>
+              </Row>
+              {/* **************** Row 6 **************** */}
+              {/* Anjali */}
+              <Row className={Modules.bgimage}>
+                <img src={bgimage} alt='dummy'/>
+              </Row>
+              <Row>
+              <Col>
+                <img src={boxbg} alt='dummy' className={Modules.boxbgmain}/>
+                <p className={Modules.sbox}> About Us </p>
+              </Col>
+              <Col>
+                <img src={boxbg} alt='dummy' className={Modules.boxbg}/>
+                <p className={Modules.sbox}> About Us </p>
+              </Col>
+              <Col>
+                <img src={boxbg} alt='dummy' className={Modules.boxbg}/>
+                <p className={Modules.sbox}> About Us </p>
+              </Col>
+              </Row>
+              </Container>
           {/* **************** Row 7 **************** */}
           {/* Shadab */}
 
           {/* **************** Row 8 **************** */}
           {/* Anjali */}
-
+          <Container>
+          <Row>
+            <img src={bgimage} alt='dummy' className={Modules.bgimage}/>
+          </Row>
+          <Row className={Modules.collabs}>
+            <Col>
+              <h1> Affilations & Collaborations </h1>
+              <button className={Modules.collabbutton}> KNOW MORE </button>
+            </Col>
+            <Col>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie iaculis fringilla. Ut tincidunt tempor quam, sit amet interdum lectus tempus porttitor. Vivamus dolor est, vulputate ut dapibus vitae, accumsan consequat tortor. Phasellus varius porttitor nunc, a accumsan lorem tempor sit amet. Nam aliquet ultricies metus. </p>
+            </Col>
+          </Row>
+        </Container>
           {/* **************** Row 9 **************** */}
           {/* Shataxi */}
           <div className={`${Modules.rowNineCarouselWrapper} p-2 mt-2`}>

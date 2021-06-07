@@ -1,13 +1,14 @@
 .bgimage {
-  position: relative;
   z-index: -1;
-  margin-left: 60px;
+  margin-left: 80px;
   margin-top: 5px;
   width: 90%;
+  transition: 300ms ease-in-out;
 }
 
 .bgimage:hover {
-  z-index: 1;
+  z-index: 5;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 800px) {
@@ -22,7 +23,7 @@
 
 .section5 {
   font-size: 25px;
-  margin-top: 50px;
+  margin-top: 300px;
   margin-bottom: 50px;
   background-size: 100% 90%;
   height: 400px;
@@ -30,14 +31,9 @@
   position: absolute;
 }
 
-.section5:hover {
-  z-index: -1;
-}
-
 @media screen and (max-width: 800px) {
   .section5 {
      margin-top: 120px;
-     z-index: 0;
      width: 100%;
      height: 900px;
      margin-right: 0;
@@ -72,7 +68,8 @@
 .boxbg {
   height: 400px;
   margin-left: 40px;
-  margin-top: 100px;
+  margin-top: 350px;
+  transition: 300ms ease-in-out;
 }
 
 .boxbg:hover {
@@ -93,7 +90,8 @@
 .boxbgmain {
   height: 400px;
   margin-left: 40px;
-  margin-top: 100px;
+  margin-top: 350px;
+  transition: 300ms ease-in-out;
 }
 
 .boxbgmain:hover {
@@ -170,9 +168,21 @@
 }
 
 .collabbutton {
-  border-radius: 50px;
-  background-color: yellow;
-  margin-top: 20px;
-  font-weight: 500;
-  padding: 2px 20px 2px 20px;
+  margin-top: 10px;
+  padding: 13px 15px;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #ffffa8;
+  border: none;
+  border-radius: 25px;
+  color: black;
+}
+
+.collabbutton:hover {
+  background-color: #ffff8c;
+  text-decoration: underline;
+  color: black;
 }

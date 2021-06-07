@@ -35,7 +35,22 @@ class About extends Component {
                 <p className={styles.sbox}> About Us </p>
               </Col>
               </Row>
+              {/* Know more button row */}
+              <Row>
+                <img src={bgimage} alt='dummy' className={styles.bgimage}/>
+              </Row>
+              <Row className={styles.collabs}>
+                <Col>
+                  <h1> Affilations & Collaborations </h1>
+                  <button className={styles.collabbutton}> KNOW MORE </button>
+                </Col>
+                <Col>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie iaculis fringilla. Ut tincidunt tempor quam, sit amet interdum lectus tempus porttitor. Vivamus dolor est, vulputate ut dapibus vitae, accumsan consequat tortor. Phasellus varius porttitor nunc, a accumsan lorem tempor sit amet. Nam aliquet ultricies metus. </p>
+                </Col>
+              </Row>
           </Container>
+
+
         )
     }
 }

@@ -135,3 +135,44 @@
     align-items: center;
   }
 }
+
+.collabs {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-image: url('./Images/background-green.png');
+  padding: 30px 180px 30px 180px;
+}
+
+.collabs h1 {
+  font-size: 48px;
+}
+
+.collabs p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .collab {
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .collab h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .collab p {
+    font-size: 15px;
+  }
+}
+
+.collabbutton {
+  border-radius: 50px;
+  background-color: yellow;
+  margin-top: 20px;
+  font-weight: 500;
+  padding: 2px 20px 2px 20px;
+}

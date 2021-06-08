@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Modules from "./AboutUs.module.css";
-import { Carousel } from "react-responsive-carousel";
-import "./Carousel/Carousel.css";
+// import { Carousel } from "react-responsive-carousel";
+// import "./Carousel/Carousel.css";
 import boxbg from '../AboutUsImages/dummy-box.jpg';
 import bgimage from '../AboutUsImages/dummy-bg.jpg';
+import image from '../AboutUsImages/section3.jpg';
 
 class AboutUs extends Component {
   render() {
@@ -77,6 +78,8 @@ class AboutUs extends Component {
             </div>
           </div>
 
+          {/* **************** Row 3 **************** */}
+                {/* Shadab */}
           
           <Container className={Modules.container2}>
                         <section className={Modules.section3}>
@@ -166,7 +169,7 @@ class AboutUs extends Component {
           {/* **************** Row 9 **************** */}
           {/* Shataxi */}
           <div className={`${Modules.rowNineCarouselWrapper} p-2 mt-2`}>
-            <Carousel
+            {/* <Carousel
               autoPlay
               infiniteLoop
               interval="15000"
@@ -191,7 +194,7 @@ class AboutUs extends Component {
                   alt="thumb3"
                 />
               </div>
-            </Carousel>
+            </Carousel> */}
           </div>
         </Container>
       </div>

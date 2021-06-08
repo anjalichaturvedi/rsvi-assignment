@@ -309,7 +309,7 @@ body {
 
   .imageBox {
     width: 1200px;
-    left: -25rem;
+    left: 40vw;
   }
 
   .imageBox img {
@@ -337,6 +337,48 @@ body {
 
 
   /* Changed Css Anjali  */
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1589px) {
+
+  .content {
+      clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+      height: 500px;
+      width: 62.7rem;
+      z-index: 2;
+    }
+  
+    .content p {
+      font-size: 2.70ex;
+      margin-top: 25px;
+    }
+  
+    .imageBox {
+      width: 700px;
+      left: 16.5vw;
+    }
+  
+    .imageBox img {
+      z-index: 1;
+    }
+  
+    .imageBox img:hover {
+      transform: scale(1.3);
+      margin-left: -105.5px;
+      z-index: 5;
+    }
+  
+    .whyStarted {
+      width: 100vw;
+    }
+  
+    .reasonForStart {
+      width: 100vw;
+    }
+  
+    .reasonForStart p {
+      font-size: 2.9ex;
+    }
 }
 
 /*** Assuming default css will be applied from 1300px to 1589px ***/
@@ -526,7 +568,7 @@ body {
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
     height: 500px;
     width: 38.7rem;
-    z-index: 2.1;
+    z-index: 2;
   }
   .content p {
     margin-right: 115px;

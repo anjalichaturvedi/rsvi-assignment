@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Modules from "./AboutUs.module.css";
 import { Carousel } from "react-responsive-carousel";
 import "./Carousel/Carousel.css";
-import boxbg from 'AboutUsImages/dummy-box.jpg';
-import bgimage from 'AboutUsImages/dummy-bg.jpg';
+import boxbg from '../AboutUsImages/dummy-box.jpg';
+import bgimage from '../AboutUsImages/dummy-bg.jpg';
 
 class AboutUs extends Component {
   render() {

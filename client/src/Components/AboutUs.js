@@ -165,9 +165,9 @@ class AboutUs extends Component {
                 services, awareness, advocacy services, skill development &
                 Vocational Training, Psychological and Social Adjustments,
                 Availability of Sports & Entertainment Facilities, Training in
-                Daily Living Skills, resource crunch etc.
-              </p>
-              <p className={Modules.para2}>
+                Daily Living Skills, resource crunch etc. <br></br> <br></br>
+              {/* </p>
+              <p className={Modules.para2}> */}
                 As a matter of fact, the disability sector in the state of Uttar
                 Pradesh requires more attention from the government and the
                 people than in many other States and Union Territories of Our
@@ -207,7 +207,7 @@ class AboutUs extends Component {
             </Row>
             <Row className={Modules.collabs}>
               <Col>
-                <h1> Affilations & Collaborations </h1>
+                <h1> Affilations & <br></br>Collaborations </h1>
                 <button className={Modules.collabbutton}> KNOW MORE </button>
               </Col>
               <Col>

@@ -214,6 +214,7 @@ body {
   background-size: 100% 90%;
   height: 400px;
   background-image: url('../AboutUsImages/background-red.png');
+  background-attachment: inherit;
   position: absolute;
 }
 
@@ -226,16 +227,14 @@ body {
   word-spacing: 5px;
 }
 
-.para2 {
+/* .para2 {
   padding: 0px 80px 0px 80px;
   margin-bottom: 0px;
-  justify-content: center;
-  align-items: center;
   text-align: justify;
   font-size: 20px;
   font-family: "Noto Sans HK", "Source Sans Pro";
   word-spacing: 5px;
-}
+} */
 
 .boxbg {
   height: 400px;
@@ -280,11 +279,14 @@ body {
   margin-top: 20px;
   margin-bottom: 50px;
   background-image: url('../AboutUsImages/background.png');
+  background-attachment: inherit;
   padding: 30px 180px 30px 180px;
 }
 
 .collabs h1 {
   font-size: 48px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bolder;
 }
 
 .collabs p {
@@ -295,6 +297,7 @@ body {
 }
 
 .collabbutton {
+  font-family: "Noto Sans HK", "Source Sans Pro";
   margin-top: 10px;
   padding: 13px 15px;
   font-size: 17px;

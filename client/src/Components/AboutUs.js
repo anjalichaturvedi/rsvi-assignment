@@ -6,7 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 import "./Carousel/Carousel.css";
 import boxbg from "../AboutUsImages/dummy-box.jpg";
 import bgimage from "../AboutUsImages/dummy-bg.jpg";
-import image from "../AboutUsImages/section3.jpg";
+import image from "../AboutUsImages/Section3.jpeg";
 import CarouselImg1 from "../AboutUsImages/Section9_1.jpeg";
 import CarouselImg2 from "../AboutUsImages/Section9_2.jpeg";
 import CarouselImg3 from "../AboutUsImages/Section9_3.jpeg";
@@ -16,7 +16,7 @@ class AboutUs extends Component {
   render() {
     return (
       <div className={`${Modules.mainAboutUs}`}>
-        <Container className={`${Modules.container}`}>
+        <Container className={`${Modules.containerAboutUs}`}>
           {/* Accepted classNames...
                     Examples:
                     1. if row1 -> className = rowOne or sectionOne
@@ -28,22 +28,16 @@ class AboutUs extends Component {
           {/* **************** Row 1 **************** */}
           {/* Shataxi */}
           <div className={`row mt-3 ${Modules.section1} p-2`}>
-            <div
-              className={`col-md-3 col-12 my-md-5 p-0 ${Modules.rowOneColOne}`}
-            >
-              <img
-                src="https://images.pexels.com/photos/5212357/pexels-photo-5212357.jpeg"
-                alt="group"
-              ></img>
+            <div className={`col-md-3 col-12 my-md-5 p-0 ${Modules.rowOneColOne}`}>
+              <img src="https://images.pexels.com/photos/5212357/pexels-photo-5212357.jpeg"
+                alt="group"></img>
             </div>
-
             <div className={`${Modules.rowOneColTwo} col text-center py-5`}>
               <div className="d-inline-block  text-left my-5">
                 <h1 className="d-inline-block">
                   Rehabiliation <br></br>Society of the<br></br>Visually
                   Impaired
                 </h1>
-
                 <br></br>
                 <p className="d-inline-block h6">
                   let the blind hold the torch...
@@ -60,11 +54,11 @@ class AboutUs extends Component {
             <div
               className={`row pt-2 m-1 text-justify ${Modules.rowTwoRowPara}`}
             >
-              <p className="mx-4">
+              <p /* className="mx-4" */>
                 RSVI started its journey in the year 2005 and has successfully
                 completed more than 15 years of its successful mission.
               </p>
-              <p className="mx-4">
+              <p /* className="mx-4" */>
                 RSVI is a charitable organization professionally managed by a
                 team of committed social workers having experience of more than
                 20 years and technical expertise in the field of education,
@@ -74,7 +68,7 @@ class AboutUs extends Component {
                 achieving perfection to the satisfaction of both the beneficiary
                 and the benefactor.
               </p>
-              <p className="mx-4">
+              <p /* className="mx-4" */>
                 We at RSVI (Rehabilitation Society of The Visually Impaired)
                 have joined hands together to help you if for any reason or by
                 birth you are affected by one or the other problem of eyesight.
@@ -89,7 +83,7 @@ class AboutUs extends Component {
           {/* **************** Row 3 **************** */}
           {/* Shadab */}
 
-          <Container className={Modules.container2}>
+          {/* <Container className={Modules.container2}> */}
             <section className={Modules.section3}>
               <div className={Modules.content}>
                 <p>
@@ -154,11 +148,11 @@ class AboutUs extends Component {
                 </p>
               </div>
             </section>
-          </Container>
+          {/* </Container> */}
 
           {/* **************** Row 5 **************** */}
           {/* Anjali */}
-          <Container fluid>
+          {/* <Container fluid> */}
             <Row className={Modules.section5}>
               <p className={Modules.para1}>
                 Besides there are other issues to be addressed, such as
@@ -198,13 +192,13 @@ class AboutUs extends Component {
                 <p className={Modules.sbox}> About Us </p>
               </Col>
             </Row>
-          </Container>
+         {/*  </Container> */}
           {/* **************** Row 7 **************** */}
           {/* Shadab */}
 
           {/* **************** Row 8 **************** */}
           {/* Anjali */}
-          <Container>
+          {/* <Container> */}
             <Row>
               <img src={bgimage} alt="dummy" className={Modules.bgimage} />
             </Row>
@@ -224,7 +218,7 @@ class AboutUs extends Component {
                 </p>
               </Col>
             </Row>
-          </Container>
+          {/* </Container> */}
           {/* **************** Row 9 **************** */}
           {/* Shataxi */}
           <div className={`${Modules.rowNineCarouselWrapper} p-2 mt-2`}>
@@ -232,7 +226,7 @@ class AboutUs extends Component {
               autoPlay
               infiniteLoop
               interval="15000"
-              transitionTime="15000"
+              transitionTime="600"
               className={Modules.rowNineCarouselRoot}
             >
             <div className={` ${Modules.rowNineCarouselDiv} `}>

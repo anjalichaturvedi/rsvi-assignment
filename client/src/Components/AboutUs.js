@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Modules from "./AboutUs.module.css";
 import { Carousel } from "react-bootstrap";
 import "./Carousel/Carousel.css";
-import boxbg from "../AboutUsImages/dummy-box.jpg";
 import bgimage from "../AboutUsImages/dummy-bg.jpg";
 import image from "../AboutUsImages/Section3.jpeg";
+import Section5Img from "../AboutUsImages/Section5.jpeg";
 import Section6Img1 from "../AboutUsImages/Section6_1.jpeg";
 import Section6Img2 from "../AboutUsImages/Section6_2.jpeg";
 import Section6Img3 from "../AboutUsImages/Section6_3.jpeg";
@@ -178,8 +178,8 @@ class AboutUs extends Component {
             </Row>
             {/* **************** Row 6 **************** */}
             {/* Anjali */}
-            <Row className={Modules.bgimage}>
-              <img src={bgimage} alt="dummy" />
+            <Row className={Modules.sec5bgimage}>
+              <img src={Section5Img} alt="dummy" />
             </Row>
             <Row>
               <Col>

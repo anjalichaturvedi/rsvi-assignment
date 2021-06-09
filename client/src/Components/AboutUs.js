@@ -2,11 +2,14 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Modules from "./AboutUs.module.css";
-import { Carousel } from "react-responsive-carousel";
+import { Carousel } from "react-bootstrap";
 import "./Carousel/Carousel.css";
 import boxbg from "../AboutUsImages/dummy-box.jpg";
 import bgimage from "../AboutUsImages/dummy-bg.jpg";
 import image from "../AboutUsImages/Section3.jpeg";
+import Section6Img1 from "../AboutUsImages/Section6_1.jpeg";
+import Section6Img2 from "../AboutUsImages/Section6_2.jpeg";
+import Section6Img3 from "../AboutUsImages/Section6_3.jpeg";
 import CarouselImg1 from "../AboutUsImages/Section9_1.jpeg";
 import CarouselImg2 from "../AboutUsImages/Section9_2.jpeg";
 import CarouselImg3 from "../AboutUsImages/Section9_3.jpeg";
@@ -180,15 +183,15 @@ class AboutUs extends Component {
             </Row>
             <Row>
               <Col>
-                <img src={boxbg} alt="dummy" className={Modules.boxbgmain} />
+                <img src={Section6Img1} alt="dummy" className={Modules.boxbgmain} />
                 <p className={Modules.sbox}> About Us </p>
               </Col>
               <Col>
-                <img src={boxbg} alt="dummy" className={Modules.boxbg} />
+                <img src={Section6Img2} alt="dummy" className={Modules.boxbg} />
                 <p className={Modules.sbox}> About Us </p>
               </Col>
               <Col>
-                <img src={boxbg} alt="dummy" className={Modules.boxbg} />
+                <img src={Section6Img3} alt="dummy" className={Modules.boxbg} />
                 <p className={Modules.sbox}> About Us </p>
               </Col>
             </Row>
@@ -244,7 +247,7 @@ class AboutUs extends Component {
           <div className={` ${Modules.rowNineCarouselDiv} `}>
             <img src={CarouselImg5} alt="thumb5" />
           </div>
-            </Carousel> 
+            </Carousel>
           </div>
         </Container>
       </div>

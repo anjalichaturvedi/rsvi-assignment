@@ -15,6 +15,10 @@ import CarouselImg2 from "../AboutUsImages/Section9_2.jpeg";
 import CarouselImg3 from "../AboutUsImages/Section9_3.jpeg";
 import CarouselImg4 from "../AboutUsImages/Section9_4.jpeg";
 import CarouselImg5 from "../AboutUsImages/Section9_5.jpeg";
+import Founder from '../AboutUsImages/Section7_1.jpeg';
+import Ceo from '../AboutUsImages/Section7_2.jpeg';
+import Roots1 from '../AboutUsImages/Section7_3.jpeg';
+import Roots2 from '../AboutUsImages/Section7_4.jpeg';
 class AboutUs extends Component {
   render() {
     return (
@@ -198,7 +202,117 @@ class AboutUs extends Component {
          {/*  </Container> */}
           {/* **************** Row 7 **************** */}
           {/* Shadab */}
-
+          {/* Section 7a */}
+          
+          {/* Section 7b */}
+          <Container className={Modules.container71}>
+            <Row className={Modules.cardBox}>
+              <Col className={Modules.founder}>
+                <img className={Modules.foundersImage} src={Founder} />
+              </Col>
+              <Col>
+                <div className={Modules.infoBox}>
+                  <h2>FOUNDER</h2>
+                  <p>Dr. Rakesh Jain</p>
+                </div>
+                <div className={Modules.fullDetail}>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Integer tristique pellentesque dignissim. Nam eget molestie 
+                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum 
+                    dolor sit amet, consectetur adipiscing elit. Integer 
+                    tristique pellentesque dignissim. Nam eget molestie tortor. 
+                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor 
+                    sit amet, consectetur adipiscing elit. Integer tristique 
+                    pellentesque dignissim. Nam eget molestie tortor. Ut at 
+                    placerat ex. Suspendisse potenti. Lorem ipsum dolor sit 
+                    amet, consectetur adipiscing elit. Integer tristique pellentesque 
+                    gnissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Integer tristique pellentesque dignissim. </p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+          <Container className={Modules.container72}>
+            <Row className={Modules.cardBox}>
+              <Col classname={Modules.details}>
+                <div className={Modules.infoBox2}>
+                  <h2>CEO</h2>
+                  <p>Dr. Shraddha Srivastava</p>
+                </div>
+                <div className={Modules.fullDetail2}>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Integer tristique pellentesque dignissim. Nam eget molestie 
+                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum 
+                    dolor sit amet, consectetur adipiscing elit. Integer 
+                    tristique pellentesque dignissim. Nam eget molestie tortor. 
+                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor sit 
+                    amet, consectetur adipiscing elit. Integer tristique pellentesque 
+                    dignissim. Nam eget molestie tortor. Ut at placerat ex. 
+                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Integer tristique pellentesque dignissim. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer 
+                    tristique pellentesque dignissim. </p>
+                </div>
+              </Col>
+              <Col className={Modules.ceo}>
+                <img className={Modules.ceoImage} src={Ceo} />
+              </Col>
+            </Row>
+          </Container>
+          <Container className={Modules.container73}>
+            <Row className={Modules.cardBox}>
+              <Col className={Modules.founder}>
+                <img className={Modules.foundersImage} src={Roots1} />
+              </Col>
+              <Col>
+                <div className={Modules.infoBox3}>
+                  <h2>ROOTS</h2>
+                  <p>Ms. Satakshi Gupta</p>
+                </div>
+                <div className={Modules.fullDetail}>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Integer tristique pellentesque dignissim. Nam eget molestie 
+                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum 
+                    dolor sit amet, consectetur adipiscing elit. Integer tristique 
+                    pellentesque dignissim. Nam eget molestie tortor. Ut at 
+                    placerat ex. Suspendisse potenti. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit. Integer tristique pellentesque 
+                    dignissim. Nam eget molestie tortor. Ut at placerat ex. 
+                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Integer tristique pellentesque dignissim. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Integer tristique pellentesque dignissim. </p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+          <Container className={Modules.container74}>
+            <Row className={Modules.cardBox}>
+              <Col classname={Modules.details}>
+                <div className={Modules.infoBox4}>
+                  <h2>ROOTS</h2>
+                  <p>Nagesh Kumar Pandey</p>
+                </div>
+                <div className={Modules.fullDetail2}>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Integer tristique pellentesque dignissim. Nam eget molestie 
+                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum 
+                    dolor sit amet, consectetur adipiscing elit. Integer 
+                    tristique pellentesque dignissim. Nam eget molestie tortor. 
+                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor sit 
+                    amet, consectetur adipiscing elit. Integer tristique pellentesque 
+                    dignissim. Nam eget molestie tortor. Ut at placerat ex. 
+                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Integer tristique pellentesque dignissim. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Integer tristique pellentesque dignissim. </p>
+                </div>
+              </Col>
+              <Col className={Modules.ceo}>
+                <img className={Modules.ceoImage} src={Roots2} />
+              </Col>
+            </Row>
+          </Container>
           {/* **************** Row 8 **************** */}
           {/* Anjali */}
           {/* <Container> */}
@@ -229,7 +343,7 @@ class AboutUs extends Component {
               autoPlay
               infiniteLoop
               interval="15000"
-              transitionTime="15000"
+              transitionTime="600"
               className={Modules.rowNineCarouselRoot}
             >
             <div className={` ${Modules.rowNineCarouselDiv} `}>

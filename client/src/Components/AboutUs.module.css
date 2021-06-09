@@ -276,6 +276,229 @@ body {
 }
 
 /* Default Css Shadab  for Row 7 */
+/* Section 7a */
+.container71 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../AboutUsImages/1.png");
+  background-attachment: inherit;
+  /* padding: 50px 50px; */
+}
+
+.cardBox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 85%;
+  width: 90%;
+  background-color: white;
+  display: flex;
+}
+
+.founder {
+  position: relative;
+  height: 100%;
+  width: 45%;
+  float: left;
+}
+
+.foundersImage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-65%, -50%);
+  height: 80%;
+  width: 66%;
+  border-radius: 50%;
+}
+
+.infoBox {
+  position: relative;
+  left: -128px;
+  top: 50px;
+  height: 90px;
+  width: 300px;
+  background-image: url("../AboutUsImages/1.png");
+  background-attachment: inherit;
+}
+
+.infoBox h2 {
+  position: absolute;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 26px;
+  top: 7px;
+  left: 20px;
+}
+
+.infoBox p {
+  position: absolute;
+  font-weight: 500;
+  font-size: 26px;
+  top: 50px;
+  left: 20px;
+}
+
+.fullDetail {
+  padding-top: 25px;
+  position: absolute;
+  width: 57.9%;
+  top: 140px;
+  right: 25px;
+}
+
+.fullDetail p {
+  font-size: 21px;
+}
+/*************************** code for second card *********************/
+
+.container72 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../AboutUsImages/2.png");
+  background-attachment: inherit;
+}
+
+.details {
+  position: relative;
+  height: 100%;
+  width: 60%;
+  float: left;
+}
+
+.infoBox2 {
+  position: absolute;
+  left: 25px;
+  top: 50px;
+  height: 90px;
+  width: 300px;
+  background-image: url("../AboutUsImages/2.png");
+  background-attachment: inherit;
+}
+
+.infoBox2 h2 {
+  position: absolute;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 26px;
+  top: 7px;
+  left: 20px;
+}
+
+.infoBox2 p {
+  position: absolute;
+  font-weight: 500;
+  font-size: 26px;
+  top: 50px;
+  left: 20px;
+}
+
+.fullDetail2 {
+  padding-top: 25px;
+  position: absolute;
+  right: 40%;
+  top: 140px;
+  /* text-align: justify; */
+}
+
+.fullDetail2 p {
+  font-size: 21px;
+  margin-left: 25px;
+  text-align: justify;
+}
+
+.ceo {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 40%;
+}
+
+.ceoImage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+}
+
+/**************** code for the third card ****************/
+.container73 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../AboutUsImages/background.png");
+  background-attachment: inherit;
+}
+
+.infoBox3 {
+  position: relative;
+  left: -128px;
+  top: 50px;
+  height: 90px;
+  width: 300px;
+  background-image: url("../AboutUsImages/background.png");
+  background-attachment: inherit;
+}
+
+.infoBox3 h2 {
+  position: absolute;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 26px;
+  top: 7px;
+  left: 20px;
+}
+
+.infoBox3 p {
+  position: absolute;
+  font-weight: 500;
+  font-size: 26px;
+  top: 50px;
+  left: 20px;
+}
+
+/**************** code for the fourth card ****************/
+.container74 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../AboutUsImages/4.png");
+  background-attachment: inherit;
+}
+
+.infoBox4 {
+  position: relative;
+  left: 15px;
+  top: 50px;
+  height: 90px;
+  width: 300px;
+  background-image: url("../AboutUsImages/4.png");
+  background-attachment: inherit;
+}
+
+.infoBox4 h2 {
+  position: absolute;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 26px;
+  top: 7px;
+  left: 20px;
+}
+
+.infoBox4 p {
+  position: absolute;
+  font-weight: 500;
+  font-size: 26px;
+  top: 50px;
+  left: 20px;
+}
+
 /* Default Css Anjali for Row 8 */
 .collabs {
   margin-top: 20px;
@@ -391,6 +614,7 @@ body {
   /* Changed Css Anjali  */
 }
 
+/****Default****/
 @media screen and (min-width: 1300px) and (max-width: 1589px) {
 
   .content {
@@ -703,6 +927,7 @@ body {
   /* Changed Css Anjali  */
 }
 
+/****Shataxi***/
 @media screen and (width: 768px) {
   .rowOneColOne > img {
     width: 100%;

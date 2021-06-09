@@ -2,6 +2,12 @@ body {
   overflow-x: hidden;
 }
 
+/**** Apeksha *******/
+.containerAboutUs{
+  padding: 25px 0px;
+  max-width: 100%;
+}
+
 .mainAboutUs {}
 
 /* Default Css Shataxi for Row 1 and Row 2 */
@@ -9,65 +15,65 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
 
-.rowOneColOne {
+.rowOneColOne > img {
+  width: 600px;
+  height: 350px;
   position: relative;
   left: 5rem;
 }
-
 /* styling for rowOneColTwo div */
 .rowOneColTwo {
-  background-color: orange;
+  /* background-color: orange; */
   background-image: url("../AboutUsImages/1.png");
   background-size: cover;
   background-position: center;
   z-index: -1;
-  /* margin-right: 0.5rem; */
-  align-content: center;
 }
-
+.rowOneColTwo > div {
+  margin-left: 18rem;
+  padding-top: 2rem;
+}
 .rowOneColTwo h1 {
   animation-name: change;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
-
-@keyframes change {
-  0% {
-    letter-spacing: 0px;
-  }
-
-  25% {
-    letter-spacing: 2px;
-  }
-
-  50% {
-    letter-spacing: 4px;
-  }
-
-  75% {
-    letter-spacing: 2px;
-  }
-
-  100% {
-    letter-spacing: 0px;
+@media screen and (min-width: 999px) {
+  @keyframes change {
+    0% {
+      letter-spacing: 0px;
+    }
+    25% {
+      letter-spacing: 2px;
+    }
+    50% {
+      letter-spacing: 4px;
+    }
+    75% {
+      letter-spacing: 2px;
+    }
+    100% {
+      letter-spacing: 0px;
+    }
   }
 }
 
 .rowTwoDiv {
-  background-color: yellow;
+  /*****Apeksha**********/
+  /* background-color: yellow; */
   background-image: url("../AboutUsImages/2.png");
+  background-attachment: inherit;
   background-size: cover;
   background-position: left;
   height: 6rem;
   width: 100%;
 }
-
-.rowTwoDiv>h1 {
+.rowTwoDiv > h1 {
   font-family: "Cormorant Garamond", serif;
   font-weight: bolder;
-  padding-left: 2.2rem;
+  /******Apeksha********/
+  padding-left: 80px;
 }
-
 .rowOneColTwo p {
   color: grey;
   font-weight: bolder;
@@ -75,42 +81,56 @@ body {
   font-family: "Source Sans Pro";
   word-spacing: 3px;
 }
-
 .rowTwoRowPara {
   font-family: "Noto Sans HK", "Source Sans Pro";
-  color: grey;
+  /*****Apeksha**********/
+  color: black;
   word-spacing: 5px;
-  background-color: cornsilk;
+  /* background-color: cornsilk; */
+  font-size: 18px;
 }
+.rowTwoRowPara > p {
+  padding-left: 80px;
+  /******Apeksha********/
+  padding-right: 80px;
+  text-align: justify;
+}
+
 
 /* Default Css Shadab  for Row 3 and Row 4 */
 
-.container2{
+/* .container2{
   width: 100%;
-}
+} */
 
 .section3 {
+  padding-top: 50px;
   height: 500px;
   display: flex;
 }
 .content {
   background-image: url('../AboutUsImages/background.png');
-  margin-top: 100px;
-  height: 500;
+  background-attachment: inherit;
+  /* margin-top: 100px; */
+  height: auto;
 }
 
 .content p {
-  margin-left: 64px;
+  /* margin-left: 64px; */
+  padding-left: 80px;
   margin-right: 164px;
-  display: inline-block;
-  vertical-align: middle;
+  /* display: inline-block; */
+  /* vertical-align: middle; */
   line-height: normal;
   text-align: justify;
+  font-size: 19px;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
 }
 
 .imageBox {
   position: absolute;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   height: 500px;
   align-items: center;
   text-align: center;
@@ -119,7 +139,8 @@ body {
 
 .imageBox img {
   position: absolute;
-  top: 9%;
+  margin: 50px 0px;
+  /* top: 9%; */
   height: 400px;
   width: 850px;
   align-items: center;
@@ -128,43 +149,60 @@ body {
 }
 
 .section4 {
-  margin-top: 200px;
+  margin-top: 100px;
   width: 100%;
 }
 
 .whyStarted {
-  height: 80px;
-  background: rgb(130, 217, 233);
+  height: 6rem;
+  /*****Apeksha**********/
+  /* background: rgb(130, 217, 233); */
+  background-image: url('../AboutUsImages/4.png');
+  background-attachment: inherit;
 }
 
 .whyStarted h1 {
-  margin-left: 64px;
-  line-height: 80px;
-  background-image: url(../AboutUsImages/4.png);
+  padding: 24px 0px 24px 80px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bolder;
+  align-items: center;
 }
 
 .reasonForStart {
-  margin-top: 40px;
+  /* margin-top: 25px; */
 }
 
 .reasonForStart p {
-  font-size: 2.6ex;
-  margin-left: 64px;
-  margin-right: 64px;
+  /* margin-left: 64px;
+  margin-right: 64px; */
+  padding: 25px 80px 25px 80px;
+  line-height: normal;
   text-align: justify;
+  font-size: 19px;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
 }
 
 
 /* Default Css Anjali for Row 5 and Row 6 */
-.bgimage {
+.sec5bgimage {
   z-index: -1;
+  margin-left: 200px;
+  margin-top: 5px;
+  width: 70%;
+  transition: 300ms ease-in-out;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgimage {
   margin-left: 80px;
   margin-top: 5px;
   width: 90%;
   transition: 300ms ease-in-out;
 }
 
-.bgimage:hover {
+.sec5bgimage:hover {
   z-index: 5;
   transform: scale(1.1);
 }
@@ -176,26 +214,34 @@ body {
   background-size: 100% 90%;
   height: 400px;
   background-image: url('../AboutUsImages/background-red.png');
+  background-attachment: inherit;
   position: absolute;
 }
 
 .para1 {
-  padding: 50px 40px 0px 40px;
+  padding: 50px 80px 0px 80px;
   margin-bottom: 0px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
 }
 
-.para2 {
-  padding: 0px 40px 0px 40px;
+/* .para2 {
+  padding: 0px 80px 0px 80px;
   margin-bottom: 0px;
   justify-content: center;
   align-items: center;
-  text-align: center;
-}
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
+} */
 
 .boxbg {
   height: 400px;
   margin-left: 40px;
-  margin-top: 350px;
+  margin-top: 300px;
   transition: 300ms ease-in-out;
 }
 
@@ -206,7 +252,7 @@ body {
 .boxbgmain {
   height: 400px;
   margin-left: 40px;
-  margin-top: 350px;
+  margin-top: 300px;
   transition: 300ms ease-in-out;
 }
 
@@ -235,18 +281,26 @@ body {
   margin-top: 20px;
   margin-bottom: 50px;
   background-image: url('../AboutUsImages/background.png');
+  background-attachment: inherit;
   padding: 30px 180px 30px 180px;
 }
 
 .collabs h1 {
   font-size: 48px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bolder;
 }
 
 .collabs p {
   font-size: 20px;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
+  text-align: justify;
 }
 
 .collabbutton {
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
   margin-top: 10px;
   padding: 13px 15px;
   font-size: 17px;
@@ -268,6 +322,7 @@ body {
 /* Default Css Shataxi for Row 9 */
 .rowNineCarouselWrapper{
   background-image: url("../AboutUsImages/4.png");
+  background-attachment: inherit;
 }
 
 .rowNineCarouselRoot>div {
@@ -277,20 +332,17 @@ body {
 
 .rowNineCarouselDiv img {
   width: 50%;
-  padding: 2px;
+  padding: 25px 80px;
 }
 
 /* ****************************** Media Queries **************************** */
 @media screen and (min-width: 1590px) {
 
   /* Changed Css Shataxi */
-  .rowOneColTwo>div {
-    margin-left: 6rem;
-  }
 
   .rowNineCarouselDiv img {
     width: 50%;
-    height: 65vh;
+    height: 40vh;
   }
 
   /* Changed Css Shadab  */
@@ -347,37 +399,37 @@ body {
       width: 62.7rem;
       z-index: 2;
     }
-  
+
     .content p {
-      font-size: 2.70ex;
+      /* font-size: 2.70ex; */
       margin-top: 25px;
     }
-  
+
     .imageBox {
       width: 700px;
       left: 16.5vw;
     }
-  
+
     .imageBox img {
       z-index: 1;
     }
-  
+
     .imageBox img:hover {
       transform: scale(1.3);
       margin-left: -105.5px;
       z-index: 5;
     }
-  
+
     .whyStarted {
       width: 100vw;
     }
-  
+
     .reasonForStart {
       width: 100vw;
     }
-  
+
     .reasonForStart p {
-      font-size: 2.9ex;
+      /* font-size: 2.9ex; */
     }
 }
 
@@ -385,13 +437,25 @@ body {
 @media screen and (min-width: 1260px) and (max-width: 1299px) {
 
   /* Changed Css Shataxi */
-  .rowOneColTwo>div {
-    margin-left: 6rem;
+  .rowOneColOne > img {
+    width: 600px;
+    height: 300px;
+    left: 3rem;
+  }
+  .rowOneColTwo > div {
+    margin-left: 18rem;
+    padding-top: 1rem;
+  }
+  .rowTwoDiv > h1 {
+    padding-left: 3rem;
+  }
+  .rowTwoRowPara > p {
+    padding-left: 2rem;
   }
 
   .rowNineCarouselDiv img {
     width: 50%;
-    height: 65vh;
+    height: 40vh;
   }
 
   /* Changed Css Shadab  */
@@ -441,13 +505,25 @@ body {
 @media screen and (min-width: 1126px) and (max-width: 1259px) {
 
   /* Changed Css Shataxi */
-  .rowOneColTwo>div {
-    margin-left: 6rem;
+  .rowOneColOne > img {
+    width: 550px;
+    height: 300px;
+    left: 1rem;
+  }
+  .rowOneColTwo > div {
+    margin-left: 18rem;
+    padding-top: 1rem;
+  }
+  .rowTwoDiv > h1 {
+    padding-left: 1.5rem;
+  }
+  .rowTwoRowPara > p {
+    padding-left: 0rem;
   }
 
   .rowNineCarouselDiv img {
     width: 50%;
-    height: 65vh;
+    height: 40vh;
   }
 
   /* Changed Css Shadab  */
@@ -497,13 +573,25 @@ body {
 @media screen and (min-width: 1000px) and (max-width: 1125px) {
 
   /* Changed Css Shataxi */
-  .rowOneColTwo>div {
-    margin-left: 6rem;
+  .rowOneColOne > img {
+    width: 500px;
+    height: 300px;
+    left: 8px;
+  }
+  .rowOneColTwo > div {
+    margin-left: 18rem;
+    padding-top: 1rem;
+  }
+  .rowTwoDiv > h1 {
+    padding-left: 1rem;
+  }
+  .rowTwoRowPara > p {
+    padding-left: 0rem;
   }
 
   .rowNineCarouselDiv img {
     width: 50%;
-    height: 65vh;
+    height: 40vh;
   }
 
   /* Changed Css Shadab  */
@@ -553,13 +641,23 @@ body {
 @media screen and (min-width: 769px) and (max-width: 999px) {
 
   /* Changed Css Shataxi */
-  .rowOneColTwo>div {
-    margin-left: 6rem;
+  .rowOneColOne > img {
+    width: 450px;
+    height: 350px;
+    left: 16px;
   }
-
+  .rowOneColTwo > div {
+    margin-left: 18rem;
+  }
+  .rowTwoDiv > h1 {
+    padding-left: 2rem;
+  }
+  .rowTwoRowPara > p {
+    padding-left: 1rem;
+  }
   .rowNineCarouselDiv img {
     width: 50%;
-    height: 65vh;
+    height: 40vh;
   }
 
   /* Changed Css Shadab  */
@@ -606,35 +704,24 @@ body {
 }
 
 @media screen and (width: 768px) {
-  .rowOneColTwo>div {
-    margin-left: 5rem;
+  .rowOneColOne > img {
+    width: 100%;
+    height: 100%;
+    left: 0px;
   }
-
-  @keyframes change {
-    0% {
-      letter-spacing: 0px;
-    }
-
-    25% {
-      letter-spacing: 1.5px;
-    }
-
-    50% {
-      letter-spacing: 0px;
-    }
-
-    75% {
-      letter-spacing: 1.5px;
-    }
-
-    100% {
-      letter-spacing: 0px;
-    }
+  .rowOneColTwo > div {
+    margin-left: 0rem;
+  }
+  .rowTwoDiv > h1 {
+    padding-left: 1.5rem;
+  }
+  .rowTwoRowPara > p {
+    padding-left: 0rem;
   }
 
   .rowNineCarouselDiv img {
-    width: 50%;
-    height: 65vh;
+    width: 95vw;
+    height: 40vh;
   }
 }
 
@@ -642,18 +729,20 @@ body {
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
   /* Changed Css Shataxi */
-  .rowOneColOne {
-    left: 0;
+  .rowOneColOne > img {
+    width: 100%;
+    height: 100%;
+    left: 0px;
   }
-
-  .rowOneColTwo {
-    margin-right: 0;
+  .rowOneColTwo > div {
+    margin-left: 0rem;
   }
-
-  .rowTwoDiv>h1 {
-    font-size: 2.2rem;
+  .rowTwoDiv > h1 {
+    padding-left: 1.5rem;
   }
-
+  .rowTwoRowPara > p {
+    padding-left: 0rem;
+  }
   .rowNineCarouselDiv img {
     width: 95vw;
     height: 40vh;
@@ -766,18 +855,20 @@ body {
 @media screen and (max-width: 575px) {
 
   /* Changed Css Shataxi */
-  .rowOneColOne {
-    left: 0;
+  .rowOneColOne > img {
+    width: 100%;
+    height: 100%;
+    left: 0px;
   }
-
-  .rowOneColTwo {
-    margin-right: 0;
+  .rowOneColTwo > div {
+    margin-left: 0rem;
   }
-
-  .rowTwoDiv>h1 {
-    font-size: 2.2rem;
+  .rowTwoDiv > h1 {
+    padding-left: 1.5rem;
   }
-
+  .rowTwoRowPara > p {
+    padding-left: 0rem;
+  }
   .rowNineCarouselDiv img {
     width: 95vw;
     height: 40vh;
@@ -831,36 +922,6 @@ body {
   /* Changed Css Shataxi */
   .rowNineCarouselDiv img {
     width: 90vw;
-    height: 20vh;
-  }
-}
-
-@media screen and (max-width: 323px) {
-
-  /* Changed Css Shataxi */
-  .rowOneColTwo h1 {
-    font-size: xx-large;
-  }
-
-  @keyframes change {
-    0% {
-      letter-spacing: -1px;
-    }
-
-    25% {
-      letter-spacing: 1px;
-    }
-
-    50% {
-      letter-spacing: -1px;
-    }
-
-    75% {
-      letter-spacing: 1px;
-    }
-
-    100% {
-      letter-spacing: -1px;
-    }
+    height: 40vh;
   }
 }

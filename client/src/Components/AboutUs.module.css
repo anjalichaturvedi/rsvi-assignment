@@ -3,7 +3,7 @@ body {
 }
 
 /**** Apeksha *******/
-.containerAboutUs{
+.containerAboutUs {
   padding: 25px 0px;
   max-width: 100%;
 }
@@ -15,12 +15,13 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
 
-.rowOneColOne > img {
+.rowOneColOne>img {
   width: 600px;
   height: 350px;
   position: relative;
   left: 5rem;
 }
+
 /* styling for rowOneColTwo div */
 .rowOneColTwo {
   /* background-color: orange; */
@@ -29,29 +30,36 @@ body {
   background-position: center;
   z-index: -1;
 }
-.rowOneColTwo > div {
+
+.rowOneColTwo>div {
   margin-left: 18rem;
   padding-top: 2rem;
 }
+
 .rowOneColTwo h1 {
   animation-name: change;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
+
 @media screen and (min-width: 999px) {
   @keyframes change {
     0% {
       letter-spacing: 0px;
     }
+
     25% {
       letter-spacing: 2px;
     }
+
     50% {
       letter-spacing: 4px;
     }
+
     75% {
       letter-spacing: 2px;
     }
+
     100% {
       letter-spacing: 0px;
     }
@@ -68,12 +76,14 @@ body {
   height: 6rem;
   width: 100%;
 }
-.rowTwoDiv > h1 {
+
+.rowTwoDiv>h1 {
   font-family: "Cormorant Garamond", serif;
   font-weight: bolder;
   /******Apeksha********/
   padding-left: 80px;
 }
+
 .rowOneColTwo p {
   color: grey;
   font-weight: bolder;
@@ -81,6 +91,7 @@ body {
   font-family: "Source Sans Pro";
   word-spacing: 3px;
 }
+
 .rowTwoRowPara {
   font-family: "Noto Sans HK", "Source Sans Pro";
   /*****Apeksha**********/
@@ -89,25 +100,24 @@ body {
   /* background-color: cornsilk; */
   font-size: 18px;
 }
-.rowTwoRowPara > p {
+
+.rowTwoRowPara>p {
   padding-left: 80px;
   /******Apeksha********/
   padding-right: 80px;
   text-align: justify;
 }
 
-
 /* Default Css Shadab  for Row 3 and Row 4 */
-
 /* .container2{
   width: 100%;
 } */
-
 .section3 {
   padding-top: 50px;
   height: 500px;
   display: flex;
 }
+
 .content {
   background-image: url('../AboutUsImages/backGreen.png');
   background-attachment: inherit;
@@ -183,7 +193,6 @@ body {
   word-spacing: 5px;
 }
 
-
 /* Default Css Anjali for Row 5 and Row 6 */
 .sec5bgimage {
   z-index: -1;
@@ -237,7 +246,6 @@ body {
   font-family: "Noto Sans HK", "Source Sans Pro";
   word-spacing: 5px;
 } */
-
 .boxbg {
   height: 400px;
   margin-left: 40px;
@@ -423,8 +431,8 @@ body {
 .fullDetail p {
   font-size: 21px;
 }
-/*************************** code for second card *********************/
 
+/*************************** code for second card *********************/
 .container72 {
   position: relative;
   height: 100vh;
@@ -615,7 +623,7 @@ body {
 }
 
 /* Default Css Shataxi for Row 9 */
-.rowNineCarouselWrapper{
+.rowNineCarouselWrapper {
   background-image: url("../AboutUsImages/backBlue.png");
   /* background-attachment: inherit; */
 }
@@ -634,14 +642,12 @@ body {
 @media screen and (min-width: 1590px) {
 
   /* Changed Css Shataxi */
-
   .rowNineCarouselDiv img {
     width: 50%;
     height: 40vh;
   }
 
   /* Changed Css Shadab  */
-
   .content {
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
     height: 500px;
@@ -682,70 +688,71 @@ body {
     font-size: 3.3ex;
   }
 
-
   /* Changed Css Anjali  */
 }
 
 /****Default****/
 @media screen and (min-width: 1300px) and (max-width: 1589px) {
-
   .content {
-      clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-      height: 500px;
-      width: 62.7rem;
-      z-index: 2;
-    }
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    height: 500px;
+    width: 62.7rem;
+    z-index: 2;
+  }
 
-    .content p {
-      /* font-size: 2.70ex; */
-      margin-top: 25px;
-    }
+  .content p {
+    /* font-size: 2.70ex; */
+    margin-top: 25px;
+  }
 
-    .imageBox {
-      width: 700px;
-      left: 16.5vw;
-    }
+  .imageBox {
+    width: 700px;
+    left: 16.5vw;
+  }
 
-    .imageBox img {
-      z-index: 1;
-    }
+  .imageBox img {
+    z-index: 1;
+  }
 
-    .imageBox img:hover {
-      transform: scale(1.3);
-      margin-left: -105.5px;
-      z-index: 5;
-    }
+  .imageBox img:hover {
+    transform: scale(1.3);
+    margin-left: -105.5px;
+    z-index: 5;
+  }
 
-    .whyStarted {
-      width: 100vw;
-    }
+  .whyStarted {
+    width: 100vw;
+  }
 
-    .reasonForStart {
-      width: 100vw;
-    }
+  .reasonForStart {
+    width: 100vw;
+  }
 
-    .reasonForStart p {
-      /* font-size: 2.9ex; */
-    }
+  .reasonForStart p {
+    /* font-size: 2.9ex; */
+  }
 }
 
 /*** Assuming default css will be applied from 1300px to 1589px ***/
 @media screen and (min-width: 1260px) and (max-width: 1299px) {
 
   /* Changed Css Shataxi */
-  .rowOneColOne > img {
+  .rowOneColOne>img {
     width: 600px;
     height: 300px;
     left: 3rem;
   }
-  .rowOneColTwo > div {
+
+  .rowOneColTwo>div {
     margin-left: 18rem;
     padding-top: 1rem;
   }
-  .rowTwoDiv > h1 {
+
+  .rowTwoDiv>h1 {
     padding-left: 3rem;
   }
-  .rowTwoRowPara > p {
+
+  .rowTwoRowPara>p {
     padding-left: 2rem;
   }
 
@@ -755,7 +762,6 @@ body {
   }
 
   /* Changed Css Shadab  */
-
   .content {
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
     height: 500px;
@@ -801,19 +807,22 @@ body {
 @media screen and (min-width: 1126px) and (max-width: 1259px) {
 
   /* Changed Css Shataxi */
-  .rowOneColOne > img {
+  .rowOneColOne>img {
     width: 550px;
     height: 300px;
     left: 1rem;
   }
-  .rowOneColTwo > div {
+
+  .rowOneColTwo>div {
     margin-left: 18rem;
     padding-top: 1rem;
   }
-  .rowTwoDiv > h1 {
+
+  .rowTwoDiv>h1 {
     padding-left: 1.5rem;
   }
-  .rowTwoRowPara > p {
+
+  .rowTwoRowPara>p {
     padding-left: 0rem;
   }
 
@@ -823,13 +832,13 @@ body {
   }
 
   /* Changed Css Shadab  */
-
   .content {
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
     height: 500px;
     width: 45.2rem;
     z-index: 2;
   }
+
   .content p {
     margin-top: 25px;
     margin-right: 143px;
@@ -837,7 +846,7 @@ body {
   }
 
   .imageBox {
-      left: 2rem;
+    left: 2rem;
     width: 700px;
   }
 
@@ -869,19 +878,22 @@ body {
 @media screen and (min-width: 1000px) and (max-width: 1125px) {
 
   /* Changed Css Shataxi */
-  .rowOneColOne > img {
+  .rowOneColOne>img {
     width: 500px;
     height: 300px;
     left: 8px;
   }
-  .rowOneColTwo > div {
+
+  .rowOneColTwo>div {
     margin-left: 18rem;
     padding-top: 1rem;
   }
-  .rowTwoDiv > h1 {
+
+  .rowTwoDiv>h1 {
     padding-left: 1rem;
   }
-  .rowTwoRowPara > p {
+
+  .rowTwoRowPara>p {
     padding-left: 0rem;
   }
 
@@ -891,13 +903,13 @@ body {
   }
 
   /* Changed Css Shadab  */
-
   .content {
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
     height: 500px;
     width: 40.2rem;
     z-index: 2;
   }
+
   .content p {
     margin-top: 25px;
     margin-right: 143px;
@@ -907,7 +919,7 @@ body {
   .imageBox {
     left: -1vw;
     width: 650px;
-}
+  }
 
   .imageBox img {
     z-index: 1;
@@ -937,33 +949,37 @@ body {
 @media screen and (min-width: 769px) and (max-width: 999px) {
 
   /* Changed Css Shataxi */
-  .rowOneColOne > img {
+  .rowOneColOne>img {
     width: 450px;
     height: 350px;
     left: 16px;
   }
-  .rowOneColTwo > div {
+
+  .rowOneColTwo>div {
     margin-left: 18rem;
   }
-  .rowTwoDiv > h1 {
+
+  .rowTwoDiv>h1 {
     padding-left: 2rem;
   }
-  .rowTwoRowPara > p {
+
+  .rowTwoRowPara>p {
     padding-left: 1rem;
   }
+
   .rowNineCarouselDiv img {
     width: 50%;
     height: 40vh;
   }
 
   /* Changed Css Shadab  */
-
   .content {
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
     height: 500px;
     width: 38.7rem;
     z-index: 2;
   }
+
   .content p {
     margin-right: 115px;
     margin-top: 25px;
@@ -971,7 +987,7 @@ body {
   }
 
   .imageBox {
-      left: 15rem;
+    left: 15rem;
   }
 
   .imageBox img {
@@ -1001,18 +1017,21 @@ body {
 
 /****Shataxi***/
 @media screen and (width: 768px) {
-  .rowOneColOne > img {
+  .rowOneColOne>img {
     width: 100%;
     height: 100%;
     left: 0px;
   }
-  .rowOneColTwo > div {
+
+  .rowOneColTwo>div {
     margin-left: 0rem;
   }
-  .rowTwoDiv > h1 {
+
+  .rowTwoDiv>h1 {
     padding-left: 1.5rem;
   }
-  .rowTwoRowPara > p {
+
+  .rowTwoRowPara>p {
     padding-left: 0rem;
   }
 
@@ -1026,27 +1045,30 @@ body {
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
   /* Changed Css Shataxi */
-  .rowOneColOne > img {
+  .rowOneColOne>img {
     width: 100%;
     height: 100%;
     left: 0px;
   }
-  .rowOneColTwo > div {
+
+  .rowOneColTwo>div {
     margin-left: 0rem;
   }
-  .rowTwoDiv > h1 {
+
+  .rowTwoDiv>h1 {
     padding-left: 1.5rem;
   }
-  .rowTwoRowPara > p {
+
+  .rowTwoRowPara>p {
     padding-left: 0rem;
   }
+
   .rowNineCarouselDiv img {
     width: 95vw;
     height: 40vh;
   }
 
   /* Changed Css Shadab  */
-
   .content p {
     width: 61.5rem;
     font-size: 2.3ex;
@@ -1152,27 +1174,30 @@ body {
 @media screen and (max-width: 575px) {
 
   /* Changed Css Shataxi */
-  .rowOneColOne > img {
+  .rowOneColOne>img {
     width: 100%;
     height: 100%;
     left: 0px;
   }
-  .rowOneColTwo > div {
+
+  .rowOneColTwo>div {
     margin-left: 0rem;
   }
-  .rowTwoDiv > h1 {
+
+  .rowTwoDiv>h1 {
     padding-left: 1.5rem;
   }
-  .rowTwoRowPara > p {
+
+  .rowTwoRowPara>p {
     padding-left: 0rem;
   }
+
   .rowNineCarouselDiv img {
     width: 95vw;
     height: 40vh;
   }
 
   /* Changed Css Shadab  */
-
   .content p {
     font-size: 2.3ex;
     margin-top: 50px;
@@ -1212,6 +1237,89 @@ body {
   }
 
   /* Changed Css Anjali  */
+  .sec5bgimage {
+    position: relative;
+    margin-left: 20px;
+    width: auto;
+    margin-right: 30px;
+    margin-top: 10px;
+    z-index: 1;
+    width: 90%;
+  }
+
+  .sec5bgimage:hover {
+    transform: none;
+  }
+
+  .section5 {
+    margin-top: 150px;
+    width: 100%;
+    height: 590px;
+    margin-right: 0;
+  }
+
+  .para1 {
+    font-size: 15px;
+    text-align: left;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .boxbg {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .boxbgmain {
+    margin-top: 640px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+
+  .sbox {
+    height: 45px;
+    width: 150px;
+    transform: translate(-24%, -30%);
+    font-size: 23px;
+    align-items: center;
+  }
+
+  .bgimage {
+    position: relative;
+    margin-left: 40px;
+    width: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    z-index: 1;
+    width: 80%;
+  }
+
+  .collabs {
+    padding: 10px 20px 10px 20px;
+  }
+  .collabs h1 {
+    font-size: 38px;
+    font-weight: bolder;
+  }
+
+  .collabs p {
+    font-size: 18px;
+    word-spacing: 2px;
+    text-align: left;
+  }
+
+  .collabbutton {
+    margin-top: 2px;
+    padding: 10px 12px;
+    font-size: 15px;
+  }
+
 }
 
 @media screen and (max-width: 444px) {

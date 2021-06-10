@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Modules from "./AboutUs.module.css";
 import { Carousel } from "react-bootstrap";
 import "./Carousel/Carousel.css";
-import bgimage from "../AboutUsImages/dummy-bg.jpg";
+/* import bgimage from "../AboutUsImages/dummy-bg.jpg";
 import image from "../AboutUsImages/Section3.jpeg";
 import Section5Img from "../AboutUsImages/Section5.jpeg";
 import Section6Img1 from "../AboutUsImages/Section6_1.jpeg";
@@ -18,8 +18,59 @@ import CarouselImg5 from "../AboutUsImages/Section9_5.jpeg";
 import Founder from '../AboutUsImages/Section7_1.jpeg';
 import Ceo from '../AboutUsImages/Section7_2.jpeg';
 import Roots1 from '../AboutUsImages/Section7_3.jpeg';
-import Roots2 from '../AboutUsImages/Section7_4.jpeg';
+import Roots2 from '../AboutUsImages/Section7_4.jpeg'; */
 class AboutUs extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      display1: false,
+      display2:false,
+      display3: false,
+      display4:false,
+      image: {
+        Section1: require('../AboutUsImages/Section1.jpeg').default,
+        Section3: require('../AboutUsImages/Section3.jpeg').default,
+        Section5: require('../AboutUsImages/Section5.jpeg').default,
+        Section6: {
+          Img1: require('../AboutUsImages/Section6_1.jpeg').default,
+          Img2: require('../AboutUsImages/Section6_2.jpeg').default,
+          Img3: require('../AboutUsImages/Section6_3.jpeg').default
+        },
+        Section7: {
+          Img1: require('../AboutUsImages/Section7_1.jpeg').default,
+          Img2: require('../AboutUsImages/Section7_2.jpeg').default,
+          Img3: require('../AboutUsImages/Section7_3.jpeg').default,
+          Img4: require('../AboutUsImages/Section7_4.jpeg').default
+        },
+        Section8: require('../AboutUsImages/Section8.jpeg').default,
+        Section9: {
+          Img1: require('../AboutUsImages/Section9_1.jpeg').default,
+          Img2: require('../AboutUsImages/Section9_2.jpeg').default,
+          Img3: require('../AboutUsImages/Section9_3.jpeg').default,
+          Img4: require('../AboutUsImages/Section9_4.jpeg').default,
+          Img5: require('../AboutUsImages/Section9_5.jpeg').default
+        }
+      }
+    };
+  }
+
+  displayHandler = (e) => {
+    console.log(e.target.alt)
+    this.setState((prevState) => {
+      if(e.target.alt==='Founder')
+      return { display1: !prevState.display1,
+               display2:false,
+               display3:false,
+               display4:false, };
+      if(e.target.alt==='CEO')
+      return { display2: !prevState.display2 };
+      if(e.target.alt==='Roots1')
+      return { display3: !prevState.display3 };
+      if(e.target.alt==='Roots2')
+      return { display4: !prevState.display4 };
+    });
+  };
   render() {
     return (
       <div className={`${Modules.mainAboutUs}`}>
@@ -36,7 +87,7 @@ class AboutUs extends Component {
           {/* Shataxi */}
           <div className={`row mt-3 ${Modules.section1} p-2`}>
             <div className={`col-md-3 col-12 my-md-5 p-0 ${Modules.rowOneColOne}`}>
-              <img src="https://images.pexels.com/photos/5212357/pexels-photo-5212357.jpeg"
+              <img src={this.state.image.Section1}
                 alt="group"></img>
             </div>
             <div className={`${Modules.rowOneColTwo} col text-center py-5`}>
@@ -117,7 +168,7 @@ class AboutUs extends Component {
                 </p>
               </div>
               <div className={Modules.imageBox}>
-                <img src={image} alt="pot" />
+                <img src={this.state.image.Section3} alt="pot" />
               </div>
             </section>
 
@@ -183,19 +234,19 @@ class AboutUs extends Component {
             {/* **************** Row 6 **************** */}
             {/* Anjali */}
             <Row className={Modules.sec5bgimage}>
-              <img src={Section5Img} alt="dummy" />
+              <img src={this.state.image.Section5} alt="dummy" />
             </Row>
             <Row>
               <Col>
-                <img src={Section6Img1} alt="dummy" className={Modules.boxbgmain} />
+                <img src={this.state.image.Section6.Img1} alt="dummy" className={Modules.boxbgmain} />
                 <p className={Modules.sbox}> About Us </p>
               </Col>
               <Col>
-                <img src={Section6Img2} alt="dummy" className={Modules.boxbg} />
+                <img src={this.state.image.Section6.Img2} alt="dummy" className={Modules.boxbg} />
                 <p className={Modules.sbox}> About Us </p>
               </Col>
               <Col>
-                <img src={Section6Img3} alt="dummy" className={Modules.boxbg} />
+                <img src={this.state.image.Section6.Img3} alt="dummy" className={Modules.boxbg} />
                 <p className={Modules.sbox}> About Us </p>
               </Col>
             </Row>
@@ -208,7 +259,7 @@ class AboutUs extends Component {
           <Container className={Modules.container71}>
             <Row className={Modules.cardBox}>
               <Col className={Modules.founder}>
-                <img className={Modules.foundersImage} src={Founder} />
+                <img className={Modules.foundersImage} src={this.state.image.Section7.Img1} />
               </Col>
               <Col>
                 <div className={Modules.infoBox}>
@@ -255,14 +306,14 @@ class AboutUs extends Component {
                 </div>
               </Col>
               <Col className={Modules.ceo}>
-                <img className={Modules.ceoImage} src={Ceo} />
+                <img className={Modules.ceoImage} src={this.state.image.Section7.Img2} />
               </Col>
             </Row>
           </Container>
           <Container className={Modules.container73}>
             <Row className={Modules.cardBox}>
               <Col className={Modules.founder}>
-                <img className={Modules.foundersImage} src={Roots1} />
+                <img className={Modules.foundersImage} src={this.state.image.Section7.Img3} />
               </Col>
               <Col>
                 <div className={Modules.infoBox3}>
@@ -309,7 +360,7 @@ class AboutUs extends Component {
                 </div>
               </Col>
               <Col className={Modules.ceo}>
-                <img className={Modules.ceoImage} src={Roots2} />
+                <img className={Modules.ceoImage} src={this.state.image.Section7.Img4} />
               </Col>
             </Row>
           </Container>
@@ -317,7 +368,7 @@ class AboutUs extends Component {
           {/* Anjali */}
           {/* <Container> */}
             <Row>
-              <img src={bgimage} alt="dummy" className={Modules.bgimage} />
+              <img src={this.state.image.Section8} alt="dummy" className={Modules.bgimage} />
             </Row>
             <Row className={Modules.collabs}>
               <Col>
@@ -347,19 +398,19 @@ class AboutUs extends Component {
               className={Modules.rowNineCarouselRoot}
             >
             <div className={` ${Modules.rowNineCarouselDiv} `}>
-            <img src={CarouselImg1} alt="thumb1" />
+            <img src={this.state.image.Section9.Img1} alt="thumb1" />
           </div>
           <div className={` ${Modules.rowNineCarouselDiv} `}>
-            <img src={CarouselImg2} alt="thumb2" />
+            <img src={this.state.image.Section9.Img2} alt="thumb2" />
           </div>
           <div className={` ${Modules.rowNineCarouselDiv} `}>
-            <img src={CarouselImg3} alt="thumb3" />
+            <img src={this.state.image.Section9.Img3} alt="thumb3" />
           </div>
           <div className={` ${Modules.rowNineCarouselDiv} `}>
-            <img src={CarouselImg4} alt="thumb4" />
+            <img src={this.state.image.Section9.Img4} alt="thumb4" />
           </div>
           <div className={` ${Modules.rowNineCarouselDiv} `}>
-            <img src={CarouselImg5} alt="thumb5" />
+            <img src={this.state.image.Section9.Img5} alt="thumb5" />
           </div>
             </Carousel>
           </div>

@@ -24,7 +24,7 @@ body {
 /* styling for rowOneColTwo div */
 .rowOneColTwo {
   /* background-color: orange; */
-  background-image: url("../AboutUsImages/1.png");
+  background-image: url("../AboutUsImages/backRed.png");
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -61,7 +61,7 @@ body {
 .rowTwoDiv {
   /*****Apeksha**********/
   /* background-color: yellow; */
-  background-image: url("../AboutUsImages/2.png");
+  background-image: url("../AboutUsImages/backYellow.png");
   background-attachment: inherit;
   background-size: cover;
   background-position: left;
@@ -109,7 +109,7 @@ body {
   display: flex;
 }
 .content {
-  background-image: url('../AboutUsImages/background.png');
+  background-image: url('../AboutUsImages/backGreen.png');
   background-attachment: inherit;
   /* margin-top: 100px; */
   height: auto;
@@ -157,7 +157,7 @@ body {
   height: 6rem;
   /*****Apeksha**********/
   /* background: rgb(130, 217, 233); */
-  background-image: url('../AboutUsImages/4.png');
+  background-image: url('../AboutUsImages/backBlue.png');
   background-attachment: inherit;
 }
 
@@ -213,7 +213,7 @@ body {
   margin-bottom: 50px;
   background-size: 100% 90%;
   height: 400px;
-  background-image: url('../AboutUsImages/background-red.png');
+  background-image: url('../AboutUsImages/backRed.png');
   background-attachment: inherit;
   position: absolute;
 }
@@ -264,7 +264,7 @@ body {
   height: 48px;
   width: 180px;
   margin-left: 150px;
-  background-image: url('../AboutUsImages/background-red.png');
+  background-image: url('../AboutUsImages/backRed.png');
   background-size: 50% 90%;
   justify-content: center;
   text-align: center;
@@ -281,7 +281,7 @@ body {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url("../AboutUsImages/1.png");
+  background-image: url("../AboutUsImages/backRed.png");
   background-attachment: inherit;
   /* padding: 50px 50px; */
 }
@@ -320,7 +320,7 @@ body {
   top: 50px;
   height: 90px;
   width: 300px;
-  background-image: url("../AboutUsImages/1.png");
+  background-image: url("../AboutUsImages/backRed.png");
   background-attachment: inherit;
 }
 
@@ -358,7 +358,7 @@ body {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url("../AboutUsImages/2.png");
+  background-image: url("../AboutUsImages/backYellow.png");
   background-attachment: inherit;
 }
 
@@ -375,7 +375,7 @@ body {
   top: 50px;
   height: 90px;
   width: 300px;
-  background-image: url("../AboutUsImages/2.png");
+  background-image: url("../AboutUsImages/backYellow.png");
   background-attachment: inherit;
 }
 
@@ -432,7 +432,7 @@ body {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url("../AboutUsImages/background.png");
+  background-image: url("../AboutUsImages/backGreen.png");
   background-attachment: inherit;
 }
 
@@ -442,7 +442,7 @@ body {
   top: 50px;
   height: 90px;
   width: 300px;
-  background-image: url("../AboutUsImages/background.png");
+  background-image: url("../AboutUsImages/backGreen.png");
   background-attachment: inherit;
 }
 
@@ -468,7 +468,7 @@ body {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url("../AboutUsImages/4.png");
+  background-image: url("../AboutUsImages/backBlue.png");
   background-attachment: inherit;
 }
 
@@ -478,7 +478,7 @@ body {
   top: 50px;
   height: 90px;
   width: 300px;
-  background-image: url("../AboutUsImages/4.png");
+  background-image: url("../AboutUsImages/backBlue.png");
   background-attachment: inherit;
 }
 
@@ -503,7 +503,7 @@ body {
 .collabs {
   margin-top: 20px;
   margin-bottom: 50px;
-  background-image: url('../AboutUsImages/background.png');
+  background-image: url('../AboutUsImages/backGreen.png');
   background-attachment: inherit;
   padding: 30px 180px 30px 180px;
 }
@@ -544,7 +544,7 @@ body {
 }
 /* Default Css Shataxi for Row 9 */
 .rowNineCarouselWrapper{
-  background-image: url("../AboutUsImages/4.png");
+  background-image: url("../AboutUsImages/backBlue.png");
   background-attachment: inherit;
 }
 

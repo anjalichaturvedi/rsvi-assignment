@@ -3,22 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Modules from "./AboutUs.module.css";
 import { Carousel } from "react-bootstrap";
-import "./Carousel/Carousel.css";
-/* import bgimage from "../AboutUsImages/dummy-bg.jpg";
-import image from "../AboutUsImages/Section3.jpeg";
-import Section5Img from "../AboutUsImages/Section5.jpeg";
-import Section6Img1 from "../AboutUsImages/Section6_1.jpeg";
-import Section6Img2 from "../AboutUsImages/Section6_2.jpeg";
-import Section6Img3 from "../AboutUsImages/Section6_3.jpeg";
-import CarouselImg1 from "../AboutUsImages/Section9_1.jpeg";
-import CarouselImg2 from "../AboutUsImages/Section9_2.jpeg";
-import CarouselImg3 from "../AboutUsImages/Section9_3.jpeg";
-import CarouselImg4 from "../AboutUsImages/Section9_4.jpeg";
-import CarouselImg5 from "../AboutUsImages/Section9_5.jpeg";
-import Founder from '../AboutUsImages/Section7_1.jpeg';
-import Ceo from '../AboutUsImages/Section7_2.jpeg';
-import Roots1 from '../AboutUsImages/Section7_3.jpeg';
-import Roots2 from '../AboutUsImages/Section7_4.jpeg'; */
+import "./Carousel.css"; 
+
 class AboutUs extends Component {
   constructor() {
     super();
@@ -254,8 +240,40 @@ class AboutUs extends Component {
           {/* **************** Row 7 **************** */}
           {/* Shadab */}
           {/* Section 7a */}
-          
+          <Container className={`${Modules.containerCards}`}>
+          <Row className={`${Modules.sectionSeven}`}  >
+            <Col className={`${Modules.section7Col} ${Modules.section7Col1}`} onClick={this.displayHandler} /* onclick={childPage} */>
+              <img className={`${Modules.sevenImage}`} src={this.state.image.Section7.Img1} alt="Founder"></img>
+              <div className={`${Modules.contentWrap} ${Modules.wrapSeven1}`} >
+                <h3>FOUNDER</h3>
+                <h4>Dr. Rakesh Jain</h4>
+              </div>
+            </Col>
+            <Col className={`${Modules.section7Col} ${Modules.section7Col2}`} onClick={this.displayHandler}>
+              <img className={`${Modules.sevenImage}`} src={this.state.image.Section7.Img2} alt="CEO" ></img>
+              <div className={`${Modules.contentWrap} ${Modules.wrapSeven2}`}>
+                <h3>CEO</h3>
+                <h4>Ms. Shraddha Srivastava</h4>
+              </div>
+            </Col>
+            <Col className={`${Modules.section7Col} ${Modules.section7Col3}`} onClick={this.displayHandler}>
+              <img className={`${Modules.sevenImage}`} src={this.state.image.Section7.Img3} alt="Roots1"></img>
+              <div className={`${Modules.contentWrap} ${Modules.wrapSeven3}`}>
+                <h3>ROOTS</h3>
+                <h4>Ms. Satakshi Gupta</h4>
+              </div>
+            </Col>
+            <Col className={`${Modules.section7Col} ${Modules.section7Col4}`} onClick={this.displayHandler}>
+              <img className={`${Modules.sevenImage}`} src={this.state.image.Section7.Img4} alt="Roots2"></img>
+              <div className={`${Modules.contentWrap} ${Modules.wrapSeven4}`}>
+                <h3>ROOTS</h3>
+                <h4>Mr. Nagesh Kumar Pandey</h4>
+              </div>
+            </Col>
+          </Row>
+          </Container>
           {/* Section 7b */}
+          {this.state.display1 &&
           <Container className={Modules.container71}>
             <Row className={Modules.cardBox}>
               <Col className={Modules.founder}>
@@ -282,7 +300,8 @@ class AboutUs extends Component {
                 </div>
               </Col>
             </Row>
-          </Container>
+          </Container>}
+          {this.state.display2 &&
           <Container className={Modules.container72}>
             <Row className={Modules.cardBox}>
               <Col classname={Modules.details}>
@@ -309,7 +328,8 @@ class AboutUs extends Component {
                 <img className={Modules.ceoImage} src={this.state.image.Section7.Img2} />
               </Col>
             </Row>
-          </Container>
+          </Container>}
+          {this.state.display3 &&
           <Container className={Modules.container73}>
             <Row className={Modules.cardBox}>
               <Col className={Modules.founder}>
@@ -336,7 +356,8 @@ class AboutUs extends Component {
                 </div>
               </Col>
             </Row>
-          </Container>
+          </Container>}
+          {this.state.display4 &&
           <Container className={Modules.container74}>
             <Row className={Modules.cardBox}>
               <Col classname={Modules.details}>
@@ -363,7 +384,7 @@ class AboutUs extends Component {
                 <img className={Modules.ceoImage} src={this.state.image.Section7.Img4} />
               </Col>
             </Row>
-          </Container>
+          </Container>}
           {/* **************** Row 8 **************** */}
           {/* Anjali */}
           {/* <Container> */}

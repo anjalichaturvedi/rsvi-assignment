@@ -276,7 +276,78 @@ body {
 }
 
 /* Default Css Shadab  for Row 7 */
-/* Section 7a */
+/* *************Section 7a *******************/
+/* .containerCards{
+  background-color: pink;
+} */
+
+/*Row and container area is same*/
+.sectionSeven{
+  /* background-color: palegoldenrod; */
+  padding: 25px 0px;
+}
+
+.section7Col {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 12px 12px;
+}
+/* .section7Col1 , .section7Col3 {
+  background-color: pink;
+}
+
+.section7Col2 , .section7Col4 {
+  background-color: gainsboro;
+}
+ */
+.sevenImage{
+  width: 100%;
+  height: 300px;
+}
+
+.contentWrap{
+  align-content: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 10px 0px;
+}
+.contentWrap > h3{
+  font-size: 30px;
+  font-weight: 350;
+  text-transform: uppercase;
+}
+
+.contentWrap > h4{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.contentWrap > p{
+  font-size: 23px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.wrapSeven1{
+  background-image: url('../AboutUsImages/backRed.png');
+  background-attachment: fixed;
+}
+.wrapSeven2{
+  background-image: url('../AboutUsImages/backYellow.png');
+  background-attachment: fixed;
+}
+.wrapSeven3{
+  background-image: url('../AboutUsImages/backGreen.png');
+  background-attachment: fixed;
+}
+.wrapSeven4{
+  background-image: url('../AboutUsImages/backBlue.png');
+  background-attachment: fixed;
+}
+/*************Section7b****************************/
 .container71 {
   position: relative;
   height: 100vh;
@@ -542,10 +613,11 @@ body {
   text-decoration: underline;
   color: black;
 }
+
 /* Default Css Shataxi for Row 9 */
 .rowNineCarouselWrapper{
   background-image: url("../AboutUsImages/backBlue.png");
-  background-attachment: inherit;
+  /* background-attachment: inherit; */
 }
 
 .rowNineCarouselRoot>div {

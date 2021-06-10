@@ -238,15 +238,15 @@ class AboutUs extends Component {
             </Row>
             <Row>
               <Col>
-                <img src={this.state.image.Section6.Img1} alt="dummy" className={Modules.boxbgmain} />
+                <img src={this.state.image.Section6.Img1} alt="dummy" className={Modules.boxbg1} />
                 <p className={Modules.sbox}> About Us </p>
               </Col>
               <Col>
-                <img src={this.state.image.Section6.Img2} alt="dummy" className={Modules.boxbg} />
+                <img src={this.state.image.Section6.Img2} alt="dummy" className={Modules.boxbg2} />
                 <p className={Modules.sbox}> About Us </p>
               </Col>
               <Col>
-                <img src={this.state.image.Section6.Img3} alt="dummy" className={Modules.boxbg} />
+                <img src={this.state.image.Section6.Img3} alt="dummy" className={Modules.boxbg3} />
                 <p className={Modules.sbox}> About Us </p>
               </Col>
             </Row>
@@ -254,7 +254,7 @@ class AboutUs extends Component {
           {/* **************** Row 7 **************** */}
           {/* Shadab */}
           {/* Section 7a */}
-          
+
           {/* Section 7b */}
           <Container className={Modules.container71}>
             <Row className={Modules.cardBox}>
@@ -267,17 +267,17 @@ class AboutUs extends Component {
                   <p>Dr. Rakesh Jain</p>
                 </div>
                 <div className={Modules.fullDetail}>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer tristique pellentesque dignissim. Nam eget molestie 
-                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum 
-                    dolor sit amet, consectetur adipiscing elit. Integer 
-                    tristique pellentesque dignissim. Nam eget molestie tortor. 
-                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor 
-                    sit amet, consectetur adipiscing elit. Integer tristique 
-                    pellentesque dignissim. Nam eget molestie tortor. Ut at 
-                    placerat ex. Suspendisse potenti. Lorem ipsum dolor sit 
-                    amet, consectetur adipiscing elit. Integer tristique pellentesque 
-                    gnissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer tristique pellentesque dignissim. Nam eget molestie
+                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Integer
+                    tristique pellentesque dignissim. Nam eget molestie tortor.
+                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Integer tristique
+                    pellentesque dignissim. Nam eget molestie tortor. Ut at
+                    placerat ex. Suspendisse potenti. Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit. Integer tristique pellentesque
+                    gnissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer tristique pellentesque dignissim. </p>
                 </div>
               </Col>
@@ -291,17 +291,17 @@ class AboutUs extends Component {
                   <p>Dr. Shraddha Srivastava</p>
                 </div>
                 <div className={Modules.fullDetail2}>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer tristique pellentesque dignissim. Nam eget molestie 
-                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum 
-                    dolor sit amet, consectetur adipiscing elit. Integer 
-                    tristique pellentesque dignissim. Nam eget molestie tortor. 
-                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor sit 
-                    amet, consectetur adipiscing elit. Integer tristique pellentesque 
-                    dignissim. Nam eget molestie tortor. Ut at placerat ex. 
-                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Integer tristique pellentesque dignissim. 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer tristique pellentesque dignissim. Nam eget molestie
+                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Integer
+                    tristique pellentesque dignissim. Nam eget molestie tortor.
+                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit. Integer tristique pellentesque
+                    dignissim. Nam eget molestie tortor. Ut at placerat ex.
+                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Integer tristique pellentesque dignissim.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                     tristique pellentesque dignissim. </p>
                 </div>
               </Col>
@@ -321,17 +321,17 @@ class AboutUs extends Component {
                   <p>Ms. Satakshi Gupta</p>
                 </div>
                 <div className={Modules.fullDetail}>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer tristique pellentesque dignissim. Nam eget molestie 
-                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum 
-                    dolor sit amet, consectetur adipiscing elit. Integer tristique 
-                    pellentesque dignissim. Nam eget molestie tortor. Ut at 
-                    placerat ex. Suspendisse potenti. Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit. Integer tristique pellentesque 
-                    dignissim. Nam eget molestie tortor. Ut at placerat ex. 
-                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Integer tristique pellentesque dignissim. 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer tristique pellentesque dignissim. Nam eget molestie
+                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Integer tristique
+                    pellentesque dignissim. Nam eget molestie tortor. Ut at
+                    placerat ex. Suspendisse potenti. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Integer tristique pellentesque
+                    dignissim. Nam eget molestie tortor. Ut at placerat ex.
+                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Integer tristique pellentesque dignissim.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer tristique pellentesque dignissim. </p>
                 </div>
               </Col>
@@ -345,17 +345,17 @@ class AboutUs extends Component {
                   <p>Nagesh Kumar Pandey</p>
                 </div>
                 <div className={Modules.fullDetail2}>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer tristique pellentesque dignissim. Nam eget molestie 
-                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum 
-                    dolor sit amet, consectetur adipiscing elit. Integer 
-                    tristique pellentesque dignissim. Nam eget molestie tortor. 
-                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor sit 
-                    amet, consectetur adipiscing elit. Integer tristique pellentesque 
-                    dignissim. Nam eget molestie tortor. Ut at placerat ex. 
-                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Integer tristique pellentesque dignissim. 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer tristique pellentesque dignissim. Nam eget molestie
+                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Integer
+                    tristique pellentesque dignissim. Nam eget molestie tortor.
+                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit. Integer tristique pellentesque
+                    dignissim. Nam eget molestie tortor. Ut at placerat ex.
+                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Integer tristique pellentesque dignissim.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer tristique pellentesque dignissim. </p>
                 </div>
               </Col>

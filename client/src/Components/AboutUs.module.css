@@ -205,9 +205,9 @@ body {
 }
 
 .bgimage {
-  margin-left: 80px;
-  margin-top: 5px;
-  width: 90%;
+  margin-left: 10%;
+  margin-top: 50px;
+  width: 80%;
   transition: 300ms ease-in-out;
 }
 
@@ -246,25 +246,37 @@ body {
   font-family: "Noto Sans HK", "Source Sans Pro";
   word-spacing: 5px;
 } */
-.boxbg {
+
+.boxbg1 {
   height: 400px;
   margin-left: 40px;
   margin-top: 300px;
   transition: 300ms ease-in-out;
 }
 
-.boxbg:hover {
+.boxbg1:hover {
   transform: scale(1.1);
 }
 
-.boxbgmain {
+.boxbg2 {
   height: 400px;
   margin-left: 40px;
   margin-top: 300px;
   transition: 300ms ease-in-out;
 }
 
-.boxbgmain:hover {
+.boxbg2:hover {
+  transform: scale(1.1);
+}
+
+.boxbg3 {
+  height: 400px;
+  margin-left: 40px;
+  margin-top: 300px;
+  transition: 300ms ease-in-out;
+}
+
+.boxbg3:hover {
   transform: scale(1.1);
 }
 
@@ -1038,66 +1050,84 @@ body {
   }
 
   /* Changed Css Anjali  */
-  .bgimage {
+  .sec5bgimage {
     position: relative;
-    margin-left: 10px;
+    margin-left: 60px;
     width: auto;
     margin-right: 30px;
     margin-top: 10px;
+    z-index: 1;
+    width: 80%;
+  }
+
+  .sec5bgimage:hover {
+    transform: none;
+  }
+
+  .bgimage {
+    position: relative;
+    width: 80%;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 40px;
   }
 
   .section5 {
-    margin-top: 120px;
+    margin-top: 290px;
     width: 100%;
-    height: 900px;
+    height: 500px;
     margin-right: 0;
   }
 
   .para1 {
     font-size: 20px;
+    padding: 10px 60px 10px 60px;
   }
 
-  .para2 {
-    font-size: 20px;
+  .boxbg1 {
+    margin-top: 560px;
+    height: 200px;
+    justify-content: none;
+    align-items: left;
+    margin-left: 40px;
+
   }
 
-  .boxbg {
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    margin-left: 30px;
-    margin-top: 40px;
+  .boxbg2 {
+    height: 200px;
+    justify-content: none;
+    align-items: left;
+    margin-top: 560px;
+    margin-left: 40px;
   }
 
-  .boxbgmain {
-    margin-top: 950px;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    margin-left: 30px;
-  }
+.boxbg3 {
+    height: 200px;
+    justify-content: none;
+    align-items: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
 
   .sbox {
-    height: 45px;
-    width: 150px;
-    transform: translate(-24%, -30%);
-    font-size: 23px;
+    height: 40px;
+    width: 120px;
+    transform: translate(-50%, -30%);
+    font-size: 19px;
     align-items: center;
   }
 
-  .collab {
-    padding: 0px 10px 0px 10px;
+  .collabs {
+    padding: 10px 40px 10px 30px;
   }
 
-  .collab h1 {
-    font-size: 30px;
+  .collabs h1 {
+    font-size: 50px;
   }
 }
 
-.collab p {
-  font-size: 15px;
+.collabs p {
+  font-size: 17px;
 }
 
 @media screen and (max-width: 575px) {
@@ -1193,7 +1223,16 @@ body {
     padding: 20px 40px 20px 40px;
   }
 
-  .boxbg {
+  .boxbg1 {
+    margin-top: 640px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+
+  .boxbg2 {
     height: 300px;
     justify-content: center;
     align-items: center;
@@ -1202,13 +1241,13 @@ body {
     margin-top: 20px;
   }
 
-  .boxbgmain {
-    margin-top: 640px;
+  .boxbg3 {
     height: 300px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
     margin-left: 40px;
+    margin-top: 20px;
   }
 
   .sbox {

@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Modules from "./AboutUs.module.css";
-import { Carousel } from "react-bootstrap";
-import "./Carousel.css";
+import { Carousel } from "react-responsive-carousel";
+
+import "./Carousel/Carousel.css";
 
 class AboutUs extends Component {
   constructor() {
@@ -71,12 +72,12 @@ class AboutUs extends Component {
 
           {/* **************** Row 1 **************** */}
           {/* Shataxi */}
-          <div className={`row mt-3 ${Modules.section1} p-2`}>
-            <div className={`col-md-3 col-12 my-md-5 p-0 ${Modules.rowOneColOne}`}>
+          <div className={`row mt-3 ${Modules.section1} p-md-2`}>
+            <div className={`col-md-3 col-12 my-md-5 p-0 ${Modules.rowOneColOne} }`}>
               <img src={this.state.image.Section1}
                 alt="group"></img>
             </div>
-            <div className={`${Modules.rowOneColTwo} col text-center py-5`}>
+            <div className={`${Modules.rowOneColTwo}  col text-center py-5`}>
               <div className="d-inline-block  text-left my-5">
                 <h1 className="d-inline-block">
                   Rehabiliation <br></br>Society of the<br></br>Visually
@@ -91,8 +92,8 @@ class AboutUs extends Component {
           </div>
           {/* **************** Row 2 **************** */}
           {/* Shataxi */}
-          <div className={`row ${Modules.section2} p-1 `}>
-            <div className={`${Modules.rowTwoDiv} py-4 mt-5`}>
+          <div className={`row ${Modules.section2} p-md-1 `}>
+            <div className={`${Modules.rowTwoDiv}  py-4 mt-5`}>
               <h1 className="">Who Are We?</h1>
             </div>
             <div

@@ -889,10 +889,130 @@ body {
     padding-right:40px;
     height: 60vh;
   }
+  /* Changed Css Shadab  */
+  .content p {
+    width: 61.5rem;
+    font-size: 2.3ex;
+    margin-top: 40px;
+    margin-right: 64px;
+    width: 47rem;
+  }
+
+  .imageBox {
+    margin-top: 500px;
+    height: 500px;
+    width: 100%;
+  }
+
+  .imageBox img {
+    display: block;
+    margin-left: 1rem;
+    width: 850px;
+    transition: 500ms ease-in-out;
+  }
+
+  .startReason {
+    margin-top: 420px;
+  }
+
+  .whyStarted {
+    margin-top: 520px;
+    width: 55.7rem;
+  }
+
+  .reasonForStart {
+    width: 55.7rem;
+  }
+
+  .reasonForStart p {
+    margin-right: 64px;
+    font-size: 2.3ex;
+  }
+
+  /* Changed Css Anjali  */
+  .sec5bgimage {
+    position: relative;
+    margin-left: 60px;
+    width: auto;
+    margin-right: 30px;
+    margin-top: 10px;
+    z-index: 1;
+    width: 80%;
+  }
+
+  .sec5bgimage:hover {
+    transform: none;
+  }
+
+  .bgimage {
+    position: relative;
+    width: 80%;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 40px;
+  }
+
+  .section5 {
+    margin-top: 290px;
+    width: 100%;
+    height: 500px;
+    margin-right: 0;
+  }
+
+  .para1 {
+    font-size: 20px;
+    padding: 10px 60px 10px 60px;
+  }
+
+  .boxbg1 {
+    margin-top: 560px;
+    height: 200px;
+    justify-content: none;
+    align-items: left;
+    margin-left: 40px;
+
+  }
+
+  .boxbg2 {
+    height: 200px;
+    justify-content: none;
+    align-items: left;
+    margin-top: 560px;
+    margin-left: 40px;
+  }
+
+.boxbg3 {
+    height: 200px;
+    justify-content: none;
+    align-items: left;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 
+  .sbox {
+    height: 40px;
+    width: 120px;
+    transform: translate(-50%, -30%);
+    font-size: 19px;
+    align-items: center;
+  }
+
+  .collabs {
+    padding: 10px 40px 10px 30px;
+  }
+
+  .collabs h1 {
+    font-size: 50px;
+  }
+}
+
+.collabs p {
+  font-size: 17px;
+}
+
+
 /* Mobile screen can begin from here */
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
 
   /* Changed Css Shataxi */
   .section1,.section2{
@@ -916,7 +1036,7 @@ body {
   }
 
   .rowTwoRowPara>p {
-    padding-left: 0rem;
+    padding-left: 2rem;  
   }
   .rowNineCarouselWrapper{
    margin:2rem;
@@ -1051,6 +1171,9 @@ body {
 @media screen and (max-width: 575px) {
 
   /* Changed Css Shataxi */
+  .section1,.section2{
+    padding:2rem;
+  }
   .rowOneColOne>img {
     width: 100%;
     height: 100%;
@@ -1064,11 +1187,15 @@ body {
   .rowTwoDiv>h1 {
     padding-left: 1.5rem;
   }
-
-  .rowTwoRowPara>p {
-    padding-left: 0rem;
+  .rowTwoRowPara{
+    background-color: cornsilk;
   }
-
+  .rowTwoRowPara>p {
+    padding-left: 2rem; 
+  }
+  .rowNineCarouselWrapper{
+    margin:2rem;
+   }
   .rowNineCarouselDiv img {
     padding-left:30px;
     padding-right:30px;

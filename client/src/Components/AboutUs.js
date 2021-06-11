@@ -4,7 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Modules from "./AboutUs.module.css";
 import { Carousel } from "react-responsive-carousel";
 
-import "./Carousel/Carousel.css";
+import "./Carousel/Carousel.css"; 
+/* import './Carousel.css'; */
 
 class AboutUs extends Component {
   constructor() {
@@ -29,6 +30,12 @@ class AboutUs extends Component {
           Img2: require('../AboutUsImages/Section7_2.jpeg').default,
           Img3: require('../AboutUsImages/Section7_3.jpeg').default,
           Img4: require('../AboutUsImages/Section7_4.jpeg').default
+        },
+        Section7b: {
+          Img1: require('../AboutUsImages/Section7b_1.png').default,
+          Img2: require('../AboutUsImages/Section7b_2.png').default,
+          Img3: require('../AboutUsImages/Section7b_3.png').default,
+          Img4: require('../AboutUsImages/Section7b_4.png').default
         },
         Section8: require('../AboutUsImages/Section8.jpeg').default,
         Section9: {
@@ -274,11 +281,11 @@ class AboutUs extends Component {
           </Row>
           </Container>
           {/* Section 7b */}
-          {this.state.display1 &&
+          {/* {this.state.display1 &&
           <Container className={Modules.container71}>
             <Row className={Modules.cardBox}>
               <Col className={Modules.founder}>
-                <img className={Modules.foundersImage} src={this.state.image.Section7.Img1} />
+                <img className={Modules.foundersImage} src={this.state.image.Section7b.Img1} />
               </Col>
               <Col>
                 <div className={Modules.infoBox}>
@@ -286,18 +293,30 @@ class AboutUs extends Component {
                   <p>Dr. Rakesh Jain</p>
                 </div>
                 <div className={Modules.fullDetail}>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer tristique pellentesque dignissim. Nam eget molestie
-                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Integer
-                    tristique pellentesque dignissim. Nam eget molestie tortor.
-                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Integer tristique
-                    pellentesque dignissim. Nam eget molestie tortor. Ut at
-                    placerat ex. Suspendisse potenti. Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit. Integer tristique pellentesque
-                    gnissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer tristique pellentesque dignissim. </p>
+                  <p>Dr. Rakesh Jain is the Secretary General of the Rehabilitation 
+                    Society of the Visually Impaired and Associate Professor 
+                    and Head Department of English, National Post Graduate College, 
+                    Lucknow. Dr. Jain is a well-known name in the field of social 
+                    service and has been associated with many national level 
+                    organizations working for the blind welfare. <br></br>
+                    He was awarded Junior Research Fellowship and Senior Research 
+                    Fellowship for his Ph.D. in English Literature and he was 
+                    also awarded Research Associate ship by the University Grants 
+                    Commission for his Post-Doctoral Research in his discipline. <br></br>
+                    His journey as a social worker began at a very young age when 
+                    he joined an organization working for last 30 years or so. 
+                    He has served the organisation in different capacities. 
+                    He wanted to enthuse a new life in the organisation by 
+                    broadening its scope to include services like education 
+                    and training of the visually impaired in various specialisations 
+                    so that they could become useful citizens of the country and 
+                    work shoulder to shoulder with the fellow countrymen. <br></br> 
+                    With this objective in mind Dr. Jain launched an organisation 
+                    in 2005. The organisation has accomplished a lot during this 
+                    short period of time. The RSVI is running a number of projects 
+                    of its own and is providing technical support to a number of 
+                    institutions and schools for the blind. 
+                  </p>
                 </div>
               </Col>
             </Row>
@@ -311,22 +330,36 @@ class AboutUs extends Component {
                   <p>Dr. Shraddha Srivastava</p>
                 </div>
                 <div className={Modules.fullDetail2}>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer tristique pellentesque dignissim. Nam eget molestie
-                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Integer
-                    tristique pellentesque dignissim. Nam eget molestie tortor.
-                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit. Integer tristique pellentesque
-                    dignissim. Nam eget molestie tortor. Ut at placerat ex.
-                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Integer tristique pellentesque dignissim.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                    tristique pellentesque dignissim. </p>
+                  <p>Ms. Shraddha Srivastava is a bonafide advocate at Lucknow 
+                    High Court with accolades in Social Work, Political Science 
+                    and Journalism and Mass Communication. She has played an 
+                    instrumental role in the growth of RSVI since its inception. 
+                    Over the course of her years at RSVI, she has worked various 
+                    job roles including that of a Chief Executive Secretary, 
+                    Treasurer, Course Coordinator and finally is currently working 
+                    in the capacity of a CEO.<br></br>
+                    Shraddha is also registered as a special educator for visual 
+                    impairment, hearing impairment and mental retardation with 
+                    Rehabilitation Council of India (RCI). She has successfully 
+                    trained groups and individuals in 25+ entities from all 
+                    across India, collaborated with 20+ NGOs and has mentored 
+                    50+ Special Case Organisations with widespread domains. 
+                    She is also the recipient of more than 15 awards and honours 
+                    from various prestigious organisations. Apart from working for 
+                    RSVI, Shradhha is also a Partner at SRS Enterprises, RJ at FM 
+                    Rainbow, announcer in All India Radio and has been hosting the 
+                    CMS Community Radio Channel Programmes as an anchor since 2009.
+                    <br></br>
+                    All of these achievements and experiences along with her 
+                    humility makes Ms. Srivastava an invaluable part of RSVI as 
+                    all of her contributions and guidance have acted as a tremendous 
+                    catalyst of growth for the organisation and continues to inspire 
+                    many to strive for more and lead RSVI to greater heights.
+                  </p>
                 </div>
               </Col>
               <Col className={Modules.ceo}>
-                <img className={Modules.ceoImage} src={this.state.image.Section7.Img2} />
+                <img className={Modules.ceoImage} src={this.state.image.Section7b.Img2} />
               </Col>
             </Row>
           </Container>}
@@ -334,7 +367,7 @@ class AboutUs extends Component {
           <Container className={Modules.container73}>
             <Row className={Modules.cardBox}>
               <Col className={Modules.founder}>
-                <img className={Modules.foundersImage} src={this.state.image.Section7.Img3} />
+                <img className={Modules.foundersImage} src={this.state.image.Section7b.Img3} />
               </Col>
               <Col>
                 <div className={Modules.infoBox3}>
@@ -342,18 +375,26 @@ class AboutUs extends Component {
                   <p>Ms. Satakshi Gupta</p>
                 </div>
                 <div className={Modules.fullDetail}>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer tristique pellentesque dignissim. Nam eget molestie
-                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Integer tristique
-                    pellentesque dignissim. Nam eget molestie tortor. Ut at
-                    placerat ex. Suspendisse potenti. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Integer tristique pellentesque
-                    dignissim. Nam eget molestie tortor. Ut at placerat ex.
-                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Integer tristique pellentesque dignissim.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer tristique pellentesque dignissim. </p>
+                  <p>
+                  Ms. Satakshi Gupta plays a core part as Daisy incharge , 
+                  recordist , voice editor and yoga trainer in Rehabilitation 
+                  Society of the Visually Impaired. She joined RSVI in 2006 
+                  with graduation and PG diploma in communication also with a 
+                  number of professional qualifications such as <br></br>
+                  Certified child counselor <br></br>
+                  Certified marriage ,relationship and family counselor <br></br>
+                  Certified Emotional Freedom technique (EFT) practioner <br></br>
+                  Certified Neuro -Linguistic <br></br>
+                  Programing (NLP) practioner <br></br>
+                  Reiki healer and Mudra therapist <br></br>
+                  Self love and life coach <br></br>
+                  She has not only working experience with RSVI but also with : <br></br>
+                  AIR , Lucknow as Compere <br></br>
+                  Radio Afsana as radio Jockey trainee <br></br>
+                  Bula Masti, Canada as Internet RJ <br></br>
+                  Rehabilitation Society Of the Visually Impaired is immensely 
+                  glad for her contribution and to be a part of RSVI
+                  </p>
                 </div>
               </Col>
             </Row>
@@ -367,25 +408,166 @@ class AboutUs extends Component {
                   <p>Nagesh Kumar Pandey</p>
                 </div>
                 <div className={Modules.fullDetail2}>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer tristique pellentesque dignissim. Nam eget molestie
-                    tortor. Ut at placerat ex. Suspendisse potenti. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Integer
-                    tristique pellentesque dignissim. Nam eget molestie tortor.
-                    Ut at placerat ex. Suspendisse potenti. Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit. Integer tristique pellentesque
-                    dignissim. Nam eget molestie tortor. Ut at placerat ex.
-                    Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Integer tristique pellentesque dignissim.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer tristique pellentesque dignissim. </p>
+                  <p>
+                  He's from middle-class family, his whole family has provided 
+                  social services to handicapped people and taken care of their 
+                  education for around 40 years. Nagesh Kumar is continuing their 
+                  legacy by working for visually impaired people.<br></br>
+                  To help financially unstable, dependent and also handicapped 
+                  people more effectively, he got special education in B.Ed. 
+                  Degree. Then after to work more effectively for handicapped 
+                  people's right, he got PHD in social working. He is working 
+                  for visually impaired people for 11 years and since last 
+                  7 years he's also providing services to old aged, poor 
+                  females and children, animals, children from youth detention 
+                  center (juvenile detention center- JDC) etc. He's also 
+                  providing technical services in RSVI's audio books. <br></br>
+                  He has been a technical expert in UP and other states too. 
+                  He's spreading awareness about visually impaired and their 
+                  education in UP and other Indian states too. He's also 
+                  helping in developing software and hardware activities 
+                  in India and abroad activities too.<br></br>
+                  After seeing his infinite services to these handicapped 
+                  institutes, he awarded state level in 2018 by UP govt.
+                  </p>
                 </div>
               </Col>
               <Col className={Modules.ceo}>
-                <img className={Modules.ceoImage} src={this.state.image.Section7.Img4} />
+                <img className={Modules.ceoImage} src={this.state.image.Section7b.Img4} />
               </Col>
             </Row>
-          </Container>}
+          </Container>} */}
+          {this.state.display1 &&
+          <Row className={`${Modules.sectionSevenb} ${Modules.sectionSevenRow1}`}>
+            <Row className={`${Modules.innerRow}`}>
+              <Col className={`${Modules.row1Col1} col-md-4`}>
+                  <img className={`${Modules.image7}`} src={this.state.image.Section7b.Img1} alt='Founder'></img>
+              </Col>
+              <Col className={`${Modules.row1Col2}`}>
+                  <Row className={`${Modules.cWrap} ${Modules.wrap1}`}>
+                      <h2>FOUNDER</h2>
+                      <h4>Dr. Rakesh Jain</h4>
+                  </Row>
+                  <Row className={`${Modules.cWrap}`}>
+                      <p><strong>Dr. Rakesh Jain</strong> is the Secretary General of the 
+                          Rehabilitation Society of the Visually Impaired and Associate 
+                          Professor and Head Department of English, National Post 
+                          Graduate College, Lucknow. Dr. Jain is a well known name in 
+                          the field of social service and has been associated with many 
+                          national level organizations working for the blind welfare. 
+                      </p><p>
+                          He was awarded Junior Research Fellowship and Senior Research 
+                          Fellowship for his Ph.D. in English Literature and he was also 
+                          awarded Research Associate ship by the University Grants 
+                          Commission for his Post-Doctoral Research in his discipline. </p><p>{/* <br></br><br></br> */}
+                          Dr. Jain launched an organisation in 2005. The organisation 
+                          has accomplished a lot during this short period of time.</p>
+                  </Row>
+              </Col>
+            </Row>
+          </Row>}
+          {this.state.display2 &&
+          <Row className={`${Modules.sectionSevenb} ${Modules.sectionSevenRow2}`}>
+            <Row className={`${Modules.innerRow}`}>
+              <Col className={`${Modules.row2Col1}`}>
+                  <Row className={`${Modules.cWrap} ${Modules.wrap2}`}>
+                      <h2>CEO</h2>
+                      <h4>Ms. Shraddha Srivastava</h4>
+                  </Row>
+                  <Row className={`${Modules.cWrap}`}>
+                      <p><strong>Ms. Shraddha Srivastava</strong> has been instrumental in 
+                      growth of RSVI since inception. She is woman of 
+                      substance with multiple projects in her portfolio. 
+                      </p><p>She is an Advocate (Specialization Disability
+                      Sector) at High Court Lucknow Working in the field of
+                      Rehabilitation of the Visually Impaired - RSVI since 2006 in the
+                      various capacities including Chief Executive Secretary &
+                      Treasurer of RSVI, as well as Course-co-ordinator D.Ed.S.E.V.I.
+                      (Diploma in Education, Special Education Visual Impairment)</p>
+                  </Row>
+              </Col>
+              <Col className={`${Modules.row2Col2} col-md-4`}>
+                  <img className={`${Modules.image7}`} src={this.state.image.Section7b.Img2} alt='Ceo'></img>
+              </Col>
+            </Row>
+          </Row>}
+          {this.state.display3 &&
+          <Row className={`${Modules.sectionSevenb} ${Modules.sectionSevenRow3}`}>
+            <Row className={`${Modules.innerRow}`}>
+              <Col className={`${Modules.row3Col1} col-md-4`}>
+                  <img className={`${Modules.image7}`} src={this.state.image.Section7b.Img3} alt='Roots1'></img>
+              </Col>
+              <Col className={`${Modules.row3Col2}`}>
+              <Row className={`${Modules.cWrap} ${Modules.wrap3}`}>
+                      <h2>Roots</h2>
+                      <h4>Ms. Satakshi Gupta</h4>
+                  </Row>
+                  <Row className={`${Modules.cWrap}`}>
+                      <p><strong>Ms. Satakshi Gupta</strong> plays a core part as Daisy incharge , 
+                      recordist , voice editor and yoga trainer in Rehabilitation 
+                      Society of the Visually Impaired. She joined RSVI in 2006 
+                      with graduation and PG diploma in communication also with a 
+                      number of professional qualifications such as: </p><p> 
+                      <ul>
+                          <li>Certified child counselor</li>
+                          <li>Certified marriage ,relationship and family counselor</li>
+                          <li>Certified Emotional Freedom technique (EFT) practioner</li>
+                          <li>Certified Neuro -Linguistic</li>
+                          <li>Programming (NLP) practioner</li>
+                          <li>Reiki healer and Mudra therapist</li>
+                          <li>Self love and life coach</li>
+                      </ul>
+                         </p><p>
+                        She not only has a working experience with RSVI but also with : 
+                        <ul>
+                            <li>AIR , Lucknow as Compere </li>
+                            <li>Radio Afsana as radio Jockey trainee</li>
+                            <li>Bula Masti, Canada as Internet RJ</li>
+                        </ul>
+                        </p><p>
+                        Rehabilitation Society Of the Visually Impaired is immensely 
+                        glad for her contribution and to be a part of RSVI
+                        </p>
+                  </Row>
+              </Col>
+            </Row>
+          </Row>}
+          {this.state.display4 &&
+          <Row className={`${Modules.sectionSevenb} ${Modules.sectionSevenRow4}`}>
+            <Row className={`${Modules.innerRow}`}>
+              <Col className={`${Modules.row4Col1}`}>
+              <Row className={`${Modules.cWrap} ${Modules.wrap4}`}>
+                      <h2>ROOTS</h2>
+                      <h4>Mr. Nagesh Kumar Pandey</h4>
+                  </Row>
+                  <Row className={`${Modules.cWrap}`}>
+                      <p><strong>Mr. Nagesh Kumar Pandey</strong> is from middle-class family, his whole family has provided 
+                      social services to handicapped people and taken care of their 
+                      education for around 40 years. Nagesh Kumar is continuing their 
+                      legacy by working for visually impaired people.</p><p>
+                      To help financially unstable, dependent and also handicapped 
+                      people more effectively, he got special education in B.Ed. 
+                      Degree. Then after to work more effectively for handicapped 
+                      people's right, he got PHD in social working. He is working 
+                      for visually impaired people for 11 years and since last 
+                      7 years he's also providing services to old aged, poor 
+                      females and children, animals, children from youth detention 
+                      center (juvenile detention center- JDC) etc. He's also 
+                      providing technical services in RSVI's audio books.</p><p>
+                      He has been a technical expert in UP and other states too. 
+                      He's spreading awareness about visually impaired and their 
+                      education in UP and other Indian states too. He's also 
+                      helping in developing software and hardware activities 
+                      in India and abroad activities too.</p><p>
+                      After seeing his infinite services to these handicapped 
+                      institutes, he awarded state level in 2018 by UP govt.</p>
+                  </Row>
+              </Col>
+              <Col className={`${Modules.row4Col2} col-md-4`}>
+                  <img className={`${Modules.image7}`} src={this.state.image.Section7b.Img4} alt='Roots2'></img>
+              </Col>
+            </Row>
+          </Row>}
           {/* **************** Row 8 **************** */}
           {/* Anjali */}
           {/* <Container> */}

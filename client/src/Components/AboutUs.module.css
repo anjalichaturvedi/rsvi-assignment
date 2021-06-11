@@ -368,13 +368,13 @@ body {
   background-attachment: fixed;
 }
 /*************Section7b****************************/
-.container71 {
+/* .container71 {
   position: relative;
   height: 100vh;
   width: 100%;
   background-image: url("../AboutUsImages/backRed.png");
   background-attachment: inherit;
-  /* padding: 50px 50px; */
+  padding: 50px 50px; 
 }
 
 .cardBox {
@@ -402,7 +402,6 @@ body {
   transform: translate(-65%, -50%);
   height: 80%;
   width: 66%;
-  border-radius: 50%;
 }
 
 .infoBox {
@@ -441,11 +440,14 @@ body {
 }
 
 .fullDetail p {
-  font-size: 21px;
-}
+  font-size: 14px;
+  text-align: justify;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
+} */
 
 /*************************** code for second card *********************/
-.container72 {
+/* .container72 {
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -492,13 +494,15 @@ body {
   position: absolute;
   right: 40%;
   top: 140px;
-  /* text-align: justify; */
+  text-align: justify; 
 }
 
 .fullDetail2 p {
-  font-size: 21px;
   margin-left: 25px;
+  font-size: 14px;
   text-align: justify;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
 }
 
 .ceo {
@@ -515,11 +519,11 @@ body {
   transform: translate(-50%, -50%);
   height: 80%;
   width: 80%;
-  border-radius: 50%;
+  border-radius: 50%; 
 }
-
+ */
 /**************** code for the third card ****************/
-.container73 {
+/* .container73 {
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -553,9 +557,9 @@ body {
   top: 50px;
   left: 20px;
 }
-
+ */
 /**************** code for the fourth card ****************/
-.container74 {
+/* .container74 {
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -588,8 +592,105 @@ body {
   font-size: 26px;
   top: 50px;
   left: 20px;
+} */
+/*************Section7b**************/
+.sectionSevenb{
+  max-width: 100%;
+  padding: 60px 60px;
+  /* border-radius: 8px; */
+  margin: 0px 0px;
+}
+.sectionSevenRow1{
+  background-image: url('../AboutUsImages/backRed.png');
+  background-attachment: inherit;
+}
+.sectionSevenRow2{
+  background-image: url('../AboutUsImages/backYellow.png');
+  background-attachment: inherit;
+}
+.sectionSevenRow3{
+  background-image: url('../AboutUsImages/backGreen.png');
+  background-attachment: inherit;
+}
+.sectionSevenRow4{
+  background-image: url('../AboutUsImages/backBlue.png');
+  background-attachment: inherit;
+}
+.innerRow{
+  max-width: 100%;
+  background-color: white;
+  padding: 10px 10px;
+  /* border-radius: 8px; */
+  margin: 0px 0px;
+}
+.row1Col2 , .row3Col2, .row2Col1 , .row4Col1{
+  margin: 20px 20px;
+}
+.row1Col1 , .row3Col1 , .row2Col2 , .row4Col2{
+  margin: 20px 20px;
+  align-self: center;
+} 
+.image7{
+  width: 400px;
+  height: 400px;
+  /* border-radius: 50%; */
 }
 
+.cWrap{
+  width: auto;
+  height: auto;
+}
+.cWrap > h2{
+  font-size: 30px;
+  font-weight: 450;
+  text-transform: uppercase;
+}
+
+.cWrap > h4{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.cWrap > p{
+  font-size: 20px;
+  font-weight: 250;
+  word-spacing: 5px;
+  text-align: justify;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.wrap1{
+  padding: 10px 10px;
+  background-image: url('../AboutUsImages/backRed.png');
+  background-attachment: inherit;
+  width: 40%;
+  text-align: start;
+}
+
+.wrap2{
+  padding: 10px 10px;
+  background-image: url('../AboutUsImages/backYellow.png');
+  background-attachment: inherit;
+  width: 42%;
+  text-align: start;
+}
+
+.wrap3{
+  padding: 10px 10px;
+  background-image: url('../AboutUsImages/backGreen.png');
+  background-attachment: inherit;
+  width: 40%;
+  text-align: start;
+}
+
+.wrap4{
+  padding: 10px 10px;
+  background-image: url('../AboutUsImages/backBlue.png');
+  background-attachment: inherit;
+  width: 43%;
+  text-align: start;
+}
 /* Default Css Anjali for Row 8 */
 .collabs {
   margin-top: 20px;
@@ -646,8 +747,8 @@ body {
 }
 
 .rowNineCarouselDiv img {
-  width: 50%;
-  height: 60vh;
+  /* width: 50%;
+  height: 60vh; */
   padding: 25px 80px;
   /* padding: 2px; */
 }

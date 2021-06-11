@@ -357,7 +357,7 @@ body {
 .row1Col1 , .row3Col1 , .row2Col2 , .row4Col2{
   margin: 20px 20px;
   align-self: center;
-} 
+}
 .image7{
   width: 400px;
   height: 400px;
@@ -533,13 +533,13 @@ body {
   /* Changed Css Anjali  */
   .sec5bgimage {
     z-index: -1;
-    margin-left: 200px;
+    align-items: center;
     margin-top: 5px;
     width: 70%;
   }
 
   .bgimage {
-    margin-left: 10%;
+    align-items: center;
     margin-top: 50px;
     width: 80%;
   }
@@ -660,6 +660,84 @@ body {
   .reasonForStart p {
     /* font-size: 2.9ex; */
   }
+  /*Anjali CSS */
+  .sec5bgimage {
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 70%;
+  }
+
+  .bgimage {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%;
+  }
+
+  .section5 {
+    font-size: 25px;
+    margin-top: 300px;
+    background-size: 100% 90%;
+    height: auto;
+  }
+
+  .para1 {
+    padding: 50px 80px 50px 80px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .boxbg1 {
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 270px;
+  }
+
+  .boxbg2 {
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 270px;
+  }
+
+  .boxbg3 {
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 270px;
+  }
+
+  .sbox {
+    height: 48px;
+    width: 180px;
+    margin-left: 150px;
+    background-size: 50% 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -20%);
+    font-size: 26px;
+  }
+
+  .collabs {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 30px 180px 30px 180px;
+  }
+
+  .collabs h1 {
+    font-size: 48px;
+  }
+
+  .collabs p {
+    font-size: 20px;
+    word-spacing: 5px;
+  }
+
+  .collabbutton {
+    margin-top: 10px;
+    padding: 13px 15px;
+    font-size: 17px;
+  }
 }
 
 /*** Assuming default css will be applied from 1300px to 1589px ***/
@@ -733,57 +811,48 @@ body {
   /* Changed Css Anjali  */
   .sec5bgimage {
     z-index: -1;
-    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
     margin-top: 5px;
     width: 70%;
   }
 
   .bgimage {
-    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
     width: 80%;
-  }
-
-  .sec5bgimage:hover {
-    z-index: 5;
-    transform: scale(1.1);
   }
 
   .section5 {
     font-size: 25px;
     margin-top: 300px;
-    margin-bottom: 50px;
     background-size: 100% 90%;
-    height: 400px;
+    height: auto;
   }
 
   .para1 {
-    padding: 50px 80px 0px 80px;
+    padding: 50px 80px 50px 80px;
     margin-bottom: 0px;
     font-size: 20px;
   }
 
   .boxbg1 {
     height: 300px;
-    margin-left: 40px;
-    margin-top: 350px;
-  }
-
-  .boxbg1:hover {
-    transform: scale(1.1);
+    margin-left: 60px;
+    margin-top: 270px;
   }
 
   .boxbg2 {
     height: 300px;
-    margin-left: 40px;
-    margin-top: 350px;
-    transition: 300ms ease-in-out;
+    margin-left: 50px;
+    margin-top: 270px;
   }
 
   .boxbg3 {
     height: 300px;
     margin-left: 40px;
-    margin-top: 350px;
+    margin-top: 270px;
   }
 
   .sbox {
@@ -1045,13 +1114,15 @@ body {
   /* Changed Css Anjali  */
   .sec5bgimage {
     z-index: -1;
-    margin-left: 200px;
     margin-top: 5px;
-    width: 80%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
   }
 
   .bgimage {
-    margin-left: 12%;
+    margin-left: 5%;
     margin-top: 50px;
     width: 90%;
   }
@@ -1065,20 +1136,21 @@ body {
     font-size: 25px;
     margin-top: 300px;
     margin-bottom: 50px;
-    background-size: 100% 100%;
-    height: 400px;
-    width: 1190px;
+    height: auto;
+    width: 101%;
+    justify-content: center;
+    align-items: center;
   }
 
   .para1 {
-    padding: 50px 80px 0px 80px;
+    padding: 50px 80px 50px 80px;
     margin-bottom: 0px;
     font-size: 20px;
   }
 
   .boxbg1 {
-    margin-top: 370px;
-    height:300px;
+    margin-top: 450px;
+    height:250px;
     justify-content: none;
     align-items: left;
     margin-left: 24px;
@@ -1086,19 +1158,19 @@ body {
   }
 
   .boxbg2 {
-    height: 300px;
+    height: 250px;
     justify-content: none;
     align-items: left;
-    margin-top: 370px;
+    margin-top: 450px;
     margin-left: 23px;
   }
 
 .boxbg3 {
-    height: 300px;
+    height: 250px;
     justify-content: none;
     align-items: left;
     margin-left: 5px;
-    margin-top: 370px;
+    margin-top: 450px;
 }
 
   .sbox {
@@ -1107,14 +1179,14 @@ body {
     transform: translate(0%, -30%);
     font-size: 20px;
     align-items: center;
-    margin-left: 120px;
+    margin-left: 100px;
   }
 
   .collabs {
     margin-top: 20px;
     margin-bottom: 50px;
-    padding: 30px 180px 30px 180px;
-    width: 1190px;
+    padding: 30px 100px 30px 100px;
+    width: 101%;
   }
 
   .collabs h1 {
@@ -1124,6 +1196,7 @@ body {
   .collabs p {
     font-size: 20px;
     word-spacing: 5px;
+    text-align: left;
   }
 
   .collabbutton {
@@ -1203,12 +1276,13 @@ body {
   /* Changed Css Anjali  */
   .sec5bgimage {
     position: relative;
-    margin-left: 60px;
+    margin-left: 15%;
     width: auto;
     margin-right: 30px;
     margin-top: 10px;
-    z-index: 1;
-    width: 80%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
   }
 
   .sec5bgimage:hover {
@@ -1218,25 +1292,25 @@ body {
   .bgimage {
     position: relative;
     width: 80%;
-    margin-left: 60px;
-    margin-right: 30px;
     margin-top: 40px;
+    justify-content: center;
+    align-items: center;
   }
 
   .section5 {
     margin-top: 300px;
     width: 100%;
-    height: 300px;
+    height: auto;
     margin-right: 0;
   }
 
   .para1 {
     font-size: 15px;
-    padding: 10px 60px 10px 60px;
+    padding: 20px 60px 20px 60px;
   }
 
   .boxbg1 {
-    margin-top: 350px;
+    margin-top: 300px;
     height:200px;
     justify-content: none;
     align-items: left;
@@ -1248,7 +1322,7 @@ body {
     height: 200px;
     justify-content: none;
     align-items: left;
-    margin-top: 350px;
+    margin-top: 300px;
     margin-left: 13px;
   }
 
@@ -1257,7 +1331,7 @@ body {
     justify-content: none;
     align-items: left;
     margin-left: -5px;
-    margin-top: 350px;
+    margin-top: 300px;
 }
 
   .sbox {
@@ -1358,12 +1432,12 @@ body {
   /* Changed Css Anjali  */
   .sec5bgimage {
     position: relative;
-    margin-left: 60px;
-    width: auto;
-    margin-right: 30px;
     margin-top: 10px;
     z-index: 1;
     width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11%;
   }
 
   .sec5bgimage:hover {
@@ -1373,25 +1447,25 @@ body {
   .bgimage {
     position: relative;
     width: 80%;
-    margin-left: 60px;
-    margin-right: 30px;
     margin-top: 40px;
+    justify-content: center;
+    align-items: center;
   }
 
   .section5 {
     margin-top: 290px;
-    width: 100%;
-    height: 500px;
+    width: 103%;
+    height: auto;
     margin-right: 0;
   }
 
   .para1 {
-    font-size: 20px;
+    font-size: 17px;
     padding: 10px 60px 10px 60px;
   }
 
   .boxbg1 {
-    margin-top: 560px;
+    margin-top: 370px;
     height: 200px;
     justify-content: none;
     align-items: left;
@@ -1403,37 +1477,39 @@ body {
     height: 200px;
     justify-content: none;
     align-items: left;
-    margin-top: 560px;
-    margin-left: 40px;
+    margin-top: 370px;
+    margin-left: 30px;
   }
 
 .boxbg3 {
     height: 200px;
     justify-content: none;
     align-items: left;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 370px;
+    margin-left: 20px;
 }
 
   .sbox {
-    height: 40px;
-    width: 120px;
-    transform: translate(-50%, -30%);
-    font-size: 19px;
+    height: 31px;
+    width: 79px;
+    transform: translate(-60%, -30%);
+    font-size: 16px;
     align-items: center;
   }
 
   .collabs {
     padding: 10px 40px 10px 30px;
+    width: 103%;
   }
 
   .collabs h1 {
     font-size: 50px;
   }
-}
 
-.collabs p {
-  font-size: 17px;
+  .collabs p {
+    font-size: 17px;
+    text-align: left;
+  }
 }
 
 
@@ -1462,7 +1538,7 @@ body {
   }
 
   .rowTwoRowPara>p {
-    padding-left: 2rem;  
+    padding-left: 2rem;
   }
   .rowNineCarouselWrapper{
    margin:2rem;
@@ -1537,10 +1613,11 @@ body {
   }
 
   .section5 {
-    margin-top: 210px;
-    width: 102%;
-    height: 400px;
-    margin-right: 0;
+    margin-top: 230px;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .para1 {
@@ -1549,11 +1626,11 @@ body {
   }
 
   .boxbg1 {
-    margin-top: 450px;
+    margin-top: 440px;
     height: 140px;
     justify-content: none;
     align-items: left;
-    margin-left: 30px;
+    margin-left: 40px;
 
   }
 
@@ -1561,8 +1638,8 @@ body {
     height: 140px;
     justify-content: none;
     align-items: left;
-    margin-top: 450px;
-    margin-left: 10px;
+    margin-top: 440px;
+    margin-left: 15px;
   }
 
 .boxbg3 {
@@ -1570,7 +1647,7 @@ body {
     justify-content: none;
     align-items: left;
     margin-left: -5px;
-    margin-top: 450px;
+    margin-top: 440px;
 }
 
   .sbox {
@@ -1584,6 +1661,8 @@ body {
 
   .collabs {
     padding: 10px 40px 10px 30px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .collabs h1 {
@@ -1620,7 +1699,7 @@ body {
     background-color: cornsilk;
   }
   .rowTwoRowPara>p {
-    padding-left: 2rem; 
+    padding-left: 2rem;
   }
   .rowNineCarouselWrapper{
     margin:2rem;
@@ -1673,12 +1752,12 @@ body {
   /* Changed Css Anjali  */
   .sec5bgimage {
     position: relative;
-    margin-left: 20px;
     width: auto;
-    margin-right: 30px;
     margin-top: 10px;
     z-index: 1;
     width: 90%;
+    margin-left: 5%;
+    justify-content: center;
   }
 
   .sec5bgimage:hover {
@@ -1686,10 +1765,11 @@ body {
   }
 
   .section5 {
-    margin-top: 170px;
-    width: 100%;
-    height: 550px;
-    margin-right: 0;
+    margin-top: 250px;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .para1 {
@@ -1699,12 +1779,12 @@ body {
   }
 
   .boxbg1 {
-    margin-top: 600px;
+    margin-top: 440px;
     height: 300px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    margin-left: 40px;
+    margin-left: 25%;
   }
 
   .boxbg2 {
@@ -1712,8 +1792,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 25%;
+    margin-top: 10px;
   }
 
   .boxbg3 {
@@ -1721,21 +1801,21 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 25%;
+    margin-top: 10px;
   }
 
   .sbox {
     height: 45px;
     width: 150px;
-    transform: translate(-24%, -30%);
+    transform: translate(50%, -30%);
     font-size: 23px;
     align-items: center;
   }
 
   .bgimage {
     position: relative;
-    margin-left: 40px;
+    margin-left: 60px;
     width: auto;
     margin-right: 30px;
     margin-top: 20px;
@@ -1745,6 +1825,9 @@ body {
 
   .collabs {
     padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: column;
   }
 
   .collabs h1 {
@@ -1764,7 +1847,6 @@ body {
     font-size: 15px;
     margin-bottom: 20px;
   }
-
 }
 
 @media screen and (max-width: 444px) {
@@ -1777,8 +1859,115 @@ body {
     padding-top:0;
   }
   .rowNineCarouselDiv img {
-    
+
     padding:0;
     height: 40vh;
+  }
+
+  .boxbg1 {
+    margin-top: 700px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 17%;
+  }
+
+  .boxbg2 {
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 17%;
+    margin-top: 8px;
+  }
+
+  .boxbg3 {
+    height: 250px;
+    margin-right: 20px;
+    margin-left: 17%;
+    margin-top: 8px;
+  }
+
+  .sbox {
+    height: 40px;
+    width: 110px;
+    transform: translate(0%, -30%);
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .section5 {
+    margin-top: 180px;
+  }
+
+  .bgimage {
+    position: relative;
+    margin-left: 45px;
+    width: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    z-index: 1;
+    width: 80%;
+  }
+
+  .collabs {
+    padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width:350px) {
+  .boxbg1 {
+    margin-top: 900px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 17%;
+  }
+
+  .boxbg2 {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 17%;
+    margin-top: 8px;
+  }
+
+  .boxbg3 {
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 17%;
+    margin-top: 8px;
+  }
+
+  .section5 {
+    margin-top: 140px;
+  }
+
+  .sbox {
+    height: 30px;
+    width: 90px;
+    transform: translate(-40%, -30%);
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .bgimage {
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .collabs h1 {
+    font-size: 34px;
+  }
+
+  .collabs p {
+    font-size: 14px;
   }
 }

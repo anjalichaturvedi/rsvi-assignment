@@ -2,7 +2,6 @@ body {
   overflow-x: hidden;
 }
 
-/**** Apeksha *******/
 .containerAboutUs {
   padding: 25px 0px;
   max-width: 100%;
@@ -24,7 +23,6 @@ body {
 
 /* styling for rowOneColTwo div */
 .rowOneColTwo {
-  /* background-color: orange; */
   background-image: url("../AboutUsImages/backRed.png");
   background-size: cover;
   background-position: center;
@@ -67,8 +65,6 @@ body {
 }
 
 .rowTwoDiv {
-  /*****Apeksha**********/
-  /* background-color: yellow; */
   background-image: url("../AboutUsImages/backYellow.png");
   background-attachment: inherit;
   background-size: cover;
@@ -80,7 +76,6 @@ body {
 .rowTwoDiv>h1 {
   font-family: "Cormorant Garamond", serif;
   font-weight: bolder;
-  /******Apeksha********/
   padding-left: 80px;
 }
 
@@ -94,24 +89,18 @@ body {
 
 .rowTwoRowPara {
   font-family: "Noto Sans HK", "Source Sans Pro";
-  /*****Apeksha**********/
   color: black;
   word-spacing: 5px;
-  /* background-color: cornsilk; */
   font-size: 18px;
 }
 
 .rowTwoRowPara>p {
   padding-left: 80px;
-  /******Apeksha********/
   padding-right: 80px;
   text-align: justify;
 }
 
 /* Default Css Shadab  for Row 3 and Row 4 */
-/* .container2{
-  width: 100%;
-} */
 .section3 {
   padding-top: 50px;
   height: 500px;
@@ -121,12 +110,10 @@ body {
 .content {
   background-image: url('../AboutUsImages/backGreen.png');
   background-attachment: inherit;
-  /* margin-top: 100px; */
   height: auto;
 }
 
 .content p {
-  /* margin-left: 64px; */
   padding-left: 80px;
   margin-right: 164px;
   /* display: inline-block; */
@@ -140,17 +127,14 @@ body {
 
 .imageBox {
   position: absolute;
-  /* margin-top: 100px; */
   height: 500px;
   align-items: center;
   text-align: center;
-  /* background-color: rgb(195, 245, 138); */
 }
 
 .imageBox img {
   position: absolute;
   margin: 50px 0px;
-  /* top: 9%; */
   height: 400px;
   width: 850px;
   align-items: center;
@@ -165,8 +149,6 @@ body {
 
 .whyStarted {
   height: 6rem;
-  /*****Apeksha**********/
-  /* background: rgb(130, 217, 233); */
   background-image: url('../AboutUsImages/backBlue.png');
   background-attachment: inherit;
 }
@@ -183,8 +165,6 @@ body {
 }
 
 .reasonForStart p {
-  /* margin-left: 64px;
-  margin-right: 64px; */
   padding: 25px 80px 25px 80px;
   line-height: normal;
   text-align: justify;
@@ -236,17 +216,6 @@ body {
   word-spacing: 5px;
 }
 
-/* .para2 {
-  padding: 0px 80px 0px 80px;
-  margin-bottom: 0px;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-  font-size: 20px;
-  font-family: "Noto Sans HK", "Source Sans Pro";
-  word-spacing: 5px;
-} */
-
 .boxbg1 {
   height: 400px;
   margin-left: 40px;
@@ -297,13 +266,7 @@ body {
 
 /* Default Css Shadab  for Row 7 */
 /* *************Section 7a *******************/
-/* .containerCards{
-  background-color: pink;
-} */
-
-/*Row and container area is same*/
 .sectionSeven{
-  /* background-color: palegoldenrod; */
   padding: 25px 0px;
 }
 
@@ -313,14 +276,6 @@ body {
   height: 100%;
   padding: 12px 12px;
 }
-/* .section7Col1 , .section7Col3 {
-  background-color: pink;
-}
-
-.section7Col2 , .section7Col4 {
-  background-color: gainsboro;
-}
- */
 .sevenImage{
   width: 100%;
   height: 300px;
@@ -367,237 +322,11 @@ body {
   background-image: url('../AboutUsImages/backBlue.png');
   background-attachment: fixed;
 }
-/*************Section7b****************************/
-/* .container71 {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  background-image: url("../AboutUsImages/backRed.png");
-  background-attachment: inherit;
-  padding: 50px 50px; 
-}
 
-.cardBox {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  height: 85%;
-  width: 90%;
-  background-color: white;
-  display: flex;
-}
-
-.founder {
-  position: relative;
-  height: 100%;
-  width: 45%;
-  float: left;
-}
-
-.foundersImage {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-65%, -50%);
-  height: 80%;
-  width: 66%;
-}
-
-.infoBox {
-  position: relative;
-  left: -128px;
-  top: 50px;
-  height: 90px;
-  width: 300px;
-  background-image: url("../AboutUsImages/backRed.png");
-  background-attachment: inherit;
-}
-
-.infoBox h2 {
-  position: absolute;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 26px;
-  top: 7px;
-  left: 20px;
-}
-
-.infoBox p {
-  position: absolute;
-  font-weight: 500;
-  font-size: 26px;
-  top: 50px;
-  left: 20px;
-}
-
-.fullDetail {
-  padding-top: 25px;
-  position: absolute;
-  width: 57.9%;
-  top: 140px;
-  right: 25px;
-}
-
-.fullDetail p {
-  font-size: 14px;
-  text-align: justify;
-  font-family: "Noto Sans HK", "Source Sans Pro";
-  word-spacing: 5px;
-} */
-
-/*************************** code for second card *********************/
-/* .container72 {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background-image: url("../AboutUsImages/backYellow.png");
-  background-attachment: inherit;
-}
-
-.details {
-  position: relative;
-  height: 100%;
-  width: 60%;
-  float: left;
-}
-
-.infoBox2 {
-  position: absolute;
-  left: 25px;
-  top: 50px;
-  height: 90px;
-  width: 300px;
-  background-image: url("../AboutUsImages/backYellow.png");
-  background-attachment: inherit;
-}
-
-.infoBox2 h2 {
-  position: absolute;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 26px;
-  top: 7px;
-  left: 20px;
-}
-
-.infoBox2 p {
-  position: absolute;
-  font-weight: 500;
-  font-size: 26px;
-  top: 50px;
-  left: 20px;
-}
-
-.fullDetail2 {
-  padding-top: 25px;
-  position: absolute;
-  right: 40%;
-  top: 140px;
-  text-align: justify; 
-}
-
-.fullDetail2 p {
-  margin-left: 25px;
-  font-size: 14px;
-  text-align: justify;
-  font-family: "Noto Sans HK", "Source Sans Pro";
-  word-spacing: 5px;
-}
-
-.ceo {
-  position: absolute;
-  right: 0;
-  height: 100%;
-  width: 40%;
-}
-
-.ceoImage {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  height: 80%;
-  width: 80%;
-  border-radius: 50%; 
-}
- */
-/**************** code for the third card ****************/
-/* .container73 {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background-image: url("../AboutUsImages/backGreen.png");
-  background-attachment: inherit;
-}
-
-.infoBox3 {
-  position: relative;
-  left: -128px;
-  top: 50px;
-  height: 90px;
-  width: 300px;
-  background-image: url("../AboutUsImages/backGreen.png");
-  background-attachment: inherit;
-}
-
-.infoBox3 h2 {
-  position: absolute;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 26px;
-  top: 7px;
-  left: 20px;
-}
-
-.infoBox3 p {
-  position: absolute;
-  font-weight: 500;
-  font-size: 26px;
-  top: 50px;
-  left: 20px;
-}
- */
-/**************** code for the fourth card ****************/
-/* .container74 {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background-image: url("../AboutUsImages/backBlue.png");
-  background-attachment: inherit;
-}
-
-.infoBox4 {
-  position: relative;
-  left: 15px;
-  top: 50px;
-  height: 90px;
-  width: 300px;
-  background-image: url("../AboutUsImages/backBlue.png");
-  background-attachment: inherit;
-}
-
-.infoBox4 h2 {
-  position: absolute;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 26px;
-  top: 7px;
-  left: 20px;
-}
-
-.infoBox4 p {
-  position: absolute;
-  font-weight: 500;
-  font-size: 26px;
-  top: 50px;
-  left: 20px;
-} */
 /*************Section7b**************/
 .sectionSevenb{
   max-width: 100%;
   padding: 60px 60px;
-  /* border-radius: 8px; */
   margin: 0px 0px;
 }
 .sectionSevenRow1{
@@ -620,7 +349,6 @@ body {
   max-width: 100%;
   background-color: white;
   padding: 10px 10px;
-  /* border-radius: 8px; */
   margin: 0px 0px;
 }
 .row1Col2 , .row3Col2, .row2Col1 , .row4Col1{
@@ -633,7 +361,6 @@ body {
 .image7{
   width: 400px;
   height: 400px;
-  /* border-radius: 50%; */
 }
 
 .cWrap{

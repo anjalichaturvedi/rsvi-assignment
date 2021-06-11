@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Modules from "./AboutUs.module.css";
 import { Carousel } from "react-bootstrap";
-import "./Carousel.css";
+import "./Carousel/Carousel.css";
 
 class AboutUs extends Component {
   constructor() {

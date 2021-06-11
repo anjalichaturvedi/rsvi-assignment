@@ -701,7 +701,94 @@ body {
   }
 
   /* Changed Css Anjali  */
+  .sec5bgimage {
+    z-index: -1;
+    margin-left: 200px;
+    margin-top: 5px;
+    width: 70%;
+  }
+
+  .bgimage {
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 80%;
+  }
+
+  .sec5bgimage:hover {
+    z-index: 5;
+    transform: scale(1.1);
+  }
+
+  .section5 {
+    font-size: 25px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    background-size: 100% 90%;
+    height: 400px;
+  }
+
+  .para1 {
+    padding: 50px 80px 0px 80px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .boxbg1 {
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 300px;
+  }
+
+  .boxbg1:hover {
+    transform: scale(1.1);
+  }
+
+  .boxbg2 {
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 300px;
+    transition: 300ms ease-in-out;
+  }
+
+  .boxbg3 {
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 300px;
+  }
+
+  .sbox {
+    height: 48px;
+    width: 180px;
+    margin-left: 150px;
+    background-size: 50% 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -30%);
+    font-size: 26px;
+  }
+
+  .collabs {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 30px 180px 30px 180px;
+  }
+
+  .collabs h1 {
+    font-size: 48px;
+  }
+
+  .collabs p {
+    font-size: 20px;
+    word-spacing: 5px;
+  }
+
+  .collabbutton {
+    margin-top: 10px;
+    padding: 13px 15px;
+    font-size: 17px;
+  }
 }
+
 
 /****Default****/
 @media screen and (min-width: 1300px) and (max-width: 1589px) {
@@ -814,6 +901,92 @@ body {
   }
 
   /* Changed Css Anjali  */
+  .sec5bgimage {
+    z-index: -1;
+    margin-left: 200px;
+    margin-top: 5px;
+    width: 70%;
+  }
+
+  .bgimage {
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 80%;
+  }
+
+  .sec5bgimage:hover {
+    z-index: 5;
+    transform: scale(1.1);
+  }
+
+  .section5 {
+    font-size: 25px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    background-size: 100% 90%;
+    height: 400px;
+  }
+
+  .para1 {
+    padding: 50px 80px 0px 80px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .boxbg1 {
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 350px;
+  }
+
+  .boxbg1:hover {
+    transform: scale(1.1);
+  }
+
+  .boxbg2 {
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 350px;
+    transition: 300ms ease-in-out;
+  }
+
+  .boxbg3 {
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 350px;
+  }
+
+  .sbox {
+    height: 48px;
+    width: 180px;
+    margin-left: 150px;
+    background-size: 50% 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -20%);
+    font-size: 26px;
+  }
+
+  .collabs {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 30px 180px 30px 180px;
+  }
+
+  .collabs h1 {
+    font-size: 48px;
+  }
+
+  .collabs p {
+    font-size: 20px;
+    word-spacing: 5px;
+  }
+
+  .collabbutton {
+    margin-top: 10px;
+    padding: 13px 15px;
+    font-size: 17px;
+  }
 }
 
 @media screen and (min-width: 1126px) and (max-width: 1259px) {
@@ -885,6 +1058,90 @@ body {
   }
 
   /* Changed Css Anjali  */
+  .sec5bgimage {
+    z-index: -1;
+    margin-left: 200px;
+    margin-top: 5px;
+    width: 80%;
+  }
+
+  .bgimage {
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  .sec5bgimage:hover {
+    z-index: 5;
+    transform: scale(1.1);
+  }
+
+  .section5 {
+    font-size: 25px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    background-size: 100% 100%;
+    height: 400px;
+    width: 1259px;
+  }
+
+  .para1 {
+    padding: 50px 80px 0px 80px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .boxbg1 {
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 400px;
+  }
+
+  .boxbg2 {
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 400px;
+    transition: 300ms ease-in-out;
+  }
+
+  .boxbg3 {
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 400px;
+  }
+
+  .sbox {
+    height: 48px;
+    width: 180px;
+    margin-left: 150px;
+    background-size: 50% 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -20%);
+    font-size: 26px;
+  }
+
+  .collabs {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 30px 180px 30px 180px;
+    width: 100%;
+  }
+
+  .collabs h1 {
+    font-size: 48px;
+  }
+
+  .collabs p {
+    font-size: 20px;
+    word-spacing: 5px;
+  }
+
+  .collabbutton {
+    margin-top: 10px;
+    padding: 13px 15px;
+    font-size: 17px;
+  }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1125px) {
@@ -956,6 +1213,94 @@ body {
   }
 
   /* Changed Css Anjali  */
+  .sec5bgimage {
+    z-index: -1;
+    margin-left: 200px;
+    margin-top: 5px;
+    width: 80%;
+  }
+
+  .bgimage {
+    margin-left: 12%;
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  .sec5bgimage:hover {
+    z-index: 5;
+    transform: scale(1.1);
+  }
+
+  .section5 {
+    font-size: 25px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    background-size: 100% 100%;
+    height: 400px;
+    width: 1190px;
+  }
+
+  .para1 {
+    padding: 50px 80px 0px 80px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .boxbg1 {
+    margin-top: 370px;
+    height:300px;
+    justify-content: none;
+    align-items: left;
+    margin-left: 24px;
+
+  }
+
+  .boxbg2 {
+    height: 300px;
+    justify-content: none;
+    align-items: left;
+    margin-top: 370px;
+    margin-left: 23px;
+  }
+
+.boxbg3 {
+    height: 300px;
+    justify-content: none;
+    align-items: left;
+    margin-left: 5px;
+    margin-top: 370px;
+}
+
+  .sbox {
+    height:43px;
+    width: 100px;
+    transform: translate(0%, -30%);
+    font-size: 20px;
+    align-items: center;
+    margin-left: 120px;
+  }
+
+  .collabs {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 30px 180px 30px 180px;
+    width: 1190px;
+  }
+
+  .collabs h1 {
+    font-size: 48px;
+  }
+
+  .collabs p {
+    font-size: 20px;
+    word-spacing: 5px;
+  }
+
+  .collabbutton {
+    margin-top: 10px;
+    padding: 13px 15px;
+    font-size: 17px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 999px) {
@@ -1025,6 +1370,87 @@ body {
   }
 
   /* Changed Css Anjali  */
+  .sec5bgimage {
+    position: relative;
+    margin-left: 60px;
+    width: auto;
+    margin-right: 30px;
+    margin-top: 10px;
+    z-index: 1;
+    width: 80%;
+  }
+
+  .sec5bgimage:hover {
+    transform: none;
+  }
+
+  .bgimage {
+    position: relative;
+    width: 80%;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 40px;
+  }
+
+  .section5 {
+    margin-top: 300px;
+    width: 100%;
+    height: 300px;
+    margin-right: 0;
+  }
+
+  .para1 {
+    font-size: 15px;
+    padding: 10px 60px 10px 60px;
+  }
+
+  .boxbg1 {
+    margin-top: 350px;
+    height:200px;
+    justify-content: none;
+    align-items: left;
+    margin-left: 30px;
+
+  }
+
+  .boxbg2 {
+    height: 200px;
+    justify-content: none;
+    align-items: left;
+    margin-top: 350px;
+    margin-left: 13px;
+  }
+
+.boxbg3 {
+    height: 200px;
+    justify-content: none;
+    align-items: left;
+    margin-left: -5px;
+    margin-top: 350px;
+}
+
+  .sbox {
+    height:34px;
+    width: 80px;
+    transform: translate(0%, -30%);
+    font-size: 17px;
+    align-items: center;
+    margin-left: 80px;
+  }
+
+  .collabs {
+    padding: 10px 40px 10px 30px;
+    width: 100%;
+  }
+
+  .collabs h1 {
+    font-size: 40px;
+  }
+  .collabs p {
+    font-size: 17px;
+    text-align: left;
+    margin-left: 20px;
+  }
 }
 
 /****Shataxi***/
@@ -1144,48 +1570,49 @@ body {
   }
 
   .section5 {
-    margin-top: 290px;
-    width: 100%;
-    height: 500px;
+    margin-top: 210px;
+    width: 102%;
+    height: 400px;
     margin-right: 0;
   }
 
   .para1 {
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px 60px 10px 60px;
   }
 
   .boxbg1 {
-    margin-top: 560px;
-    height: 200px;
+    margin-top: 450px;
+    height: 140px;
     justify-content: none;
     align-items: left;
-    margin-left: 40px;
+    margin-left: 30px;
 
   }
 
   .boxbg2 {
-    height: 200px;
+    height: 140px;
     justify-content: none;
     align-items: left;
-    margin-top: 560px;
-    margin-left: 40px;
+    margin-top: 450px;
+    margin-left: 10px;
   }
 
 .boxbg3 {
-    height: 200px;
+    height: 140px;
     justify-content: none;
     align-items: left;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-left: -5px;
+    margin-top: 450px;
 }
 
   .sbox {
-    height: 40px;
-    width: 120px;
-    transform: translate(-50%, -30%);
-    font-size: 19px;
+    height:24px;
+    width: 70px;
+    transform: translate(0%, -30%);
+    font-size: 13px;
     align-items: center;
+    margin-left: 50px;
   }
 
   .collabs {
@@ -1193,13 +1620,15 @@ body {
   }
 
   .collabs h1 {
-    font-size: 50px;
+    font-size: 40px;
+  }
+  .collabs p {
+    font-size: 17px;
+    text-align: left;
+    margin-left: 20px;
   }
 }
 
-.collabs p {
-  font-size: 17px;
-}
 
 @media screen and (max-width: 575px) {
 
@@ -1282,9 +1711,9 @@ body {
   }
 
   .section5 {
-    margin-top: 150px;
+    margin-top: 170px;
     width: 100%;
-    height: 590px;
+    height: 550px;
     margin-right: 0;
   }
 
@@ -1295,7 +1724,7 @@ body {
   }
 
   .boxbg1 {
-    margin-top: 640px;
+    margin-top: 600px;
     height: 300px;
     justify-content: center;
     align-items: center;
@@ -1342,13 +1771,14 @@ body {
   .collabs {
     padding: 10px 20px 10px 20px;
   }
+
   .collabs h1 {
-    font-size: 38px;
+    font-size: 43px;
     font-weight: bolder;
   }
 
   .collabs p {
-    font-size: 18px;
+    font-size: 17px;
     word-spacing: 2px;
     text-align: left;
   }
@@ -1357,6 +1787,7 @@ body {
     margin-top: 2px;
     padding: 10px 12px;
     font-size: 15px;
+    margin-bottom: 20px;
   }
 
 }

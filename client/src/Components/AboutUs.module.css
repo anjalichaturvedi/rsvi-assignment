@@ -507,7 +507,7 @@ body {
  .imageBox img {
     position: absolute;
     top: 9%;
-  } 
+  }
 
   .imageBox img:hover {
     transform: scale(1.3);
@@ -627,7 +627,7 @@ body {
     width: 70%;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
-  
+
   .imageBox img {
     position: absolute;
     top: 20%;
@@ -647,7 +647,7 @@ body {
     margin-top: 5px;
     width: 70%;
   }
- 
+
   .bgimage {
     justify-content: center;
     align-items: center;
@@ -731,7 +731,7 @@ body {
     width: 70%;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
-  
+
   .imageBox img {
     position: absolute;
     top: 20%;
@@ -751,7 +751,7 @@ body {
     margin-top: 5px;
     width: 70%;
   }
- 
+
   .bgimage {
     justify-content: center;
     align-items: center;
@@ -837,8 +837,8 @@ body {
   } */
   .contentWrap > h3 {
     font-size: 25px;
-  } 
-  
+  }
+
   .contentWrap > h4 {
     font-size: 23px;
   }
@@ -1024,8 +1024,8 @@ body {
   }
   .contentWrap > h3 {
     font-size: 25px;
-  } 
-  
+  }
+
   .contentWrap > h4 {
     font-size: 23px;
   }
@@ -1055,7 +1055,7 @@ body {
     padding-left: 4rem;
     padding-right: 4rem;
     font-size: 20px;
-  } 
+  }
   .rowNineCarouselDiv img {
     width: 50%;
   }
@@ -1179,8 +1179,8 @@ body {
   }
   .contentWrap > h3 {
     font-size: 23px;
-  } 
-  
+  }
+
   .contentWrap > h4 {
     font-size: 18px;
     font-weight: 400;
@@ -1234,7 +1234,7 @@ body {
     padding-left: 60px;
     padding-right: 60px;
     font-size: 18px;
-  } 
+  }
 
   .rowNineCarouselDiv img {
     width: 50%;
@@ -1296,8 +1296,8 @@ body {
   }
   .contentWrap > h3 {
     font-size: 23px;
-  } 
-  
+  }
+
   .contentWrap > h4 {
     font-size: 18px;
     font-weight: 400;
@@ -1524,6 +1524,8 @@ body {
   }
 
   .rowNineCarouselDiv img {
+    padding-left:40px;
+    padding-right:40px;
     padding-left: 40px;
     padding-right: 40px;
     /* height: 60vh; */
@@ -1666,7 +1668,7 @@ body {
 }
 .contentWrap > h3 {
   font-size: 23px;
-} 
+}
 
 .contentWrap > h4 {
   font-size: 18px;
@@ -1879,13 +1881,13 @@ body {
   }
   .contentWrap > h3 {
     font-size: 23px;
-  } 
-  
+  }
+
   .contentWrap > h4 {
     font-size: 18px;
     font-weight: 350;
   }
-  
+
   .sectionSevenb {
     max-width: 100%;
     padding: 30px 30px;
@@ -1896,12 +1898,12 @@ body {
     font-weight: 400;
     text-transform: uppercase;
   }
-  
+
   .cWrap > h4 {
     font-size: 18px;
     font-weight: 350;
   }
-  
+
   .cWrap > p {
     font-size: 16px;
     font-weight: 250;
@@ -2180,7 +2182,6 @@ body {
 }
 
 @media screen and (max-width: 575px) {
-
   /* Changed Css Shataxi */
   .section1, .section2 {
     padding-left: 2rem;
@@ -2423,7 +2424,6 @@ body {
 }
 
 @media screen and (max-width: 444px) {
-
   /* Changed Css Shataxi */
   .rowOneColOne img {
     height: 100%;

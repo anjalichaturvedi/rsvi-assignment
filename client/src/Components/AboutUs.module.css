@@ -760,7 +760,7 @@ body {
   }
 
   .rowTwoRowPara>p {
-    padding-left: 2rem;
+    padding-left: 2.5rem;
   }
 
   .rowNineCarouselDiv img {
@@ -907,7 +907,7 @@ body {
   }
 
   .rowTwoRowPara>p {
-    padding-left: 0rem;
+    padding-left: 1.5rem;
   }
 
   .rowNineCarouselDiv img {
@@ -1062,7 +1062,7 @@ body {
   }
 
   .rowTwoRowPara>p {
-    padding-left: 0rem;
+    padding-left: 1rem;
   }
 
   .rowNineCarouselDiv img {
@@ -1224,7 +1224,8 @@ body {
   }
 
   .rowTwoRowPara>p {
-    padding-left: 1rem;
+    padding-left: 1.5rem;
+    padding-right:1rem;
   }
 
   .rowNineCarouselDiv img {
@@ -1381,7 +1382,8 @@ body {
 
   .rowTwoRowPara>p {
     /* padding-left: 0rem; */
-    padding-left: 1rem;
+    padding-left: 1.5rem;
+    padding-right:1rem
   }
 
   .rowNineCarouselDiv img {
@@ -1518,7 +1520,8 @@ body {
 
   /* Changed Css Shataxi */
   .section1,.section2{
-    padding:2rem;
+    padding-left:2rem;
+    padding-right:2rem;
   }
   .rowTwoRowPara{
     background-color: cornsilk;
@@ -1539,10 +1542,11 @@ body {
 
   .rowTwoRowPara>p {
     padding-left: 2rem;
+    padding-right:1rem;
   }
-  .rowNineCarouselWrapper{
+  /* .rowNineCarouselWrapper{
    margin:2rem;
-  }
+  } */
   .rowNineCarouselDiv img {
     padding-left:30px;
     padding-right:30px;
@@ -1680,7 +1684,8 @@ body {
 
   /* Changed Css Shataxi */
   .section1,.section2{
-    padding:2rem;
+    padding-left:2rem;
+    padding-right:2rem;
   }
   .rowOneColOne>img {
     width: 100%;
@@ -1690,24 +1695,26 @@ body {
 
   .rowOneColTwo>div {
     margin-left: 0rem;
+    padding-top:0;
   }
 
   .rowTwoDiv>h1 {
-    padding-left: 1.5rem;
+    padding-left: 0rem;
   }
   .rowTwoRowPara{
     background-color: cornsilk;
+    word-spacing: 0;
   }
   .rowTwoRowPara>p {
-    padding-left: 2rem;
+    padding-left: 0rem;
+    padding-right:8px;
   }
-  .rowNineCarouselWrapper{
+  /* .rowNineCarouselWrapper{
     margin:2rem;
-   }
+   } */
   .rowNineCarouselDiv img {
-    padding-left:30px;
-    padding-right:30px;
-    height: 40vh;
+    padding:0;
+    /* height: 40vh; */
   }
 
   /* Changed Css Shadab  */
@@ -1856,7 +1863,10 @@ body {
     height:130%;
   }
   .rowOneColTwo>div{
-    padding-top:0;
+    padding-top:2rem;
+  }
+  .rowTwoRowPara>p{
+    text-align:left;
   }
   .rowNineCarouselDiv img {
 

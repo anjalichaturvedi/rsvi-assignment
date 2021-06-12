@@ -92,7 +92,7 @@ class AboutUs extends Component {
             >
               <img src={this.state.image.Section1} alt="group"></img>
             </div>
-            <div className={`${Modules.rowOneColTwo}  col text-center py-5`}>
+            <div className={`${Modules.rowOneColTwo}  col text-center py-md-5`}>
               <div className="d-inline-block  text-left my-5">
                 <h1 className="d-inline-block">
                   Rehabiliation <br></br>Society of the<br></br>Visually
@@ -168,7 +168,7 @@ class AboutUs extends Component {
             <div className={Modules.imageBox}>
               <img src={this.state.image.Section3} alt="pot" />
             </div>
-          </section>
+    </section>
 
           {/* **************** Row 4 **************** */}
 
@@ -223,7 +223,7 @@ class AboutUs extends Component {
               hope for the above-mentioned challenges with respect to Visual
               Impairment.
             </p>
-          </Row>
+                </Row>
           {/* **************** Row 6 **************** */}
           <Row className={Modules.sec5bgimage}>
             <img src={this.state.image.Section5} alt="dummy" />

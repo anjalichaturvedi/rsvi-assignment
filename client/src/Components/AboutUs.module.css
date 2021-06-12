@@ -77,6 +77,7 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-weight: bolder;
   padding-left: 80px;
+  font-size: 45px;
 }
 
 .rowOneColTwo p {
@@ -91,7 +92,7 @@ body {
   font-family: "Noto Sans HK", "Source Sans Pro";
   color: black;
   word-spacing: 5px;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .rowTwoRowPara>p {
@@ -102,75 +103,67 @@ body {
 
 /* Default Css Shadab  for Row 3 and Row 4 */
 .section3 {
-  padding-top: 50px;
-  height: 500px;
-  display: flex;
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
 }
 
 .content {
-  background-image: url('../AboutUsImages/backGreen.png');
-  background-attachment: inherit;
-  height: auto;
+  text-align: center;
+  background-image: url("../AboutUsImages/backGreen.png");
+  z-index: 2;
 }
 
 .content p {
-  padding-left: 80px;
-  margin-right: 164px;
-  /* display: inline-block; */
-  /* vertical-align: middle; */
-  line-height: normal;
   text-align: justify;
-  font-size: 19px;
+  margin: 40px 100px 40px 80px;
   font-family: "Noto Sans HK", "Source Sans Pro";
   word-spacing: 5px;
+  font-size: 23px;
 }
 
 .imageBox {
-  position: absolute;
-  height: 500px;
   align-items: center;
   text-align: center;
 }
 
 .imageBox img {
-  position: absolute;
-  margin: 50px 0px;
-  height: 400px;
-  width: 850px;
-  align-items: center;
-  text-align: center;
-  transition: 500ms ease-in-out;
+  right: 0;
+  z-index: 1;
+  transition: all 500ms ease-in-out;
 }
 
 .section4 {
-  margin-top: 100px;
+  position: relative;
   width: 100%;
 }
 
 .whyStarted {
-  height: 6rem;
-  background-image: url('../AboutUsImages/backBlue.png');
-  background-attachment: inherit;
+  margin-top: 50px;
+  height: 100px;
+  background-image: url("../AboutUsImages/backBlue.png");
 }
 
 .whyStarted h1 {
-  padding: 24px 0px 24px 80px;
+  margin-left: 80px;
   font-family: "Cormorant Garamond", serif;
   font-weight: bolder;
-  align-items: center;
+  line-height: 90px;
+  /* margin-left: 40px; */
+  font-size: 45px;
 }
 
 .reasonForStart {
-  /* margin-top: 25px; */
+  text-align: center;
+  margin: 20px 0 100px 0;
 }
 
 .reasonForStart p {
-  padding: 25px 80px 25px 80px;
-  line-height: normal;
   text-align: justify;
-  font-size: 19px;
+  margin: 0 80px 0 80px;
   font-family: "Noto Sans HK", "Source Sans Pro";
   word-spacing: 5px;
+  font-size: 23px;
 }
 
 /* Default Css Anjali for Row 5 and Row 6 */
@@ -183,10 +176,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 /* .section6{
   padding-top: 30px;
 } */
@@ -217,7 +206,7 @@ body {
   padding: 50px 80px 50px 80px;
   margin-bottom: 0px;
   text-align: justify;
-  font-size: 20px;
+  font-size: 23px;
   font-family: "Noto Sans HK", "Source Sans Pro";
   word-spacing: 5px;
 }
@@ -272,6 +261,10 @@ body {
 
 /* Default Css Shadab  for Row 7 */
 /* *************Section 7a *******************/
+.containerCards{
+  /* margin-left: 80px;
+  margin-right: 80px; */
+}
 .sectionSeven {
   padding: 25px 0px;
 }
@@ -282,7 +275,6 @@ body {
   height: 100%;
   padding: 12px 12px;
 }
-
 .sevenImage {
   width: 100%;
   height: 300px;
@@ -296,41 +288,37 @@ body {
   text-align: center;
   padding: 10px 0px;
 }
-
-.contentWrap>h3 {
+.contentWrap > h3 {
   font-size: 30px;
   font-weight: 350;
   text-transform: uppercase;
 }
 
-.contentWrap>h4 {
+.contentWrap > h4 {
   font-size: 25px;
   font-weight: 300;
 }
 
-.contentWrap>p {
+.contentWrap > p {
   font-size: 23px;
   font-weight: 300;
   text-align: justify;
 }
 
 .wrapSeven1 {
-  background-image: url('../AboutUsImages/backRed.png');
+  background-image: url("../AboutUsImages/backRed.png");
   background-attachment: fixed;
 }
-
 .wrapSeven2 {
-  background-image: url('../AboutUsImages/backYellow.png');
+  background-image: url("../AboutUsImages/backYellow.png");
   background-attachment: fixed;
 }
-
 .wrapSeven3 {
-  background-image: url('../AboutUsImages/backGreen.png');
+  background-image: url("../AboutUsImages/backGreen.png");
   background-attachment: fixed;
 }
-
 .wrapSeven4 {
-  background-image: url('../AboutUsImages/backBlue.png');
+  background-image: url("../AboutUsImages/backBlue.png");
   background-attachment: fixed;
 }
 
@@ -340,43 +328,41 @@ body {
   padding: 60px 60px;
   margin: 0px 0px;
 }
-
 .sectionSevenRow1 {
-  background-image: url('../AboutUsImages/backRed.png');
+  background-image: url("../AboutUsImages/backRed.png");
   background-attachment: inherit;
 }
-
 .sectionSevenRow2 {
-  background-image: url('../AboutUsImages/backYellow.png');
+  background-image: url("../AboutUsImages/backYellow.png");
   background-attachment: inherit;
 }
-
 .sectionSevenRow3 {
-  background-image: url('../AboutUsImages/backGreen.png');
+  background-image: url("../AboutUsImages/backGreen.png");
   background-attachment: inherit;
 }
-
 .sectionSevenRow4 {
-  background-image: url('../AboutUsImages/backBlue.png');
+  background-image: url("../AboutUsImages/backBlue.png");
   background-attachment: inherit;
 }
-
 .innerRow {
   max-width: 100%;
   background-color: white;
   padding: 10px 10px;
   margin: 0px 0px;
 }
-
-.row1Col2, .row3Col2, .row2Col1, .row4Col1 {
+.row1Col2,
+.row3Col2,
+.row2Col1,
+.row4Col1 {
   margin: 20px 20px;
 }
-
-.row1Col1, .row3Col1, .row2Col2, .row4Col2 {
+.row1Col1,
+.row3Col1,
+.row2Col2,
+.row4Col2 {
   margin: 20px 20px;
   align-self: center;
 }
-
 .image7 {
   width: 400px;
   height: 400px;
@@ -386,19 +372,18 @@ body {
   width: auto;
   height: auto;
 }
-
-.cWrap>h2 {
+.cWrap > h2 {
   font-size: 30px;
   font-weight: 450;
   text-transform: uppercase;
 }
 
-.cWrap>h4 {
+.cWrap > h4 {
   font-size: 25px;
   font-weight: 300;
 }
 
-.cWrap>p {
+.cWrap > p {
   font-size: 20px;
   font-weight: 250;
   word-spacing: 5px;
@@ -409,7 +394,7 @@ body {
 
 .wrap1 {
   padding: 10px 10px;
-  background-image: url('../AboutUsImages/backRed.png');
+  background-image: url("../AboutUsImages/backRed.png");
   background-attachment: inherit;
   width: 40%;
   text-align: start;
@@ -417,7 +402,7 @@ body {
 
 .wrap2 {
   padding: 10px 10px;
-  background-image: url('../AboutUsImages/backYellow.png');
+  background-image: url("../AboutUsImages/backYellow.png");
   background-attachment: inherit;
   width: 42%;
   text-align: start;
@@ -425,7 +410,7 @@ body {
 
 .wrap3 {
   padding: 10px 10px;
-  background-image: url('../AboutUsImages/backGreen.png');
+  background-image: url("../AboutUsImages/backGreen.png");
   background-attachment: inherit;
   width: 40%;
   text-align: start;
@@ -433,7 +418,7 @@ body {
 
 .wrap4 {
   padding: 10px 10px;
-  background-image: url('../AboutUsImages/backBlue.png');
+  background-image: url("../AboutUsImages/backBlue.png");
   background-attachment: inherit;
   width: 43%;
   text-align: start;
@@ -507,48 +492,27 @@ body {
   /* Changed Css Shataxi */
   .rowNineCarouselDiv img {
     width: 50%;
-    /* height: 60vh; */
   }
 
-  /* Changed Css Shadab  */
+  /* Changed Css Shadab 3 & 4 */
+  .section3 {
+    display: flex;
+  }
+
   .content {
-    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-    height: 500px;
-    width: 85.7rem;
-    z-index: 2;
+    width: 70%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
 
-  .content p {
-    font-size: 3.3ex;
-    margin-top: 25px;
-  }
-
-  .imageBox {
-    width: 1200px;
-    left: 40vw;
-  }
-
-  .imageBox img {
-    z-index: 1;
-  }
+ .imageBox img {
+    position: absolute;
+    top: 9%;
+  } 
 
   .imageBox img:hover {
     transform: scale(1.3);
-    width: 100%;
-    margin-left: -90.5px;
-    z-index: 5;
-  }
-
-  .whyStarted {
-    width: 140rem;
-  }
-
-  .reasonForStart {
-    width: 140rem;
-  }
-
-  .reasonForStart p {
-    font-size: 3.3ex;
+    z-index: 3;
+    margin-right: 128px;
   }
 
   /* Changed Css Anjali  */
@@ -558,13 +522,7 @@ body {
     margin-top: 5px;
     width: 70%;
   }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
-  /* .section6{
-    padding-top: 0px;
-  } */
   .bgimage {
     align-items: center;
     margin-top: 50px;
@@ -644,51 +602,42 @@ body {
     padding: 13px 15px;
     font-size: 17px;
   }
+
+  .sectionSeven{
+    align-self: center;
+  }
+  .section7Col1{
+    padding: 0px 25px 0px 0px;
+  }
+  .section7Col2, .section7Col3{
+    padding: 0px 25px 0px 25px;
+  }
+  .section7Col4{
+    padding: 0px 0px 0px 25px;
+  }
 }
 
-/****Default****/
-@media screen and (min-width: 1300px) and (max-width: 1589px) {
+@media screen and (min-width: 1450px) and (max-width: 1589px) {
+  /******Changes by Shadab************/
+  .section3 {
+    display: flex;
+  }
+
   .content {
-    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-    height: 500px;
-    width: 62.7rem;
-    z-index: 2;
+    width: 70%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
-
-  .content p {
-    /* font-size: 2.70ex; */
-    margin-top: 25px;
-  }
-
-  .imageBox {
-    width: 700px;
-    left: 16.5vw;
-  }
-
+  
   .imageBox img {
-    z-index: 1;
+    position: absolute;
+    top: 20%;
   }
 
   .imageBox img:hover {
     transform: scale(1.3);
-    margin-left: -105.5px;
-    z-index: 5;
+    z-index: 3;
+    margin-right: 128px;
   }
-
-  .whyStarted {
-    width: 100vw;
-  }
-
-  .reasonForStart {
-    width: 100vw;
-  }
-
-  .reasonForStart p {
-    /* font-size: 2.9ex; */
-  }
-}
-
-@media screen and (min-width: 1300px) and (max-width: 1449px) {
 
   /*Anjali CSS */
   .sec5bgimage {
@@ -698,15 +647,7 @@ body {
     margin-top: 5px;
     width: 70%;
   }
- /*  .section6{
-    padding: 30px 80px 30px 80px;
-    align-self: center;
-  } */
-
-  /*  .section6{
-    padding: 30px 80px 30px 80px;
-    align-self: center;
-  } */
+ 
   .bgimage {
     justify-content: center;
     align-items: center;
@@ -724,9 +665,10 @@ body {
   .para1 {
     padding: 50px 80px 50px 80px;
     margin-bottom: 0px;
-    font-size: 20px;
   }
-
+  .section6{
+    margin: 30px 30px 30px 30px;
+  }
   .boxbg1 {
     height: 300px;
     margin-left: 60px;
@@ -775,6 +717,130 @@ body {
     margin-top: 10px;
     padding: 13px 15px;
     font-size: 17px;
+  }
+}
+
+/****Default****/
+@media screen and (min-width: 1300px) and (max-width: 1449px) {
+  /******Changes by Shadab************/
+  .section3 {
+    display: flex;
+  }
+
+  .content {
+    width: 70%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+  }
+  
+  .imageBox img {
+    position: absolute;
+    top: 20%;
+  }
+
+  .imageBox img:hover {
+    transform: scale(1.3);
+    z-index: 3;
+    margin-right: 128px;
+  }
+
+  /*Anjali CSS */
+  .sec5bgimage {
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 70%;
+  }
+ 
+  .bgimage {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%;
+  }
+
+  .section5 {
+    font-size: 25px;
+    margin-top: 300px;
+    background-size: 100% 90%;
+    height: auto;
+  }
+
+  .para1 {
+    padding: 50px 80px 50px 80px;
+    margin-bottom: 0px;
+  }
+  .section6{
+    margin: 130px 30px 30px 30px;
+  }
+  .boxbg1 {
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 220px;
+  }
+
+  .boxbg2 {
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 220px;
+  }
+
+  .boxbg3 {
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 220px;
+  }
+
+  .sbox {
+    height: 48px;
+    width: 180px;
+    margin-left: 150px;
+    background-size: 50% 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -20%);
+    font-size: 26px;
+  }
+
+  .collabs {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 30px 180px 30px 180px;
+  }
+
+  .collabs h1 {
+    font-size: 48px;
+  }
+
+  .collabs p {
+    font-size: 20px;
+    word-spacing: 5px;
+  }
+
+  .collabbutton {
+    margin-top: 10px;
+    padding: 13px 15px;
+    font-size: 17px;
+  }
+
+  /* .sectionSeven{
+    align-self: center;
+  }
+  .section7Col1{
+    padding: 0px 25px 0px 0px;
+  }
+  .section7Col2, .section7Col3{
+    padding: 0px 25px 0px 25px;
+  }
+  .section7Col4{
+    padding: 0px 0px 0px 25px;
+  } */
+  .contentWrap > h3 {
+    font-size: 25px;
+  } 
+  
+  .contentWrap > h4 {
+    font-size: 23px;
   }
 }
 
@@ -828,55 +894,53 @@ body {
 
   .rowTwoDiv>h1 {
     padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 40px;
   }
 
   .rowTwoRowPara>p {
-    padding-left: 2.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 20px;
   }
 
   .rowNineCarouselDiv img {
     width: 50%;
-    /* height: 60vh; */
   }
 
   /* Changed Css Shadab  */
+  .section3 {
+    display: flex;
+  }
+
   .content {
-    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-    height: 500px;
-    width: 56.7rem;
-    z-index: 2;
+    width: 70%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
-
   .content p {
-    font-size: 2.55ex;
-    margin-top: 25px;
-  }
-
-  .imageBox {
-    width: 700px;
-    left: 6.5vw;
+    font-size: 20px;
+    margin-left: 3rem;
   }
 
   .imageBox img {
-    z-index: 1;
+    position: absolute;
+    margin-top: 8%;
   }
 
   .imageBox img:hover {
     transform: scale(1.3);
-    margin-left: -105.5px;
-    z-index: 5;
+    z-index: 3;
+    margin-right: 128px;
   }
 
-  .whyStarted {
-    width: 100vw;
-  }
-
-  .reasonForStart {
-    width: 100vw;
+  .whyStarted h1 {
+    margin-left: 3rem;
+    font-size: 40px;
   }
 
   .reasonForStart p {
-    font-size: 2.6ex;
+    font-size: 20px;
+    margin: 0 3rem;
   }
 
   /* Changed Css Anjali  */
@@ -903,9 +967,10 @@ body {
   }
 
   .para1 {
-    padding: 50px 80px 50px 80px;
+    padding: 50px 60px 50px 60px;
     margin-bottom: 0px;
     font-size: 20px;
+    word-spacing: 5px;
   }
 
   .boxbg1 {
@@ -957,6 +1022,13 @@ body {
     padding: 13px 15px;
     font-size: 17px;
   }
+  .contentWrap > h3 {
+    font-size: 25px;
+  } 
+  
+  .contentWrap > h4 {
+    font-size: 23px;
+  }
 }
 
 @media screen and (min-width: 1126px) and (max-width: 1259px) {
@@ -965,8 +1037,7 @@ body {
   .rowOneColOne>img {
     width: 550px;
     height: 300px;
-    left: 1rem;
-    padding-left: 80px;
+    left: 4rem;
   }
 
   .rowOneColTwo>div {
@@ -974,61 +1045,53 @@ body {
     padding-top: 1rem;
   }
 
-  /* .rowTwoDiv>h1 {
-    padding-left: 80px;
+  .rowTwoDiv>h1 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 40px;
   }
 
   .rowTwoRowPara>p {
-    padding-left: 80px;
-  } */
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 20px;
+  } 
   .rowNineCarouselDiv img {
     width: 50%;
-    /* height: 60vh; */
   }
 
   /* Changed Css Shadab  */
+  .section3 {
+    display: flex;
+  }
+
   .content {
-    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-    height: 500px;
-    width: 45.2rem;
-    z-index: 2;
+    width: 70%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
-
   .content p {
-    margin-top: 25px;
-    margin-right: 143px;
-    font-size: 2.3ex;
-  }
-
-  .imageBox {
-    left: 2rem;
-    width: 700px;
+    font-size: 20px;
+    margin-left: 4rem;
   }
 
   .imageBox img {
-    z-index: 1;
+    position: absolute;
+    margin-top: 100px;
   }
 
   .imageBox img:hover {
     transform: scale(1.3);
-    margin-left: -90.5px;
-    z-index: 5;
+    z-index: 3;
+    margin-right: 128px;
   }
 
-  .whyStarted {
-    width: 78rem;
-  }
-
-  .reasonForStart {
-    width: 78rem;
+  .whyStarted h1 {
+    margin-left: 4rem;
   }
 
   .reasonForStart p {
-    font-size: 2.3ex;
+    font-size: 20px;
+    margin: 0 4rem;
   }
 
   /* Changed Css Anjali  */
@@ -1062,6 +1125,7 @@ body {
     padding: 50px 80px 50px 80px;
     margin-bottom: 0px;
     font-size: 20px;
+    word-spacing: 5px;
   }
 
   .boxbg1 {
@@ -1093,6 +1157,36 @@ body {
     font-size: 26px;
   }
 
+  /******Section 7 Shadab******/
+  .row1Col1 {
+    display: none;
+  }
+
+  .image7 {
+    display: none;
+  }
+
+  .row2Col2 {
+    display: none;
+  }
+
+  .row3Col1 {
+    display: none;
+  }
+
+  .row4Col2 {
+    display: none;
+  }
+  .contentWrap > h3 {
+    font-size: 23px;
+  } 
+  
+  .contentWrap > h4 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  /*******Section 8 Anjali *****/
   .collabs {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -1123,7 +1217,7 @@ body {
     width: 500px;
     height: 300px;
     left: 8px;
-    padding-left: 80px;
+    padding-left: 60px;
   }
 
   .rowOneColTwo>div {
@@ -1131,61 +1225,82 @@ body {
     padding-top: 1rem;
   }
 
-  /* .rowTwoDiv>h1 {
-    padding-left: 1rem;
+  .rowTwoDiv>h1 {
+    padding-left: 60px;
+    font-size: 38px;
   }
 
   .rowTwoRowPara>p {
-    padding-left: 1rem;
-  } */
-<<<<<<< Updated upstream
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 18px;
+  } 
 
-=======
->>>>>>> Stashed changes
   .rowNineCarouselDiv img {
     width: 50%;
-    /* height: 60vh; */
   }
 
   /* Changed Css Shadab  */
+  .section3 {
+    display: flex;
+  }
+
   .content {
-    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-    height: 500px;
-    width: 40.2rem;
-    z-index: 2;
+    width: 70%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
 
   .content p {
-    margin-top: 25px;
-    margin-right: 143px;
-    font-size: 2.1ex;
-  }
-
-  .imageBox {
-    left: -1vw;
-    width: 650px;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 40px 120px 40px 60px;
   }
 
   .imageBox img {
-    z-index: 1;
+    position: absolute;
+    margin-top: 80px;
   }
 
   .imageBox img:hover {
     transform: scale(1.3);
-    margin-left: -90.5px;
-    z-index: 5;
+    z-index: 3;
+    margin-right: 128px;
   }
 
-  .whyStarted {
-    width: 72.7rem;
-  }
-
-  .reasonForStart {
-    width: 72.7rem;
+  .whyStarted h1 {
+    margin-left: 60px;
   }
 
   .reasonForStart p {
-    font-size: 2.1ex;
+    font-size: 18px;
+    margin: 0 60px;
+  }
+  .row1Col1 {
+    display: none;
+  }
+
+  .image7 {
+    display: none;
+  }
+
+  .row2Col2 {
+    display: none;
+  }
+
+  .row3Col1 {
+    display: none;
+  }
+
+  .row4Col2 {
+    display: none;
+  }
+  .contentWrap > h3 {
+    font-size: 23px;
+  } 
+  
+  .contentWrap > h4 {
+    font-size: 18px;
+    font-weight: 400;
   }
 }
 
@@ -1260,7 +1375,28 @@ body {
     align-items: center;
     margin-left: 100px;
   }
+/* Css for 7b */
+  .row1Col1 {
+    display: none;
+  }
 
+  .image7 {
+    display: none;
+  }
+
+  .row2Col2 {
+    display: none;
+  }
+
+  .row3Col1 {
+    display: none;
+  }
+
+  .row4Col2 {
+    display: none;
+  }
+
+  /* CSS for Section 8*/
   .collabs {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -1377,6 +1513,7 @@ body {
   .rowTwoDiv>h1 {
     /* padding-left: 2rem; */
     padding-left: 50px;
+    font-size: 38px;
   }
 
   .rowTwoRowPara>p {
@@ -1387,54 +1524,50 @@ body {
   }
 
   .rowNineCarouselDiv img {
-<<<<<<< Updated upstream
-    padding-left:40px;
-    padding-right:40px;
-=======
     padding-left: 40px;
     padding-right: 40px;
->>>>>>> Stashed changes
     /* height: 60vh; */
   }
 
   /* Changed Css Shadab  */
+  .section3 {
+    display: flex;
+  }
+
   .content {
-    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-    height: 500px;
-    width: 38.7rem;
-    z-index: 2;
+    width: 70%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
 
   .content p {
-    margin-right: 115px;
-    margin-top: 25px;
-    font-size: 2ex;
-  }
-
-  .imageBox {
-    left: 15rem;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 40px 120px 40px 60px;
   }
 
   .imageBox img {
-    z-index: 1;
+    position: absolute;
+    margin-top: 80px;
   }
 
   .imageBox img:hover {
     transform: scale(1.3);
-    margin-left: -90.5px;
-    z-index: 5;
+    z-index: 3;
+    margin-right: 128px;
   }
 
-  .whyStarted {
-    width: 68.7rem;
+  .imageBox img:hover {
+    width: 75%;
   }
 
-  .reasonForStart {
-    width: 68.7rem;
+  .whyStarted h1 {
+    margin-left: 50px;
+    font-size: 36px;
   }
 
   .reasonForStart p {
-    font-size: 2.1ex;
+    font-size: 16px;
+    margin: 0 50px;
   }
 
   /* Changed Css Anjali  */
@@ -1470,16 +1603,18 @@ body {
   }
 
   .para1 {
-    font-size: 15px;
+    font-size: 16px;
     padding: 20px 60px 20px 60px;
   }
-
+  .section6{
+    padding-top: 50px;
+  }
   .boxbg1 {
     margin-top: 300px;
     height: 200px;
     justify-content: none;
     align-items: left;
-    margin-left: 30px;
+    margin-left: 80px;
   }
 
   .boxbg2 {
@@ -1487,7 +1622,7 @@ body {
     justify-content: none;
     align-items: left;
     margin-top: 300px;
-    margin-left: 13px;
+    margin-left: 25px;
   }
 
   .boxbg3 {
@@ -1506,7 +1641,59 @@ body {
     align-items: center;
     margin-left: 80px;
   }
+/* Css for 7b */
+.row1Col1 {
+  display: none;
+}
 
+.image7 {
+  display: none;
+}
+
+.row2Col2 {
+  display: none;
+}
+
+.row3Col1 {
+  display: none;
+}
+
+.row4Col2 {
+  display: none;
+}
+.contentWrap {
+  height: 100px;
+}
+.contentWrap > h3 {
+  font-size: 23px;
+} 
+
+.contentWrap > h4 {
+  font-size: 18px;
+  font-weight: 350;
+}
+
+.sectionSevenb {
+  max-width: 100%;
+  padding: 30px 30px;
+  margin: 0px 0px;
+}
+.cWrap > h2 {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.cWrap > h4 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.cWrap > p {
+  font-size: 16px;
+  font-weight: 250;
+}
+/* Css for 9 */
   .collabs {
     padding: 10px 40px 10px 30px;
     width: 100%;
@@ -1524,6 +1711,9 @@ body {
 }
 
 @media screen and (min-width: 870px) and (max-width: 999px) {
+  .section6{
+    padding-top: 80px;
+  }
   .boxbg1 {
     margin-top: 250px;
   }
@@ -1540,85 +1730,62 @@ body {
 /****Shataxi***/
 @media screen and (width: 768px) {
   .rowOneColOne>img {
-    /* width: 100%;
-    height: 100%;
-    left: 0px; */
     width: 450px;
     height: 350px;
     left: 16px;
-    padding-left: 0px;
+    padding-left: 30px;
     margin-left: 0px;
   }
 
   .rowOneColTwo>div {
-    /* margin-left: 0rem; */
     margin-left: 18rem;
   }
 
   .rowTwoDiv>h1 {
-    /* padding-left: 1.5rem; */
-    /* padding-left: 2rem; */
-    padding-left: 20px;
+    padding-left: 40px;
+    font-size: 36px;
   }
 
   .rowTwoRowPara>p {
-    /* padding-left: 0rem; */
-    /* padding-left: 1.5rem;
-    padding-right:1rem; */
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-size: 16px;
   }
 
   .rowNineCarouselDiv img {
-<<<<<<< Updated upstream
-    padding-left:36px;
-    padding-right:36px;
-=======
     padding-left: 36px;
     padding-right: 36px;
->>>>>>> Stashed changes
-    /* height: 60vh; */
   }
 
   /* Changed Css Shadab  */
+  .section3 {
+    display: flex;
+    flex-direction: column;
+  }
+
   .content p {
-    width: 61.5rem;
-    font-size: 2.3ex;
-    margin-top: 40px;
-    margin-right: 64px;
-    width: 47rem;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 40px 30px 40px 30px;
   }
 
-  .imageBox {
-    margin-top: 500px;
-    height: 500px;
-    width: 100%;
+  .imageBox{
+    width: 768px;
   }
-
   .imageBox img {
-    display: block;
-    margin-left: 1rem;
-    width: 850px;
-    transition: 500ms ease-in-out;
+    /* position: absolute; */
+    padding-top: 10px;
+    width: 768px;
   }
 
-  .startReason {
-    margin-top: 420px;
-  }
-
-  .whyStarted {
-    margin-top: 520px;
-    width: 55.7rem;
-  }
-
-  .reasonForStart {
-    width: 55.7rem;
+  .whyStarted h1 {
+    margin-left: 30px;
+    font-size: 36px;
   }
 
   .reasonForStart p {
-    margin-right: 64px;
-    font-size: 2.3ex;
+    font-size: 16px;
+    margin: 0 30px;
   }
 
   /* Changed Css Anjali  */
@@ -1652,8 +1819,8 @@ body {
   }
 
   .para1 {
-    font-size: 17px;
-    padding: 10px 60px 10px 60px;
+    font-size: 16px;
+    padding: 10px 40px 10px 40px;
   }
 
   .boxbg1 {
@@ -1687,7 +1854,60 @@ body {
     font-size: 16px;
     align-items: center;
   }
+  /* Css for 7b */
+  .row1Col1 {
+    display: none;
+  }
 
+  .image7 {
+    display: none;
+  }
+
+  .row2Col2 {
+    display: none;
+  }
+
+  .row3Col1 {
+    display: none;
+  }
+
+  .row4Col2 {
+    display: none;
+  }
+  .contentWrap {
+    height: 100px;
+  }
+  .contentWrap > h3 {
+    font-size: 23px;
+  } 
+  
+  .contentWrap > h4 {
+    font-size: 18px;
+    font-weight: 350;
+  }
+  
+  .sectionSevenb {
+    max-width: 100%;
+    padding: 30px 30px;
+    margin: 0px 0px;
+  }
+  .cWrap > h2 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  .cWrap > h4 {
+    font-size: 18px;
+    font-weight: 350;
+  }
+  
+  .cWrap > p {
+    font-size: 16px;
+    font-weight: 250;
+  }
+
+  /* Css for 8 */
   .collabs {
     padding: 10px 40px 10px 30px;
     width: 103%;
@@ -1707,11 +1927,7 @@ body {
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
   /* Changed Css Shataxi */
-<<<<<<< Updated upstream
-  .section1,.section2{
-=======
   .section1, .section2 {
->>>>>>> Stashed changes
     padding-left: 2rem;
     padding-right: 2rem;
     margin: 0px 0px;
@@ -1745,26 +1961,17 @@ body {
     padding-right: 10px;
     font-size: 16px;
   }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
   /* .rowNineCarouselWrapper{
    margin:2rem;
   } */
   .rowNineCarouselDiv img {
-<<<<<<< Updated upstream
-    padding-left:30px;
-    padding-right:30px;
-=======
     padding-left: 30px;
     padding-right: 30px;
->>>>>>> Stashed changes
     /* height: 50vh; */
   }
 
   /* Changed Css Shadab  */
-  .content p {
+  /* .content p {
     width: 61.5rem;
     font-size: 2.3ex;
     margin-top: 40px;
@@ -1801,7 +2008,42 @@ body {
   .reasonForStart p {
     margin-right: 64px;
     font-size: 2.3ex;
+  } */
+  /* Changed Css Shadab  */
+  .section3 {
+    display: flex;
+    flex-direction: column;
   }
+
+  .content {
+    margin: 0 20px 0 20px;
+  }
+
+  .content p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 40px;
+  }
+
+  .imageBox img {
+    margin: 0 20px 0 20px;
+    width: 94.5%;
+  }
+
+  .whyStarted {
+    margin: 0 20px 0 20px;
+  }
+
+  .whyStarted h1 {
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+
+  .reasonForStart p {
+    font-size: 20px;
+    margin: 40px;
+  }
+
 
   /* Changed Css Anjali  */
   .sec5bgimage {
@@ -1871,7 +2113,32 @@ body {
     align-items: center;
     margin-left: 50px;
   }
+  /*CSS changes section 7*/
+  .sectionSeven {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+  }
+  .row1Col1 {
+    display: none;
+  }
 
+  .image7 {
+    display: none;
+  }
+
+  .row2Col2 {
+    display: none;
+  }
+
+  .row3Col1 {
+    display: none;
+  }
+
+  .row4Col2 {
+    display: none;
+  }
+  /*CSS changes section 8*/
   .collabs {
     padding: 10px 40px 10px 30px;
     margin-right: 20px;
@@ -1915,15 +2182,9 @@ body {
 @media screen and (max-width: 575px) {
 
   /* Changed Css Shataxi */
-<<<<<<< Updated upstream
-  .section1,.section2{
-    padding-left:2rem;
-    padding-right:2rem;
-=======
   .section1, .section2 {
     padding-left: 2rem;
     padding-right: 2rem;
->>>>>>> Stashed changes
   }
 
   .rowOneColOne>img {
@@ -1934,11 +2195,7 @@ body {
 
   .rowOneColTwo>div {
     margin-left: 0rem;
-<<<<<<< Updated upstream
-    padding-top:0;
-=======
     padding-top: 0;
->>>>>>> Stashed changes
   }
 
   .rowTwoDiv>h1 {
@@ -1952,30 +2209,20 @@ body {
 
   .rowTwoRowPara>p {
     padding-left: 8px;
-<<<<<<< Updated upstream
-    padding-right:8px;
-    font-size: 16px;
-  }
-=======
     padding-right: 8px;
     font-size: 16px;
   }
 
->>>>>>> Stashed changes
   /* .rowNineCarouselWrapper{
     margin:2rem;
    } */
   .rowNineCarouselDiv img {
-<<<<<<< Updated upstream
-    padding:0;
-=======
     padding: 0;
->>>>>>> Stashed changes
     /* height: 40vh; */
   }
 
   /* Changed Css Shadab  */
-  .content p {
+  /* .content p {
     font-size: 2.3ex;
     margin-top: 50px;
     width: 54.7rem;
@@ -1991,7 +2238,6 @@ body {
   .imageBox img {
     display: block;
     margin-left: 4rem;
-    /* margin-right: auto; */
     width: 900px;
     transition: 500ms ease-in-out;
   }
@@ -2011,6 +2257,40 @@ body {
 
   .reasonForStart p {
     font-size: 2.3ex;
+  } */
+  /* Changed Css Shadab  */
+  .section3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    margin: 0 20px 0 20px;
+  }
+
+  .content p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 40px;
+  }
+
+  .imageBox img {
+    margin: 0 20px 0 20px;
+    width: 91.5%;
+  }
+
+  .whyStarted {
+    margin: 0 20px 0 20px;
+  }
+
+  .whyStarted h1 {
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+
+  .reasonForStart p {
+    font-size: 20px;
+    margin: 40px;
   }
 
   /* Changed Css Anjali  */
@@ -2086,7 +2366,36 @@ body {
     z-index: 1;
     width: 80%;
   }
+  /* Css for 7a */
+  .sectionSeven {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
 
+  .section7Col {
+    border: 30px solid grey;
+  }
+  .row1Col1 {
+    display: none;
+  }
+
+  .image7 {
+    display: none;
+  }
+
+  .row2Col2 {
+    display: none;
+  }
+
+  .row3Col1 {
+    display: none;
+  }
+
+  .row4Col2 {
+    display: none;
+  }
+  /* Css for 8 */
   .collabs {
     padding: 10px 20px 10px 20px;
     margin-right: 20px;
@@ -2116,20 +2425,6 @@ body {
 @media screen and (max-width: 444px) {
 
   /* Changed Css Shataxi */
-<<<<<<< Updated upstream
-  .rowOneColOne img{
-    height:100%;
-  }
-  .rowOneColTwo>div{
-    padding-top:2rem;
-  }
-  .rowTwoRowPara>p{
-    text-align:justify;
-    font-size: 15px;
-  }
-  .rowNineCarouselDiv img {
-    padding:0;
-=======
   .rowOneColOne img {
     height: 100%;
   }
@@ -2145,7 +2440,6 @@ body {
 
   .rowNineCarouselDiv img {
     padding: 0;
->>>>>>> Stashed changes
     /* height: 40vh; */
   }
 
@@ -2199,7 +2493,32 @@ body {
     z-index: 1;
     width: 80%;
   }
+  /* Css for 7a */
+  .sectionSeven {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+  .row1Col1 {
+    display: none;
+  }
 
+  .image7 {
+    display: none;
+  }
+
+  .row2Col2 {
+    display: none;
+  }
+
+  .row3Col1 {
+    display: none;
+  }
+
+  .row4Col2 {
+    display: none;
+  }
+  /* Css for 8 */
   .collabs {
     padding: 10px 20px 10px 20px;
     margin-right: 20px;
@@ -2209,20 +2528,6 @@ body {
 }
 
 @media screen and (min-width: 200px) and (max-width:350px) {
-<<<<<<< Updated upstream
-  .rowOneColOne img{
-    height:100%;
-  }
-  .rowOneColTwo>div{
-    padding-top:2rem;
-  }
-  .rowTwoRowPara>p{
-    text-align:justify;
-    font-size: 14px;
-  }
-  .rowNineCarouselDiv img {
-    padding:0;
-=======
   .rowOneColOne img {
     height: 100%;
   }
@@ -2238,7 +2543,6 @@ body {
 
   .rowNineCarouselDiv img {
     padding: 0;
->>>>>>> Stashed changes
     /* height: 40vh; */
   }
 
@@ -2286,6 +2590,32 @@ body {
     margin-left: 30px;
   }
 
+  /* Css for 7a */
+  .sectionSeven {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+  .row1Col1 {
+    display: none;
+  }
+
+  .image7 {
+    display: none;
+  }
+
+  .row2Col2 {
+    display: none;
+  }
+
+  .row3Col1 {
+    display: none;
+  }
+
+  .row4Col2 {
+    display: none;
+  }
+  /* Css for 8 */
   .collabs h1 {
     font-size: 34px;
   }

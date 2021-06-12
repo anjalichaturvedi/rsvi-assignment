@@ -168,7 +168,7 @@ class AboutUs extends Component {
             <div className={Modules.imageBox}>
               <img src={this.state.image.Section3} alt="pot" />
             </div>
-    </section>
+    </section> 
 
           {/* **************** Row 4 **************** */}
 
@@ -190,17 +190,16 @@ class AboutUs extends Component {
                 blindness and low vision.
                 <br />
                 The magnitude of the problem may be assessed from the following:{" "}
-                <br />
-                1. Total number of schools for the blind in the state of Utter
+                <ol>
+                  <li>Total number of schools for the blind in the state of Utter
                 Pradesh with a population of more than 20 crores is less than
-                25.
-                <br />
-                2. Government Braille Production Centers including NGO's in the
-                entire country is less than 10.
-                <br />
-                3. Audio Reording Centers of books run by government and NGO's
-                in the entire country is less than 15. <br />
-                4. Audio-Conversion Centers in the state of UP is only one.
+                25.</li>
+                  <li>Government Braille Production Centers including NGO's in the
+                entire country is less than 10.</li>
+                  <li>Audio Reording Centers of books run by government and NGO's
+                in the entire country is less than 15.</li>
+                  <li>Audio-Conversion Centers in the state of UP is only one.</li>
+                </ol>
               </p>
             </div>
           </section>
@@ -228,7 +227,7 @@ class AboutUs extends Component {
           <Row className={Modules.sec5bgimage}>
             <img src={this.state.image.Section5} alt="dummy" />
           </Row>
-          <Row>
+          <Row className={Modules.section6}>
             <Col>
               <img
                 src={this.state.image.Section6.Img1}

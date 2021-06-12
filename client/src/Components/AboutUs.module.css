@@ -1387,13 +1387,10 @@ body {
   }
 
   .rowNineCarouselDiv img {
-<<<<<<< Updated upstream
     padding-left:40px;
     padding-right:40px;
-=======
     padding-left: 40px;
     padding-right: 40px;
->>>>>>> Stashed changes
     /* height: 60vh; */
   }
 
@@ -1571,13 +1568,10 @@ body {
   }
 
   .rowNineCarouselDiv img {
-<<<<<<< Updated upstream
     padding-left:36px;
     padding-right:36px;
-=======
     padding-left: 36px;
     padding-right: 36px;
->>>>>>> Stashed changes
     /* height: 60vh; */
   }
 
@@ -1707,11 +1701,7 @@ body {
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
   /* Changed Css Shataxi */
-<<<<<<< Updated upstream
   .section1,.section2{
-=======
-  .section1, .section2 {
->>>>>>> Stashed changes
     padding-left: 2rem;
     padding-right: 2rem;
     margin: 0px 0px;
@@ -1744,22 +1734,15 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 16px;
-  }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
+}
   /* .rowNineCarouselWrapper{
    margin:2rem;
   } */
   .rowNineCarouselDiv img {
-<<<<<<< Updated upstream
     padding-left:30px;
     padding-right:30px;
-=======
     padding-left: 30px;
     padding-right: 30px;
->>>>>>> Stashed changes
     /* height: 50vh; */
   }
 
@@ -1913,17 +1896,15 @@ body {
 }
 
 @media screen and (max-width: 575px) {
-
   /* Changed Css Shataxi */
-<<<<<<< Updated upstream
-  .section1,.section2{
+  .section1{
     padding-left:2rem;
     padding-right:2rem;
-=======
-  .section1, .section2 {
-    padding-left: 2rem;
-    padding-right: 2rem;
->>>>>>> Stashed changes
+  }
+
+  .section2{
+    padding-left:2rem;
+    padding-right:2rem;
   }
 
   .rowOneColOne>img {
@@ -1934,11 +1915,7 @@ body {
 
   .rowOneColTwo>div {
     margin-left: 0rem;
-<<<<<<< Updated upstream
     padding-top:0;
-=======
-    padding-top: 0;
->>>>>>> Stashed changes
   }
 
   .rowTwoDiv>h1 {
@@ -1952,25 +1929,15 @@ body {
 
   .rowTwoRowPara>p {
     padding-left: 8px;
-<<<<<<< Updated upstream
-    padding-right:8px;
-    font-size: 16px;
-  }
-=======
     padding-right: 8px;
     font-size: 16px;
   }
 
->>>>>>> Stashed changes
   /* .rowNineCarouselWrapper{
     margin:2rem;
    } */
   .rowNineCarouselDiv img {
-<<<<<<< Updated upstream
-    padding:0;
-=======
     padding: 0;
->>>>>>> Stashed changes
     /* height: 40vh; */
   }
 
@@ -2114,9 +2081,7 @@ body {
 }
 
 @media screen and (max-width: 444px) {
-
   /* Changed Css Shataxi */
-<<<<<<< Updated upstream
   .rowOneColOne img{
     height:100%;
   }
@@ -2129,8 +2094,6 @@ body {
   }
   .rowNineCarouselDiv img {
     padding:0;
-=======
-  .rowOneColOne img {
     height: 100%;
   }
 
@@ -2145,7 +2108,6 @@ body {
 
   .rowNineCarouselDiv img {
     padding: 0;
->>>>>>> Stashed changes
     /* height: 40vh; */
   }
 
@@ -2209,7 +2171,6 @@ body {
 }
 
 @media screen and (min-width: 200px) and (max-width:350px) {
-<<<<<<< Updated upstream
   .rowOneColOne img{
     height:100%;
   }
@@ -2222,8 +2183,6 @@ body {
   }
   .rowNineCarouselDiv img {
     padding:0;
-=======
-  .rowOneColOne img {
     height: 100%;
   }
 
@@ -2238,7 +2197,6 @@ body {
 
   .rowNineCarouselDiv img {
     padding: 0;
->>>>>>> Stashed changes
     /* height: 40vh; */
   }
 

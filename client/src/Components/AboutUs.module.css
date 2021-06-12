@@ -183,6 +183,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 /* .section6{
   padding-top: 30px;
 } */
@@ -203,14 +207,14 @@ body {
   margin-top: 300px;
   margin-bottom: 50px;
   background-size: 100% 90%;
-  height: 400px;
+  height: auto;
   background-image: url('../AboutUsImages/backRed.png');
   background-attachment: inherit;
   position: absolute;
 }
 
 .para1 {
-  padding: 50px 80px 0px 80px;
+  padding: 50px 80px 50px 80px;
   margin-bottom: 0px;
   text-align: justify;
   font-size: 20px;
@@ -221,7 +225,7 @@ body {
 .boxbg1 {
   height: 400px;
   margin-left: 40px;
-  margin-top: 300px;
+  margin-top: 400px;
   transition: 300ms ease-in-out;
 }
 
@@ -268,7 +272,7 @@ body {
 
 /* Default Css Shadab  for Row 7 */
 /* *************Section 7a *******************/
-.sectionSeven{
+.sectionSeven {
   padding: 25px 0px;
 }
 
@@ -278,12 +282,13 @@ body {
   height: 100%;
   padding: 12px 12px;
 }
-.sevenImage{
+
+.sevenImage {
   width: 100%;
   height: 300px;
 }
 
-.contentWrap{
+.contentWrap {
   align-content: center;
   justify-content: center;
   width: auto;
@@ -291,96 +296,109 @@ body {
   text-align: center;
   padding: 10px 0px;
 }
-.contentWrap > h3{
+
+.contentWrap>h3 {
   font-size: 30px;
   font-weight: 350;
   text-transform: uppercase;
 }
 
-.contentWrap > h4{
+.contentWrap>h4 {
   font-size: 25px;
   font-weight: 300;
 }
 
-.contentWrap > p{
+.contentWrap>p {
   font-size: 23px;
   font-weight: 300;
   text-align: justify;
 }
 
-.wrapSeven1{
+.wrapSeven1 {
   background-image: url('../AboutUsImages/backRed.png');
   background-attachment: fixed;
 }
-.wrapSeven2{
+
+.wrapSeven2 {
   background-image: url('../AboutUsImages/backYellow.png');
   background-attachment: fixed;
 }
-.wrapSeven3{
+
+.wrapSeven3 {
   background-image: url('../AboutUsImages/backGreen.png');
   background-attachment: fixed;
 }
-.wrapSeven4{
+
+.wrapSeven4 {
   background-image: url('../AboutUsImages/backBlue.png');
   background-attachment: fixed;
 }
 
 /*************Section7b**************/
-.sectionSevenb{
+.sectionSevenb {
   max-width: 100%;
   padding: 60px 60px;
   margin: 0px 0px;
 }
-.sectionSevenRow1{
+
+.sectionSevenRow1 {
   background-image: url('../AboutUsImages/backRed.png');
   background-attachment: inherit;
 }
-.sectionSevenRow2{
+
+.sectionSevenRow2 {
   background-image: url('../AboutUsImages/backYellow.png');
   background-attachment: inherit;
 }
-.sectionSevenRow3{
+
+.sectionSevenRow3 {
   background-image: url('../AboutUsImages/backGreen.png');
   background-attachment: inherit;
 }
-.sectionSevenRow4{
+
+.sectionSevenRow4 {
   background-image: url('../AboutUsImages/backBlue.png');
   background-attachment: inherit;
 }
-.innerRow{
+
+.innerRow {
   max-width: 100%;
   background-color: white;
   padding: 10px 10px;
   margin: 0px 0px;
 }
-.row1Col2 , .row3Col2, .row2Col1 , .row4Col1{
+
+.row1Col2, .row3Col2, .row2Col1, .row4Col1 {
   margin: 20px 20px;
 }
-.row1Col1 , .row3Col1 , .row2Col2 , .row4Col2{
+
+.row1Col1, .row3Col1, .row2Col2, .row4Col2 {
   margin: 20px 20px;
   align-self: center;
 }
-.image7{
+
+.image7 {
   width: 400px;
   height: 400px;
 }
 
-.cWrap{
+.cWrap {
   width: auto;
   height: auto;
 }
-.cWrap > h2{
+
+.cWrap>h2 {
   font-size: 30px;
   font-weight: 450;
   text-transform: uppercase;
 }
 
-.cWrap > h4{
+.cWrap>h4 {
   font-size: 25px;
   font-weight: 300;
 }
 
-.cWrap > p{
+.cWrap>p {
   font-size: 20px;
   font-weight: 250;
   word-spacing: 5px;
@@ -389,7 +407,7 @@ body {
   margin-bottom: 0px;
 }
 
-.wrap1{
+.wrap1 {
   padding: 10px 10px;
   background-image: url('../AboutUsImages/backRed.png');
   background-attachment: inherit;
@@ -397,7 +415,7 @@ body {
   text-align: start;
 }
 
-.wrap2{
+.wrap2 {
   padding: 10px 10px;
   background-image: url('../AboutUsImages/backYellow.png');
   background-attachment: inherit;
@@ -405,7 +423,7 @@ body {
   text-align: start;
 }
 
-.wrap3{
+.wrap3 {
   padding: 10px 10px;
   background-image: url('../AboutUsImages/backGreen.png');
   background-attachment: inherit;
@@ -413,13 +431,14 @@ body {
   text-align: start;
 }
 
-.wrap4{
+.wrap4 {
   padding: 10px 10px;
   background-image: url('../AboutUsImages/backBlue.png');
   background-attachment: inherit;
   width: 43%;
   text-align: start;
 }
+
 /* Default Css Anjali for Row 8 */
 .collabs {
   margin-top: 20px;
@@ -539,6 +558,10 @@ body {
     margin-top: 5px;
     width: 70%;
   }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
   /* .section6{
     padding-top: 0px;
   } */
@@ -623,7 +646,6 @@ body {
   }
 }
 
-
 /****Default****/
 @media screen and (min-width: 1300px) and (max-width: 1589px) {
   .content {
@@ -664,6 +686,10 @@ body {
   .reasonForStart p {
     /* font-size: 2.9ex; */
   }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1449px) {
+
   /*Anjali CSS */
   .sec5bgimage {
     z-index: -1;
@@ -677,6 +703,10 @@ body {
     align-self: center;
   } */
 
+  /*  .section6{
+    padding: 30px 80px 30px 80px;
+    align-self: center;
+  } */
   .bgimage {
     justify-content: center;
     align-items: center;
@@ -745,6 +775,39 @@ body {
     margin-top: 10px;
     padding: 13px 15px;
     font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1589px) {
+
+  /*Anjali CSS */
+  .boxbg1 {
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 200px;
+  }
+
+  .boxbg2 {
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 200px;
+  }
+
+  .boxbg3 {
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 200px;
+  }
+
+  .sbox {
+    height: 48px;
+    width: 180px;
+    margin-left: 150px;
+    background-size: 50% 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -20%);
+    font-size: 26px;
   }
 }
 
@@ -848,19 +911,19 @@ body {
   .boxbg1 {
     height: 300px;
     margin-left: 60px;
-    margin-top: 270px;
+    margin-top: 320px;
   }
 
   .boxbg2 {
     height: 300px;
     margin-left: 50px;
-    margin-top: 270px;
+    margin-top: 320px;
   }
 
   .boxbg3 {
     height: 300px;
     margin-left: 40px;
-    margin-top: 270px;
+    margin-top: 320px;
   }
 
   .sbox {
@@ -918,7 +981,10 @@ body {
   .rowTwoRowPara>p {
     padding-left: 80px;
   } */
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
   .rowNineCarouselDiv img {
     width: 50%;
     /* height: 60vh; */
@@ -968,13 +1034,13 @@ body {
   /* Changed Css Anjali  */
   .sec5bgimage {
     z-index: -1;
-    margin-left: 200px;
+    margin-left: 10%;
     margin-top: 5px;
     width: 80%;
   }
 
   .bgimage {
-    margin-left: 10%;
+    margin-left: 5.5%;
     margin-top: 50px;
     width: 90%;
   }
@@ -987,35 +1053,33 @@ body {
   .section5 {
     font-size: 25px;
     margin-top: 300px;
-    margin-bottom: 50px;
     background-size: 100% 100%;
-    height: 400px;
-    width: 1259px;
+    height: auto;
+    width: 100%;
   }
 
   .para1 {
-    padding: 50px 80px 0px 80px;
+    padding: 50px 80px 50px 80px;
     margin-bottom: 0px;
     font-size: 20px;
   }
 
   .boxbg1 {
     height: 300px;
-    margin-left: 80px;
-    margin-top: 400px;
+    margin-left: 50px;
+    margin-top: 320px;
   }
 
   .boxbg2 {
     height: 300px;
     margin-left: 40px;
-    margin-top: 400px;
-    transition: 300ms ease-in-out;
+    margin-top: 320px;
   }
 
   .boxbg3 {
     height: 300px;
     margin-left: 40px;
-    margin-top: 400px;
+    margin-top: 320px;
   }
 
   .sbox {
@@ -1074,7 +1138,10 @@ body {
   .rowTwoRowPara>p {
     padding-left: 1rem;
   } */
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
   .rowNineCarouselDiv img {
     width: 50%;
     /* height: 60vh; */
@@ -1120,6 +1187,9 @@ body {
   .reasonForStart p {
     font-size: 2.1ex;
   }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
 
   /* Changed Css Anjali  */
   .sec5bgimage {
@@ -1160,11 +1230,10 @@ body {
 
   .boxbg1 {
     margin-top: 450px;
-    height:250px;
+    height: 250px;
     justify-content: none;
     align-items: left;
     margin-left: 24px;
-
   }
 
   .boxbg2 {
@@ -1175,16 +1244,16 @@ body {
     margin-left: 23px;
   }
 
-.boxbg3 {
+  .boxbg3 {
     height: 250px;
     justify-content: none;
     align-items: left;
     margin-left: 5px;
     margin-top: 450px;
-}
+  }
 
   .sbox {
-    height:43px;
+    height: 43px;
     width: 100px;
     transform: translate(0%, -30%);
     font-size: 20px;
@@ -1216,6 +1285,81 @@ body {
   }
 }
 
+@media screen and (min-width: 1051px) and (max-width: 1125px) {
+
+  /* Changed Css Anjali  */
+  .sec5bgimage {
+    z-index: -1;
+    margin-top: 5px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+  }
+
+  .bgimage {
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec5bgimage:hover {
+    z-index: 5;
+    transform: scale(1.1);
+  }
+
+  .section5 {
+    font-size: 25px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    height: auto;
+    width: 101%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .para1 {
+    padding: 50px 80px 50px 80px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .boxbg1 {
+    margin-top: 380px;
+    height: 250px;
+    justify-content: none;
+    align-items: left;
+    margin-left: 80px;
+  }
+
+  .boxbg2 {
+    height: 250px;
+    justify-content: none;
+    align-items: left;
+    margin-top: 380px;
+    margin-left: 60px;
+  }
+
+  .boxbg3 {
+    height: 250px;
+    justify-content: none;
+    align-items: left;
+    margin-left: 40px;
+    margin-top: 380px;
+  }
+
+  .sbox {
+    height: 43px;
+    width: 100px;
+    transform: translate(0%, -30%);
+    font-size: 20px;
+    align-items: center;
+    margin-left: 140px;
+  }
+}
+
 @media screen and (min-width: 769px) and (max-width: 999px) {
 
   /* Changed Css Shataxi */
@@ -1243,8 +1387,13 @@ body {
   }
 
   .rowNineCarouselDiv img {
+<<<<<<< Updated upstream
     padding-left:40px;
     padding-right:40px;
+=======
+    padding-left: 40px;
+    padding-right: 40px;
+>>>>>>> Stashed changes
     /* height: 60vh; */
   }
 
@@ -1310,10 +1459,11 @@ body {
     margin-top: 40px;
     justify-content: center;
     align-items: center;
+    margin-left: 9%;
   }
 
   .section5 {
-    margin-top: 300px;
+    margin-top: 250px;
     width: 100%;
     height: auto;
     margin-right: 0;
@@ -1326,11 +1476,10 @@ body {
 
   .boxbg1 {
     margin-top: 300px;
-    height:200px;
+    height: 200px;
     justify-content: none;
     align-items: left;
     margin-left: 30px;
-
   }
 
   .boxbg2 {
@@ -1341,16 +1490,16 @@ body {
     margin-left: 13px;
   }
 
-.boxbg3 {
+  .boxbg3 {
     height: 200px;
     justify-content: none;
     align-items: left;
     margin-left: -5px;
     margin-top: 300px;
-}
+  }
 
   .sbox {
-    height:34px;
+    height: 34px;
     width: 80px;
     transform: translate(0%, -30%);
     font-size: 17px;
@@ -1366,10 +1515,25 @@ body {
   .collabs h1 {
     font-size: 40px;
   }
+
   .collabs p {
     font-size: 17px;
     text-align: left;
     margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 870px) and (max-width: 999px) {
+  .boxbg1 {
+    margin-top: 250px;
+  }
+
+  .boxbg2 {
+    margin-top: 250px;
+  }
+
+  .boxbg3 {
+    margin-top: 250px;
   }
 }
 
@@ -1407,10 +1571,16 @@ body {
   }
 
   .rowNineCarouselDiv img {
+<<<<<<< Updated upstream
     padding-left:36px;
     padding-right:36px;
+=======
+    padding-left: 36px;
+    padding-right: 36px;
+>>>>>>> Stashed changes
     /* height: 60vh; */
   }
+
   /* Changed Css Shadab  */
   .content p {
     width: 61.5rem;
@@ -1492,7 +1662,6 @@ body {
     justify-content: none;
     align-items: left;
     margin-left: 40px;
-
   }
 
   .boxbg2 {
@@ -1503,13 +1672,13 @@ body {
     margin-left: 30px;
   }
 
-.boxbg3 {
+  .boxbg3 {
     height: 200px;
     justify-content: none;
     align-items: left;
     margin-top: 370px;
     margin-left: 20px;
-}
+  }
 
   .sbox {
     height: 31px;
@@ -1534,19 +1703,24 @@ body {
   }
 }
 
-
 /* Mobile screen can begin from here */
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
   /* Changed Css Shataxi */
+<<<<<<< Updated upstream
   .section1,.section2{
+=======
+  .section1, .section2 {
+>>>>>>> Stashed changes
     padding-left: 2rem;
     padding-right: 2rem;
     margin: 0px 0px;
   }
-  .rowTwoRowPara{
+
+  .rowTwoRowPara {
     background-color: cornsilk;
   }
+
   .rowOneColOne>img {
     width: 100%;
     height: 100%;
@@ -1571,12 +1745,21 @@ body {
     padding-right: 10px;
     font-size: 16px;
   }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
   /* .rowNineCarouselWrapper{
    margin:2rem;
   } */
   .rowNineCarouselDiv img {
+<<<<<<< Updated upstream
     padding-left:30px;
     padding-right:30px;
+=======
+    padding-left: 30px;
+    padding-right: 30px;
+>>>>>>> Stashed changes
     /* height: 50vh; */
   }
 
@@ -1662,7 +1845,6 @@ body {
     justify-content: none;
     align-items: left;
     margin-left: 40px;
-
   }
 
   .boxbg2 {
@@ -1673,16 +1855,16 @@ body {
     margin-left: 15px;
   }
 
-.boxbg3 {
+  .boxbg3 {
     height: 140px;
     justify-content: none;
     align-items: left;
     margin-left: -5px;
     margin-top: 440px;
-}
+  }
 
   .sbox {
-    height:24px;
+    height: 24px;
     width: 70px;
     transform: translate(0%, -30%);
     font-size: 13px;
@@ -1699,6 +1881,7 @@ body {
   .collabs h1 {
     font-size: 40px;
   }
+
   .collabs p {
     font-size: 17px;
     text-align: left;
@@ -1706,14 +1889,43 @@ body {
   }
 }
 
+@media screen and (min-width: 620px) and (max-width: 767px) {
+  .section5 {
+    margin-top: 250px;
+  }
+
+  .sec5bgimage {
+    z-index: -1;
+    margin-left: 10%;
+  }
+
+  .boxbg1 {
+    margin-top: 290px;
+  }
+
+  .boxbg2 {
+    margin-top: 290px;
+  }
+
+  .boxbg3 {
+    margin-top: 290px;
+  }
+}
 
 @media screen and (max-width: 575px) {
 
   /* Changed Css Shataxi */
+<<<<<<< Updated upstream
   .section1,.section2{
     padding-left:2rem;
     padding-right:2rem;
+=======
+  .section1, .section2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+>>>>>>> Stashed changes
   }
+
   .rowOneColOne>img {
     width: 100%;
     height: 100%;
@@ -1722,26 +1934,43 @@ body {
 
   .rowOneColTwo>div {
     margin-left: 0rem;
+<<<<<<< Updated upstream
     padding-top:0;
+=======
+    padding-top: 0;
+>>>>>>> Stashed changes
   }
 
   .rowTwoDiv>h1 {
     padding-left: 8px;
   }
-  .rowTwoRowPara{
+
+  .rowTwoRowPara {
     background-color: cornsilk;
     word-spacing: 0;
   }
+
   .rowTwoRowPara>p {
     padding-left: 8px;
+<<<<<<< Updated upstream
     padding-right:8px;
     font-size: 16px;
   }
+=======
+    padding-right: 8px;
+    font-size: 16px;
+  }
+
+>>>>>>> Stashed changes
   /* .rowNineCarouselWrapper{
     margin:2rem;
    } */
   .rowNineCarouselDiv img {
+<<<<<<< Updated upstream
     padding:0;
+=======
+    padding: 0;
+>>>>>>> Stashed changes
     /* height: 40vh; */
   }
 
@@ -1887,6 +2116,7 @@ body {
 @media screen and (max-width: 444px) {
 
   /* Changed Css Shataxi */
+<<<<<<< Updated upstream
   .rowOneColOne img{
     height:100%;
   }
@@ -1899,11 +2129,28 @@ body {
   }
   .rowNineCarouselDiv img {
     padding:0;
+=======
+  .rowOneColOne img {
+    height: 100%;
+  }
+
+  .rowOneColTwo>div {
+    padding-top: 2rem;
+  }
+
+  .rowTwoRowPara>p {
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .rowNineCarouselDiv img {
+    padding: 0;
+>>>>>>> Stashed changes
     /* height: 40vh; */
   }
 
   .boxbg1 {
-    margin-top: 700px;
+    margin-top: 580px;
     height: 250px;
     justify-content: center;
     align-items: center;
@@ -1939,6 +2186,10 @@ body {
     margin-top: 180px;
   }
 
+  .sec5bgimage {
+    z-index: -1;
+  }
+
   .bgimage {
     position: relative;
     margin-left: 45px;
@@ -1958,6 +2209,7 @@ body {
 }
 
 @media screen and (min-width: 200px) and (max-width:350px) {
+<<<<<<< Updated upstream
   .rowOneColOne img{
     height:100%;
   }
@@ -1970,6 +2222,23 @@ body {
   }
   .rowNineCarouselDiv img {
     padding:0;
+=======
+  .rowOneColOne img {
+    height: 100%;
+  }
+
+  .rowOneColTwo>div {
+    padding-top: 2rem;
+  }
+
+  .rowTwoRowPara>p {
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .rowNineCarouselDiv img {
+    padding: 0;
+>>>>>>> Stashed changes
     /* height: 40vh; */
   }
 

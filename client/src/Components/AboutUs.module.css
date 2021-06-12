@@ -183,7 +183,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+/* .section6{
+  padding-top: 30px;
+} */
 .bgimage {
   margin-left: 10%;
   margin-top: 50px;
@@ -537,7 +539,9 @@ body {
     margin-top: 5px;
     width: 70%;
   }
-
+  /* .section6{
+    padding-top: 0px;
+  } */
   .bgimage {
     align-items: center;
     margin-top: 50px;
@@ -668,6 +672,10 @@ body {
     margin-top: 5px;
     width: 70%;
   }
+ /*  .section6{
+    padding: 30px 80px 30px 80px;
+    align-self: center;
+  } */
 
   .bgimage {
     justify-content: center;
@@ -765,7 +773,7 @@ body {
 
   .rowNineCarouselDiv img {
     width: 50%;
-    height: 60vh;
+    /* height: 60vh; */
   }
 
   /* Changed Css Shadab  */
@@ -895,6 +903,7 @@ body {
     width: 550px;
     height: 300px;
     left: 1rem;
+    padding-left: 80px;
   }
 
   .rowOneColTwo>div {
@@ -902,17 +911,17 @@ body {
     padding-top: 1rem;
   }
 
-  .rowTwoDiv>h1 {
-    padding-left: 1.5rem;
+  /* .rowTwoDiv>h1 {
+    padding-left: 80px;
   }
 
   .rowTwoRowPara>p {
-    padding-left: 1.5rem;
-  }
+    padding-left: 80px;
+  } */
 
   .rowNineCarouselDiv img {
     width: 50%;
-    height: 60vh;
+    /* height: 60vh; */
   }
 
   /* Changed Css Shadab  */
@@ -1050,6 +1059,7 @@ body {
     width: 500px;
     height: 300px;
     left: 8px;
+    padding-left: 80px;
   }
 
   .rowOneColTwo>div {
@@ -1057,17 +1067,17 @@ body {
     padding-top: 1rem;
   }
 
-  .rowTwoDiv>h1 {
+  /* .rowTwoDiv>h1 {
     padding-left: 1rem;
   }
 
   .rowTwoRowPara>p {
     padding-left: 1rem;
-  }
+  } */
 
   .rowNineCarouselDiv img {
     width: 50%;
-    height: 60vh;
+    /* height: 60vh; */
   }
 
   /* Changed Css Shadab  */
@@ -1213,6 +1223,7 @@ body {
     width: 450px;
     height: 350px;
     left: 16px;
+    padding-left: 50px;
   }
 
   .rowOneColTwo>div {
@@ -1220,18 +1231,21 @@ body {
   }
 
   .rowTwoDiv>h1 {
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
+    padding-left: 50px;
   }
 
   .rowTwoRowPara>p {
-    padding-left: 1.5rem;
-    padding-right:1rem;
+    /* padding-left: 1.5rem;
+    padding-right:1rem; */
+    padding: 0px 50px;
+    font-size: 16px;
   }
 
   .rowNineCarouselDiv img {
     padding-left:40px;
     padding-right:40px;
-    height: 60vh;
+    /* height: 60vh; */
   }
 
   /* Changed Css Shadab  */
@@ -1368,6 +1382,8 @@ body {
     width: 450px;
     height: 350px;
     left: 16px;
+    padding-left: 0px;
+    margin-left: 0px;
   }
 
   .rowOneColTwo>div {
@@ -1377,19 +1393,23 @@ body {
 
   .rowTwoDiv>h1 {
     /* padding-left: 1.5rem; */
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
+    padding-left: 20px;
   }
 
   .rowTwoRowPara>p {
     /* padding-left: 0rem; */
-    padding-left: 1.5rem;
-    padding-right:1rem
+    /* padding-left: 1.5rem;
+    padding-right:1rem; */
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
   }
 
   .rowNineCarouselDiv img {
-    padding-left:40px;
-    padding-right:40px;
-    height: 60vh;
+    padding-left:36px;
+    padding-right:36px;
+    /* height: 60vh; */
   }
   /* Changed Css Shadab  */
   .content p {
@@ -1520,8 +1540,9 @@ body {
 
   /* Changed Css Shataxi */
   .section1,.section2{
-    padding-left:2rem;
-    padding-right:2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0px 0px;
   }
   .rowTwoRowPara{
     background-color: cornsilk;
@@ -1534,15 +1555,21 @@ body {
 
   .rowOneColTwo>div {
     margin-left: 0rem;
+    max-width: 100%;
   }
 
   .rowTwoDiv>h1 {
-    padding-left: 1.5rem;
+    /* padding-left: 1.5rem; */
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .rowTwoRowPara>p {
-    padding-left: 2rem;
-    padding-right:1rem;
+    /* padding-left: 2rem;
+    padding-right:1rem; */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
   }
   /* .rowNineCarouselWrapper{
    margin:2rem;
@@ -1550,7 +1577,7 @@ body {
   .rowNineCarouselDiv img {
     padding-left:30px;
     padding-right:30px;
-    height: 50vh;
+    /* height: 50vh; */
   }
 
   /* Changed Css Shadab  */
@@ -1699,15 +1726,16 @@ body {
   }
 
   .rowTwoDiv>h1 {
-    padding-left: 0rem;
+    padding-left: 8px;
   }
   .rowTwoRowPara{
     background-color: cornsilk;
     word-spacing: 0;
   }
   .rowTwoRowPara>p {
-    padding-left: 0rem;
+    padding-left: 8px;
     padding-right:8px;
+    font-size: 16px;
   }
   /* .rowNineCarouselWrapper{
     margin:2rem;
@@ -1860,18 +1888,18 @@ body {
 
   /* Changed Css Shataxi */
   .rowOneColOne img{
-    height:130%;
+    height:100%;
   }
   .rowOneColTwo>div{
     padding-top:2rem;
   }
   .rowTwoRowPara>p{
-    text-align:left;
+    text-align:justify;
+    font-size: 15px;
   }
   .rowNineCarouselDiv img {
-
     padding:0;
-    height: 40vh;
+    /* height: 40vh; */
   }
 
   .boxbg1 {
@@ -1930,6 +1958,22 @@ body {
 }
 
 @media screen and (min-width: 200px) and (max-width:350px) {
+  .rowOneColOne img{
+    height:100%;
+  }
+  .rowOneColTwo>div{
+    padding-top:2rem;
+  }
+  .rowTwoRowPara>p{
+    text-align:justify;
+    font-size: 14px;
+  }
+  .rowNineCarouselDiv img {
+    padding:0;
+    /* height: 40vh; */
+  }
+
+  /*****Changes by Anjali *****/
   .boxbg1 {
     margin-top: 900px;
     height: 200px;

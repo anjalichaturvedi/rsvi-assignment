@@ -507,7 +507,7 @@ body {
  .imageBox img {
     position: absolute;
     top: 9%;
-  }
+  } 
 
   .imageBox img:hover {
     transform: scale(1.3);
@@ -627,7 +627,7 @@ body {
     width: 70%;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
-
+  
   .imageBox img {
     position: absolute;
     top: 20%;
@@ -647,7 +647,7 @@ body {
     margin-top: 5px;
     width: 70%;
   }
-
+ 
   .bgimage {
     justify-content: center;
     align-items: center;
@@ -731,7 +731,7 @@ body {
     width: 70%;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
-
+  
   .imageBox img {
     position: absolute;
     top: 20%;
@@ -751,7 +751,7 @@ body {
     margin-top: 5px;
     width: 70%;
   }
-
+ 
   .bgimage {
     justify-content: center;
     align-items: center;
@@ -837,8 +837,8 @@ body {
   } */
   .contentWrap > h3 {
     font-size: 25px;
-  }
-
+  } 
+  
   .contentWrap > h4 {
     font-size: 23px;
   }
@@ -1024,8 +1024,8 @@ body {
   }
   .contentWrap > h3 {
     font-size: 25px;
-  }
-
+  } 
+  
   .contentWrap > h4 {
     font-size: 23px;
   }
@@ -1055,7 +1055,7 @@ body {
     padding-left: 4rem;
     padding-right: 4rem;
     font-size: 20px;
-  }
+  } 
   .rowNineCarouselDiv img {
     width: 50%;
   }
@@ -1179,8 +1179,8 @@ body {
   }
   .contentWrap > h3 {
     font-size: 23px;
-  }
-
+  } 
+  
   .contentWrap > h4 {
     font-size: 18px;
     font-weight: 400;
@@ -1234,7 +1234,7 @@ body {
     padding-left: 60px;
     padding-right: 60px;
     font-size: 18px;
-  }
+  } 
 
   .rowNineCarouselDiv img {
     width: 50%;
@@ -1296,8 +1296,8 @@ body {
   }
   .contentWrap > h3 {
     font-size: 23px;
-  }
-
+  } 
+  
   .contentWrap > h4 {
     font-size: 18px;
     font-weight: 400;
@@ -1524,8 +1524,6 @@ body {
   }
 
   .rowNineCarouselDiv img {
-    padding-left:40px;
-    padding-right:40px;
     padding-left: 40px;
     padding-right: 40px;
     /* height: 60vh; */
@@ -1668,7 +1666,7 @@ body {
 }
 .contentWrap > h3 {
   font-size: 23px;
-}
+} 
 
 .contentWrap > h4 {
   font-size: 18px;
@@ -1771,9 +1769,6 @@ body {
     margin: 40px 30px 40px 30px;
   }
 
-  .imageBox{
-    width: 768px;
-  }
   .imageBox img {
     /* position: absolute; */
     padding-top: 10px;
@@ -1881,13 +1876,13 @@ body {
   }
   .contentWrap > h3 {
     font-size: 23px;
-  }
-
+  } 
+  
   .contentWrap > h4 {
     font-size: 18px;
     font-weight: 350;
   }
-
+  
   .sectionSevenb {
     max-width: 100%;
     padding: 30px 30px;
@@ -1898,12 +1893,12 @@ body {
     font-weight: 400;
     text-transform: uppercase;
   }
-
+  
   .cWrap > h4 {
     font-size: 18px;
     font-weight: 350;
   }
-
+  
   .cWrap > p {
     font-size: 16px;
     font-weight: 250;
@@ -1951,66 +1946,21 @@ body {
   }
 
   .rowTwoDiv>h1 {
-    /* padding-left: 1.5rem; */
     padding-left: 10px;
     padding-right: 10px;
   }
 
   .rowTwoRowPara>p {
-    /* padding-left: 2rem;
-    padding-right:1rem; */
     padding-left: 10px;
     padding-right: 10px;
     font-size: 16px;
   }
-  /* .rowNineCarouselWrapper{
-   margin:2rem;
-  } */
+  
   .rowNineCarouselDiv img {
     padding-left: 30px;
     padding-right: 30px;
-    /* height: 50vh; */
   }
 
-  /* Changed Css Shadab  */
-  /* .content p {
-    width: 61.5rem;
-    font-size: 2.3ex;
-    margin-top: 40px;
-    margin-right: 64px;
-    width: 47rem;
-  }
-
-  .imageBox {
-    margin-top: 500px;
-    height: 500px;
-    width: 100%;
-  }
-
-  .imageBox img {
-    display: block;
-    margin-left: 1rem;
-    width: 850px;
-    transition: 500ms ease-in-out;
-  }
-
-  .startReason {
-    margin-top: 420px;
-  }
-
-  .whyStarted {
-    margin-top: 520px;
-    width: 55.7rem;
-  }
-
-  .reasonForStart {
-    width: 55.7rem;
-  }
-
-  .reasonForStart p {
-    margin-right: 64px;
-    font-size: 2.3ex;
-  } */
   /* Changed Css Shadab  */
   .section3 {
     display: flex;
@@ -2182,6 +2132,7 @@ body {
 }
 
 @media screen and (max-width: 575px) {
+
   /* Changed Css Shataxi */
   .section1, .section2 {
     padding-left: 2rem;
@@ -2222,43 +2173,6 @@ body {
     /* height: 40vh; */
   }
 
-  /* Changed Css Shadab  */
-  /* .content p {
-    font-size: 2.3ex;
-    margin-top: 50px;
-    width: 54.7rem;
-    margin-right: 64px;
-  }
-
-  .imageBox {
-    margin-top: 500px;
-    height: 500px;
-    width: 100%;
-  }
-
-  .imageBox img {
-    display: block;
-    margin-left: 4rem;
-    width: 900px;
-    transition: 500ms ease-in-out;
-  }
-
-  .startReason {
-    margin-top: 420px;
-  }
-
-  .whyStarted {
-    margin-top: 520px;
-    width: 62.7rem;
-  }
-
-  .reasonForStart {
-    width: 62.7rem;
-  }
-
-  .reasonForStart p {
-    font-size: 2.3ex;
-  } */
   /* Changed Css Shadab  */
   .section3 {
     display: flex;
@@ -2424,6 +2338,7 @@ body {
 }
 
 @media screen and (max-width: 444px) {
+
   /* Changed Css Shataxi */
   .rowOneColOne img {
     height: 100%;

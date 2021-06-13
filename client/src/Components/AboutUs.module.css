@@ -1948,17 +1948,17 @@ body {
   .rowTwoDiv>h1 {
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 34px;
   }
 
   .rowTwoRowPara>p {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 16px;
+    font-size: 14px;
   }
   
   .rowNineCarouselDiv img {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 15px 15px;
   }
 
   /* Changed Css Shadab  */
@@ -1968,32 +1968,43 @@ body {
   }
 
   .content {
-    margin: 0 20px 0 20px;
+    margin: 0 2rem;
   }
 
-  .content p {
-    font-size: 20px;
+  .content > p {
+    font-size: 16px;
     line-height: 24px;
-    margin: 40px;
+    margin: 30px;
+    /* font-weight: 350; */
   }
 
+  .imageBox{
+    margin: 0 2rem;
+  }
   .imageBox img {
-    margin: 0 20px 0 20px;
-    width: 94.5%;
+    /* margin: 0 2rem 0 2rem; */
+    width: 100%; /* 94.5% */
   }
 
   .whyStarted {
-    margin: 0 20px 0 20px;
+    margin: 0 2rem;
   }
 
   .whyStarted h1 {
-    margin-top: 100px;
-    margin-left: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 34px;
   }
 
+  .reasonForStart{
+    margin-top: 10px;
+  }
   .reasonForStart p {
-    font-size: 20px;
-    margin: 40px;
+    margin: 0 2rem;
+    padding: 20px;
+    background-color: rgb(200, 234, 245);
+    font-size: 16px;
+    /* margin: 40px; */
   }
 
 
@@ -2030,7 +2041,7 @@ body {
 
   .para1 {
     font-size: 15px;
-    padding: 10px 60px 10px 60px;
+    padding: 30px 30px;
   }
 
   .boxbg1 {
@@ -2065,11 +2076,10 @@ body {
     align-items: center;
     margin-left: 50px;
   }
+
   /*CSS changes section 7*/
   .sectionSeven {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
+    display: none;
   }
   .row1Col1 {
     display: none;
@@ -2093,19 +2103,27 @@ body {
   /*CSS changes section 8*/
   .collabs {
     padding: 10px 40px 10px 30px;
-    margin-right: 20px;
-    margin-left: 20px;
+    /* margin-right: 20px;
+    margin-left: 20px; */
+    margin: 0 2rem;
   }
 
   .collabs h1 {
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .collabs p {
-    font-size: 17px;
+    font-size: 15px;
     text-align: left;
     margin-left: 20px;
   }
+
+  .collabbutton{
+    font-size: 16px;
+  }
+  .rowNineCarouselWrapper{
+    margin: 0rem 2rem;
+   }
 }
 
 @media screen and (min-width: 620px) and (max-width: 767px) {
@@ -2135,8 +2153,8 @@ body {
 
   /* Changed Css Shataxi */
   .section1, .section2 {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .rowOneColOne>img {
@@ -2152,6 +2170,7 @@ body {
 
   .rowTwoDiv>h1 {
     padding-left: 8px;
+    font-size: 34px;
   }
 
   .rowTwoRowPara {
@@ -2160,17 +2179,15 @@ body {
   }
 
   .rowTwoRowPara>p {
-    padding-left: 8px;
-    padding-right: 8px;
-    font-size: 16px;
+    padding: 8px 8px;
+    font-size: 15px;
   }
 
-  /* .rowNineCarouselWrapper{
-    margin:2rem;
-   } */
+  .rowNineCarouselWrapper{
+    margin: 0 2rem;
+   }
   .rowNineCarouselDiv img {
-    padding: 0;
-    /* height: 40vh; */
+    padding: 12px;
   }
 
   /* Changed Css Shadab  */
@@ -2180,42 +2197,49 @@ body {
   }
 
   .content {
-    margin: 0 20px 0 20px;
+    margin: 0 2rem;
   }
 
   .content p {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 24px;
-    margin: 40px;
+    margin: 20px 20px;
   }
 
+  .imageBox{
+    margin: 0 2rem;
+  }
   .imageBox img {
-    margin: 0 20px 0 20px;
-    width: 91.5%;
+    width: 100%; 
   }
 
   .whyStarted {
-    margin: 0 20px 0 20px;
+    margin: 0 2rem;
   }
 
   .whyStarted h1 {
-    margin-top: 100px;
-    margin-left: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 34px;
   }
 
+  .reasonForStart{
+    margin-top: 10px;
+  }
   .reasonForStart p {
-    font-size: 20px;
-    margin: 40px;
+    margin: 0 2rem;
+    padding: 20px;
+    background-color: rgb(200, 234, 245);
+    font-size: 16px;
   }
 
   /* Changed Css Anjali  */
   .sec5bgimage {
     position: relative;
-    width: auto;
     margin-top: 10px;
     z-index: 1;
     width: 90%;
-    margin-left: 5%;
+    margin-left: 2rem;
     justify-content: center;
   }
 
@@ -2227,14 +2251,14 @@ body {
     margin-top: 250px;
     width: auto;
     height: auto;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
 
   .para1 {
     font-size: 15px;
-    text-align: left;
-    padding: 20px 40px 20px 40px;
+    text-align: justify;
+    padding: 20px 20px;
   }
 
   .boxbg1 {
@@ -2283,14 +2307,12 @@ body {
   }
   /* Css for 7a */
   .sectionSeven {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 50px;
+    display: none;
   }
 
-  .section7Col {
+  /* .section7Col {
     border: 30px solid grey;
-  }
+  } */
   .row1Col1 {
     display: none;
   }
@@ -2313,26 +2335,26 @@ body {
   /* Css for 8 */
   .collabs {
     padding: 10px 20px 10px 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 2rem;
+    margin-left: 2rem;
     flex-direction: column;
   }
 
   .collabs h1 {
-    font-size: 43px;
+    font-size: 34px;
     font-weight: bolder;
   }
 
   .collabs p {
-    font-size: 17px;
+    font-size: 16px;
     word-spacing: 2px;
-    text-align: left;
+    text-align: justify;
   }
 
   .collabbutton {
     margin-top: 2px;
     padding: 10px 12px;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 }
@@ -2348,16 +2370,30 @@ body {
     padding-top: 2rem;
   }
 
+  .rowTwoRowPara>h1 {
+    font-size: 32px;
+  }
+
   .rowTwoRowPara>p {
     text-align: justify;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .rowNineCarouselDiv img {
-    padding: 0;
+    padding: 8px 8px;
     /* height: 40vh; */
   }
-
+  .whyStarted h1 {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 32px;
+  }
+  .reasonForStart{
+    margin-top: 8px;
+  }
+  .reasonForStart p {
+    font-size: 15px;
+  }
   .boxbg1 {
     margin-top: 580px;
     height: 250px;
@@ -2401,18 +2437,15 @@ body {
 
   .bgimage {
     position: relative;
-    margin-left: 45px;
-    width: auto;
-    margin-right: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 20px;
     z-index: 1;
     width: 80%;
   }
   /* Css for 7a */
   .sectionSeven {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 50px;
+    display: none;
   }
   .row1Col1 {
     display: none;
@@ -2436,19 +2469,27 @@ body {
   /* Css for 8 */
   .collabs {
     padding: 10px 20px 10px 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 2rem;
+    margin-left: 2rem;
     flex-direction: column;
   }
 }
 
-@media screen and (min-width: 200px) and (max-width:350px) {
+@media screen and (max-width:350px) {
+  .section1, .section2{
+    margin: 0 1rem;
+  }
+
   .rowOneColOne img {
     height: 100%;
   }
 
   .rowOneColTwo>div {
-    padding-top: 2rem;
+    padding-top: 1rem;
+  }
+  .rowTwoRowPara>h1 {
+    text-align: justify;
+    font-size: 30px;
   }
 
   .rowTwoRowPara>p {
@@ -2456,12 +2497,46 @@ body {
     font-size: 14px;
   }
 
+  .rowNineCarouselWrapper{
+    margin: 0 1rem;
+   }
   .rowNineCarouselDiv img {
-    padding: 0;
-    /* height: 40vh; */
+    padding: 6px;
+  }
+
+  .whyStarted{
+    margin: 0 1rem;
+  }
+  .whyStarted h1 {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 28px;
+  }
+  .reasonForStart{
+    margin-top: 8px;
+  }
+  .reasonForStart p {
+    margin: 0 1rem;
+    font-size: 15px;
+  }
+  .imageBox{
+    margin: 0 1rem;
+  }
+  .content{
+    margin: 0 1rem;
+  }
+  .content p{
+    font-size: 14px;
   }
 
   /*****Changes by Anjali *****/
+  .section5{
+    margin: 0 1rem;
+  }
+  .para1 {
+    font-size: 14px;
+    text-align: justify;
+  }
   .boxbg1 {
     margin-top: 900px;
     height: 200px;
@@ -2495,7 +2570,7 @@ body {
     height: 30px;
     width: 90px;
     transform: translate(-40%, -30%);
-    font-size: 15px;
+    font-size: 14px;
     align-items: center;
   }
 
@@ -2507,9 +2582,7 @@ body {
 
   /* Css for 7a */
   .sectionSeven {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 50px;
+    display: none;
   }
   .row1Col1 {
     display: none;
@@ -2531,11 +2604,18 @@ body {
     display: none;
   }
   /* Css for 8 */
+  .collabs{
+    margin: 0 1rem;
+  }
   .collabs h1 {
-    font-size: 34px;
+    font-size: 32px;
   }
 
   .collabs p {
+    font-size: 14px;
+  }
+
+  .collabbutton{
     font-size: 14px;
   }
 }

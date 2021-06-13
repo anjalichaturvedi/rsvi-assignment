@@ -176,6 +176,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 /* .section6{
   padding-top: 30px;
 } */
@@ -261,10 +262,11 @@ body {
 
 /* Default Css Shadab  for Row 7 */
 /* *************Section 7a *******************/
-.containerCards{
+.containerCards {
   /* margin-left: 80px;
   margin-right: 80px; */
 }
+
 .sectionSeven {
   padding: 25px 0px;
 }
@@ -275,6 +277,7 @@ body {
   height: 100%;
   padding: 12px 12px;
 }
+
 .sevenImage {
   width: 100%;
   height: 300px;
@@ -288,18 +291,19 @@ body {
   text-align: center;
   padding: 10px 0px;
 }
-.contentWrap > h3 {
+
+.contentWrap>h3 {
   font-size: 30px;
   font-weight: 350;
   text-transform: uppercase;
 }
 
-.contentWrap > h4 {
+.contentWrap>h4 {
   font-size: 25px;
   font-weight: 300;
 }
 
-.contentWrap > p {
+.contentWrap>p {
   font-size: 23px;
   font-weight: 300;
   text-align: justify;
@@ -309,14 +313,17 @@ body {
   background-image: url("../AboutUsImages/backRed.png");
   background-attachment: fixed;
 }
+
 .wrapSeven2 {
   background-image: url("../AboutUsImages/backYellow.png");
   background-attachment: fixed;
 }
+
 .wrapSeven3 {
   background-image: url("../AboutUsImages/backGreen.png");
   background-attachment: fixed;
 }
+
 .wrapSeven4 {
   background-image: url("../AboutUsImages/backBlue.png");
   background-attachment: fixed;
@@ -328,34 +335,41 @@ body {
   padding: 60px 60px;
   margin: 0px 0px;
 }
+
 .sectionSevenRow1 {
   background-image: url("../AboutUsImages/backRed.png");
   background-attachment: inherit;
 }
+
 .sectionSevenRow2 {
   background-image: url("../AboutUsImages/backYellow.png");
   background-attachment: inherit;
 }
+
 .sectionSevenRow3 {
   background-image: url("../AboutUsImages/backGreen.png");
   background-attachment: inherit;
 }
+
 .sectionSevenRow4 {
   background-image: url("../AboutUsImages/backBlue.png");
   background-attachment: inherit;
 }
+
 .innerRow {
   max-width: 100%;
   background-color: white;
   padding: 10px 10px;
   margin: 0px 0px;
 }
+
 .row1Col2,
 .row3Col2,
 .row2Col1,
 .row4Col1 {
   margin: 20px 20px;
 }
+
 .row1Col1,
 .row3Col1,
 .row2Col2,
@@ -363,6 +377,7 @@ body {
   margin: 20px 20px;
   align-self: center;
 }
+
 .image7 {
   width: 400px;
   height: 400px;
@@ -372,18 +387,19 @@ body {
   width: fit-content;
   height: fit-content;
 }
-.cWrap > h2 {
+
+.cWrap>h2 {
   font-size: 30px;
   font-weight: 450;
   text-transform: uppercase;
 }
 
-.cWrap > h4 {
+.cWrap>h4 {
   font-size: 25px;
   font-weight: 300;
 }
 
-.cWrap > p {
+.cWrap>p {
   font-size: 20px;
   font-weight: 250;
   word-spacing: 5px;
@@ -424,7 +440,7 @@ body {
   text-align: start;
 }
 
-.sectionSevenc{
+.sectionSevenc {
   display: none;
 }
 
@@ -508,10 +524,10 @@ body {
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
 
- .imageBox img {
+  .imageBox img {
     position: absolute;
     top: 9%;
-  } 
+  }
 
   .imageBox img:hover {
     transform: scale(1.3);
@@ -607,21 +623,25 @@ body {
     font-size: 17px;
   }
 
-  .sectionSeven{
+  .sectionSeven {
     align-self: center;
   }
-  .section7Col1{
+
+  .section7Col1 {
     padding: 0px 25px 0px 0px;
   }
-  .section7Col2, .section7Col3{
+
+  .section7Col2, .section7Col3 {
     padding: 0px 25px 0px 25px;
   }
-  .section7Col4{
+
+  .section7Col4 {
     padding: 0px 0px 0px 25px;
   }
 }
 
 @media screen and (min-width: 1450px) and (max-width: 1589px) {
+
   /******Changes by Shadab************/
   .section3 {
     display: flex;
@@ -631,7 +651,7 @@ body {
     width: 70%;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
-  
+
   .imageBox img {
     position: absolute;
     top: 20%;
@@ -651,7 +671,7 @@ body {
     margin-top: 5px;
     width: 70%;
   }
- 
+
   .bgimage {
     justify-content: center;
     align-items: center;
@@ -670,9 +690,11 @@ body {
     padding: 50px 80px 50px 80px;
     margin-bottom: 0px;
   }
-  .section6{
+
+  .section6 {
     margin: 30px 30px 30px 30px;
   }
+
   .boxbg1 {
     height: 300px;
     margin-left: 60px;
@@ -726,6 +748,7 @@ body {
 
 /****Default****/
 @media screen and (min-width: 1300px) and (max-width: 1449px) {
+
   /******Changes by Shadab************/
   .section3 {
     display: flex;
@@ -735,7 +758,7 @@ body {
     width: 70%;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
-  
+
   .imageBox img {
     position: absolute;
     top: 20%;
@@ -755,7 +778,7 @@ body {
     margin-top: 5px;
     width: 70%;
   }
- 
+
   .bgimage {
     justify-content: center;
     align-items: center;
@@ -774,9 +797,11 @@ body {
     padding: 50px 80px 50px 80px;
     margin-bottom: 0px;
   }
-  .section6{
+
+  .section6 {
     margin: 130px 30px 30px 30px;
   }
+
   .boxbg1 {
     height: 300px;
     margin-left: 60px;
@@ -839,11 +864,11 @@ body {
   .section7Col4{
     padding: 0px 0px 0px 25px;
   } */
-  .contentWrap > h3 {
+  .contentWrap>h3 {
     font-size: 25px;
-  } 
-  
-  .contentWrap > h4 {
+  }
+
+  .contentWrap>h4 {
     font-size: 23px;
   }
 }
@@ -921,6 +946,7 @@ body {
     width: 70%;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
+
   .content p {
     font-size: 20px;
     margin-left: 3rem;
@@ -1026,11 +1052,12 @@ body {
     padding: 13px 15px;
     font-size: 17px;
   }
-  .contentWrap > h3 {
+
+  .contentWrap>h3 {
     font-size: 25px;
-  } 
-  
-  .contentWrap > h4 {
+  }
+
+  .contentWrap>h4 {
     font-size: 23px;
   }
 }
@@ -1059,7 +1086,8 @@ body {
     padding-left: 4rem;
     padding-right: 4rem;
     font-size: 20px;
-  } 
+  }
+
   .rowNineCarouselDiv img {
     width: 50%;
   }
@@ -1073,6 +1101,7 @@ body {
     width: 70%;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   }
+
   .content p {
     font-size: 20px;
     margin-left: 4rem;
@@ -1162,44 +1191,45 @@ body {
   }
 
   /******Section 7 Shadab******/
-  
   .image7 {
-  width: 350px;
-  height: 350px;
-}
+    width: 350px;
+    height: 350px;
+  }
 
-.contentWrap {
-  height: 100px;
-}
-.contentWrap > h3 {
-  font-size: 23px;
-} 
+  .contentWrap {
+    height: 100px;
+  }
 
-.contentWrap > h4 {
-  font-size: 18px;
-  font-weight: 350;
-}
+  .contentWrap>h3 {
+    font-size: 23px;
+  }
 
-.sectionSevenb {
-  max-width: 100%;
-  padding: 30px 30px;
-  margin: 0px 0px;
-}
-.cWrap > h2 {
-  font-size: 25px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
+  .contentWrap>h4 {
+    font-size: 18px;
+    font-weight: 350;
+  }
 
-.cWrap > h4 {
-  font-size: 20px;
-  font-weight: 300;
-}
+  .sectionSevenb {
+    max-width: 100%;
+    padding: 30px 30px;
+    margin: 0px 0px;
+  }
 
-.cWrap > p {
-  font-size: 16px;
-  font-weight: 250;
-}
+  .cWrap>h2 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .cWrap>h4 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .cWrap>p {
+    font-size: 16px;
+    font-weight: 250;
+  }
 
   /*******Section 8 Anjali *****/
   .collabs {
@@ -1249,7 +1279,7 @@ body {
     padding-left: 60px;
     padding-right: 60px;
     font-size: 18px;
-  } 
+  }
 
   .rowNineCarouselDiv img {
     width: 50%;
@@ -1290,41 +1320,43 @@ body {
     font-size: 18px;
     margin: 0 60px;
   }
-  
+
   .image7 {
     width: 320px;
     height: 320px;
   }
-  
+
   .contentWrap {
     height: 100px;
   }
-  .contentWrap > h3 {
+
+  .contentWrap>h3 {
     font-size: 23px;
-  } 
-  
-  .contentWrap > h4 {
+  }
+
+  .contentWrap>h4 {
     font-size: 18px;
     font-weight: 350;
   }
-  
+
   .sectionSevenb {
     max-width: 100%;
     padding: 30px 30px;
     margin: 0px 0px;
   }
-  .cWrap > h2 {
+
+  .cWrap>h2 {
     font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
   }
-  
-  .cWrap > h4 {
+
+  .cWrap>h4 {
     font-size: 20px;
     font-weight: 300;
   }
-  
-  .cWrap > p {
+
+  .cWrap>p {
     font-size: 16px;
     font-weight: 250;
   }
@@ -1401,44 +1433,47 @@ body {
     align-items: center;
     margin-left: 100px;
   }
-/* Css for 7b */
-.image7 {
-  width: 320px;
-  height: 320px;
-}
 
-.contentWrap {
-  height: 100px;
-}
-.contentWrap > h3 {
-  font-size: 23px;
-} 
+  /* Css for 7b */
+  .image7 {
+    width: 320px;
+    height: 320px;
+  }
 
-.contentWrap > h4 {
-  font-size: 18px;
-  font-weight: 350;
-}
+  .contentWrap {
+    height: 100px;
+  }
 
-.sectionSevenb {
-  max-width: 100%;
-  padding: 30px 30px;
-  margin: 0px 0px;
-}
-.cWrap > h2 {
-  font-size: 25px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
+  .contentWrap>h3 {
+    font-size: 23px;
+  }
 
-.cWrap > h4 {
-  font-size: 20px;
-  font-weight: 300;
-}
+  .contentWrap>h4 {
+    font-size: 18px;
+    font-weight: 350;
+  }
 
-.cWrap > p {
-  font-size: 16px;
-  font-weight: 250;
-}
+  .sectionSevenb {
+    max-width: 100%;
+    padding: 30px 30px;
+    margin: 0px 0px;
+  }
+
+  .cWrap>h2 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .cWrap>h4 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .cWrap>p {
+    font-size: 16px;
+    font-weight: 250;
+  }
 
   /* CSS for Section 8*/
   .collabs {
@@ -1544,36 +1579,38 @@ body {
     width: 320px;
     height: 320px;
   }
-  
+
   .contentWrap {
     height: 100px;
   }
-  .contentWrap > h3 {
+
+  .contentWrap>h3 {
     font-size: 23px;
-  } 
-  
-  .contentWrap > h4 {
+  }
+
+  .contentWrap>h4 {
     font-size: 18px;
     font-weight: 350;
   }
-  
+
   .sectionSevenb {
     max-width: 100%;
     padding: 30px 30px;
     margin: 0px 0px;
   }
-  .cWrap > h2 {
+
+  .cWrap>h2 {
     font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
   }
-  
-  .cWrap > h4 {
+
+  .cWrap>h4 {
     font-size: 20px;
     font-weight: 300;
   }
-  
-  .cWrap > p {
+
+  .cWrap>p {
     font-size: 16px;
     font-weight: 250;
   }
@@ -1689,9 +1726,11 @@ body {
     font-size: 16px;
     padding: 20px 60px 20px 60px;
   }
-  .section6{
+
+  .section6 {
     padding-top: 50px;
   }
+
   .boxbg1 {
     margin-top: 300px;
     height: 200px;
@@ -1724,45 +1763,49 @@ body {
     align-items: center;
     margin-left: 80px;
   }
-/* Css for 7b */
-.image7 {
-  width: 300px;
-  height: 300px;
-}
 
-.contentWrap {
-  height: 100px;
-}
-.contentWrap > h3 {
-  font-size: 23px;
-} 
+  /* Css for 7b */
+  .image7 {
+    width: 300px;
+    height: 300px;
+  }
 
-.contentWrap > h4 {
-  font-size: 18px;
-  font-weight: 350;
-}
+  .contentWrap {
+    height: 100px;
+  }
 
-.sectionSevenb {
-  max-width: 100%;
-  padding: 30px 30px;
-  margin: 0px 0px;
-}
-.cWrap > h2 {
-  font-size: 25px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
+  .contentWrap>h3 {
+    font-size: 23px;
+  }
 
-.cWrap > h4 {
-  font-size: 20px;
-  font-weight: 300;
-}
+  .contentWrap>h4 {
+    font-size: 18px;
+    font-weight: 350;
+  }
 
-.cWrap > p {
-  font-size: 16px;
-  font-weight: 250;
-}
-/* Css for 9 */
+  .sectionSevenb {
+    max-width: 100%;
+    padding: 30px 30px;
+    margin: 0px 0px;
+  }
+
+  .cWrap>h2 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .cWrap>h4 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .cWrap>p {
+    font-size: 16px;
+    font-weight: 250;
+  }
+
+  /* Css for 9 */
   .collabs {
     padding: 10px 40px 10px 30px;
     width: 100%;
@@ -1780,9 +1823,10 @@ body {
 }
 
 @media screen and (min-width: 870px) and (max-width: 999px) {
-  .section6{
+  .section6 {
     padding-top: 80px;
   }
+
   .boxbg1 {
     margin-top: 250px;
   }
@@ -1920,6 +1964,7 @@ body {
     font-size: 16px;
     align-items: center;
   }
+
   /* Css for 7b */
   .row1Col1 {
     display: none;
@@ -1940,35 +1985,38 @@ body {
   .row4Col2 {
     display: none;
   }
+
   .contentWrap {
     height: 100px;
   }
-  .contentWrap > h3 {
+
+  .contentWrap>h3 {
     font-size: 23px;
-  } 
-  
-  .contentWrap > h4 {
+  }
+
+  .contentWrap>h4 {
     font-size: 18px;
     font-weight: 350;
   }
-  
+
   .sectionSevenb {
     max-width: 100%;
     padding: 30px 30px;
     margin: 0px 0px;
   }
-  .cWrap > h2 {
+
+  .cWrap>h2 {
     font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
   }
-  
-  .cWrap > h4 {
+
+  .cWrap>h4 {
     font-size: 18px;
     font-weight: 350;
   }
-  
-  .cWrap > p {
+
+  .cWrap>p {
     font-size: 16px;
     font-weight: 250;
   }
@@ -2025,7 +2073,7 @@ body {
     padding-right: 10px;
     font-size: 14px;
   }
-  
+
   .rowNineCarouselDiv img {
     padding: 15px 15px;
   }
@@ -2040,17 +2088,18 @@ body {
     margin: 0 2rem;
   }
 
-  .content > p {
+  .content>p {
     font-size: 16px;
     line-height: 24px;
     margin: 30px;
   }
 
-  .imageBox{
+  .imageBox {
     margin: 0 2rem;
   }
+
   .imageBox img {
-    width: 100%; 
+    width: 100%;
   }
 
   .whyStarted {
@@ -2063,9 +2112,10 @@ body {
     font-size: 34px;
   }
 
-  .reasonForStart{
+  .reasonForStart {
     margin-top: 10px;
   }
+
   .reasonForStart p {
     margin: 0 2rem;
     padding: 20px;
@@ -2073,16 +2123,15 @@ body {
     font-size: 16px;
   }
 
-
   /* Changed Css Anjali  */
   .sec5bgimage {
     position: relative;
-    margin-left: 60px;
+    margin-left: 10px;
     width: auto;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-top: 10px;
     z-index: 1;
-    width: 80%;
+    width: 97%;
   }
 
   .sec5bgimage:hover {
@@ -2091,14 +2140,14 @@ body {
 
   .bgimage {
     position: relative;
-    width: 80%;
-    margin-left: 60px;
-    margin-right: 30px;
+    width: 89.7%;
+    margin-left: 32px;
+    margin-right: 20px;
     margin-top: 40px;
   }
 
   .section5 {
-    margin-top: 230px;
+    margin-top: 250px;
     width: auto;
     height: auto;
     margin-right: 20px;
@@ -2111,7 +2160,7 @@ body {
   }
 
   .boxbg1 {
-    margin-top: 440px;
+    margin-top: 410px;
     height: 140px;
     justify-content: none;
     align-items: left;
@@ -2122,7 +2171,7 @@ body {
     height: 140px;
     justify-content: none;
     align-items: left;
-    margin-top: 440px;
+    margin-top: 410px;
     margin-left: 15px;
   }
 
@@ -2131,7 +2180,7 @@ body {
     justify-content: none;
     align-items: left;
     margin-left: -5px;
-    margin-top: 440px;
+    margin-top: 410px;
   }
 
   .sbox {
@@ -2147,28 +2196,34 @@ body {
   .sectionSeven {
     display: none;
   }
+
   .sectionSevenc {
     display: flex;
     max-width: 100%;
     padding: 30px 45px 30px 30px;
     margin: 2rem 2rem;
   }
+
   .sectionSevencRow1 {
     background-image: url("../AboutUsImages/backRed.png");
     background-attachment: inherit;
   }
+
   .sectionSevencRow2 {
     background-image: url("../AboutUsImages/backYellow.png");
     background-attachment: inherit;
   }
+
   .sectionSevencRow3 {
     background-image: url("../AboutUsImages/backGreen.png");
     background-attachment: inherit;
   }
+
   .sectionSevencRow4 {
     background-image: url("../AboutUsImages/backBlue.png");
     background-attachment: inherit;
   }
+
   .innercRow {
     display: flex;
     flex-direction: column;
@@ -2177,12 +2232,14 @@ body {
     padding: 20px 20px;
     margin: 8px 8px;
   }
+
   .row1Col2c,
   .row2Col2c,
   .row3Col2c,
   .row4Col2c {
     padding-top: 10px;
   }
+
   .row1Col1c,
   .row2Col1c,
   .row3Col1c,
@@ -2192,34 +2249,36 @@ body {
     align-self: center;
   }
 
-  .row1Col2c > .cWrapc,
-  .row2Col2c > .cWrapc,
-  .row3Col2c > .cWrapc,
-  .row4Col2c > .cWrapc{
+  .row1Col2c>.cWrapc,
+  .row2Col2c>.cWrapc,
+  .row3Col2c>.cWrapc,
+  .row4Col2c>.cWrapc {
     width: fit-content;
     height: fit-content;
   }
+
   .image7c {
     width: 200px;
     height: 200px;
   }
-  
+
   .cWrapc {
     width: auto;
     height: auto;
   }
-  .cWrapc > h2 {
+
+  .cWrapc>h2 {
     font-size: 24px;
     font-weight: 450;
     text-transform: uppercase;
   }
-  
-  .cWrapc > h4 {
+
+  .cWrapc>h4 {
     font-size: 18px;
     font-weight: 300;
   }
-  
-  .cWrapc > p {
+
+  .cWrapc>p {
     font-size: 16px;
     font-weight: 250;
     word-spacing: 5px;
@@ -2227,7 +2286,7 @@ body {
     padding-top: 10px;
     margin-bottom: 0px;
   }
-  
+
   .wrap1c {
     padding: 10px 10px;
     margin-left: auto;
@@ -2236,7 +2295,7 @@ body {
     background-attachment: inherit;
     text-align: start;
   }
-  
+
   .wrap2c {
     padding: 10px 10px;
     margin-left: auto;
@@ -2245,7 +2304,7 @@ body {
     background-attachment: inherit;
     text-align: start;
   }
-  
+
   .wrap3c {
     padding: 10px 10px;
     margin-left: auto;
@@ -2254,7 +2313,7 @@ body {
     background-attachment: inherit;
     text-align: start;
   }
-  
+
   .wrap4c {
     padding: 10px 10px;
     margin-left: auto;
@@ -2280,34 +2339,49 @@ body {
     margin-left: 20px;
   }
 
-  .collabbutton{
+  .collabbutton {
     font-size: 16px;
   }
-  .rowNineCarouselWrapper{
+
+  .rowNineCarouselWrapper {
     margin: 0rem 2rem;
-   }
+  }
 }
 
-@media screen and (min-width: 620px) and (max-width: 767px) {
+@media screen and (min-width: 640px) and (max-width: 700px) {
+  .boxbg1 {
+    margin-top: 340px;
+  }
+
+  .boxbg2 {
+    margin-top: 340px;
+  }
+
+  .boxbg3 {
+    margin-top: 340px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 767px) {
   .section5 {
     margin-top: 250px;
   }
 
   .sec5bgimage {
     z-index: -1;
-    margin-left: 10%;
+    margin-left: 10px;
   }
 
   .boxbg1 {
-    margin-top: 290px;
+    margin-top: 280px;
   }
 
   .boxbg2 {
-    margin-top: 290px;
+    margin-top: 280px;
   }
 
   .boxbg3 {
-    margin-top: 290px;
+    margin-top: 280px;
   }
 }
 
@@ -2345,9 +2419,10 @@ body {
     font-size: 15px;
   }
 
-  .rowNineCarouselWrapper{
+  .rowNineCarouselWrapper {
     margin: 0 2rem;
-   }
+  }
+
   .rowNineCarouselDiv img {
     padding: 12px;
   }
@@ -2368,11 +2443,12 @@ body {
     margin: 20px 20px;
   }
 
-  .imageBox{
+  .imageBox {
     margin: 0 2rem;
   }
+
   .imageBox img {
-    width: 100%; 
+    width: 100%;
   }
 
   .whyStarted {
@@ -2385,9 +2461,10 @@ body {
     font-size: 34px;
   }
 
-  .reasonForStart{
+  .reasonForStart {
     margin-top: 10px;
   }
+
   .reasonForStart p {
     margin: 0 2rem;
     padding: 20px;
@@ -2399,9 +2476,10 @@ body {
   .sec5bgimage {
     position: relative;
     margin-top: 10px;
-    z-index: 1;
+    z-index: -1;
     width: 90%;
-    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-left: 1.5rem;
     justify-content: center;
   }
 
@@ -2410,7 +2488,7 @@ body {
   }
 
   .section5 {
-    margin-top: 250px;
+    margin-top: 180px;
     width: auto;
     height: auto;
     margin-right: 2rem;
@@ -2425,7 +2503,7 @@ body {
 
   .boxbg1 {
     margin-top: 440px;
-    height: 300px;
+    height: 250px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
@@ -2433,7 +2511,7 @@ body {
   }
 
   .boxbg2 {
-    height: 300px;
+    height: 250px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
@@ -2442,7 +2520,7 @@ body {
   }
 
   .boxbg3 {
-    height: 300px;
+    height: 250px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
@@ -2451,48 +2529,54 @@ body {
   }
 
   .sbox {
-    height: 45px;
-    width: 150px;
-    transform: translate(50%, -30%);
-    font-size: 23px;
+    height: 35px;
+    width: 120px;
+    transform: translate(45%, -30%);
+    font-size: 20px;
     align-items: center;
   }
 
   .bgimage {
     position: relative;
-    margin-left: 60px;
-    width: auto;
-    margin-right: 30px;
+    margin-right: 2rem;
+    margin-left: 2rem;
     margin-top: 20px;
     z-index: 1;
-    width: 80%;
+    width: 87%;
   }
+
   /* Css for 7a */
   .sectionSeven {
     display: none;
   }
+
   .sectionSevenc {
     display: flex;
     max-width: 100%;
     padding: 30px 45px 30px 30px;
     margin: 2rem 2rem;
   }
+
   .sectionSevencRow1 {
     background-image: url("../AboutUsImages/backRed.png");
     background-attachment: inherit;
   }
+
   .sectionSevencRow2 {
     background-image: url("../AboutUsImages/backYellow.png");
     background-attachment: inherit;
   }
+
   .sectionSevencRow3 {
     background-image: url("../AboutUsImages/backGreen.png");
     background-attachment: inherit;
   }
+
   .sectionSevencRow4 {
     background-image: url("../AboutUsImages/backBlue.png");
     background-attachment: inherit;
   }
+
   .innercRow {
     display: flex;
     flex-direction: column;
@@ -2501,12 +2585,14 @@ body {
     padding: 20px 20px;
     margin: 8px 8px;
   }
+
   .row1Col2c,
   .row2Col2c,
   .row3Col2c,
   .row4Col2c {
     padding-top: 10px;
   }
+
   .row1Col1c,
   .row2Col1c,
   .row3Col1c,
@@ -2516,34 +2602,36 @@ body {
     align-self: center;
   }
 
-  .row1Col2c > .cWrapc,
-  .row2Col2c > .cWrapc,
-  .row3Col2c > .cWrapc,
-  .row4Col2c > .cWrapc{
+  .row1Col2c>.cWrapc,
+  .row2Col2c>.cWrapc,
+  .row3Col2c>.cWrapc,
+  .row4Col2c>.cWrapc {
     width: fit-content;
     height: fit-content;
   }
+
   .image7c {
     width: 200px;
     height: 200px;
   }
-  
+
   .cWrapc {
     width: auto;
     height: auto;
   }
-  .cWrapc > h2 {
+
+  .cWrapc>h2 {
     font-size: 24px;
     font-weight: 450;
     text-transform: uppercase;
   }
-  
-  .cWrapc > h4 {
+
+  .cWrapc>h4 {
     font-size: 18px;
     font-weight: 300;
   }
-  
-  .cWrapc > p {
+
+  .cWrapc>p {
     font-size: 16px;
     font-weight: 250;
     word-spacing: 5px;
@@ -2551,7 +2639,7 @@ body {
     padding-top: 10px;
     margin-bottom: 0px;
   }
-  
+
   .wrap1c {
     padding: 10px 10px;
     margin-left: auto;
@@ -2560,7 +2648,7 @@ body {
     background-attachment: inherit;
     text-align: start;
   }
-  
+
   .wrap2c {
     padding: 10px 10px;
     margin-left: auto;
@@ -2569,7 +2657,7 @@ body {
     background-attachment: inherit;
     text-align: start;
   }
-  
+
   .wrap3c {
     padding: 10px 10px;
     margin-left: auto;
@@ -2578,7 +2666,7 @@ body {
     background-attachment: inherit;
     text-align: start;
   }
-  
+
   .wrap4c {
     padding: 10px 10px;
     margin-left: auto;
@@ -2639,47 +2727,51 @@ body {
     padding: 8px 8px;
     /* height: 40vh; */
   }
+
   .whyStarted h1 {
     margin-top: 30px;
     margin-left: 10px;
     font-size: 32px;
   }
-  .reasonForStart{
+
+  .reasonForStart {
     margin-top: 8px;
   }
+
   .reasonForStart p {
     font-size: 15px;
   }
+
   .boxbg1 {
-    margin-top: 580px;
-    height: 250px;
+    margin-top: 620px;
+    height: 200px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    margin-left: 17%;
+    margin-left: 23%;
   }
 
   .boxbg2 {
-    height: 250px;
+    height: 200px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    margin-left: 17%;
+    margin-left: 23%;
     margin-top: 8px;
   }
 
   .boxbg3 {
-    height: 250px;
+    height: 200px;
     margin-right: 20px;
-    margin-left: 17%;
+    margin-left: 23%;
     margin-top: 8px;
   }
 
   .sbox {
-    height: 40px;
-    width: 110px;
-    transform: translate(0%, -30%);
-    font-size: 20px;
+    height: 30px;
+    width: 80px;
+    transform: translate(-10%, -30%);
+    font-size: 16px;
     align-items: center;
   }
 
@@ -2693,17 +2785,18 @@ body {
 
   .bgimage {
     position: relative;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-right: 2rem;
     margin-top: 20px;
     z-index: 1;
-    width: 80%;
+    width: 87%;
   }
+
   /* Css for 7a */
   .sectionSeven {
     display: none;
   }
-  
+
   /* Css for 8 */
   .collabs {
     padding: 10px 20px 10px 20px;
@@ -2713,8 +2806,8 @@ body {
   }
 }
 
-@media screen and (max-width:350px) {
-  .section1, .section2{
+@media screen and (max-width:360px) {
+  .section1, .section2 {
     margin: 0 1rem;
   }
 
@@ -2725,6 +2818,7 @@ body {
   .rowOneColTwo>div {
     padding-top: 1rem;
   }
+
   .rowTwoRowPara>h1 {
     text-align: justify;
     font-size: 30px;
@@ -2735,48 +2829,63 @@ body {
     font-size: 14px;
   }
 
-  .rowNineCarouselWrapper{
+  .rowNineCarouselWrapper {
     margin: 0 1rem;
-   }
+  }
+
   .rowNineCarouselDiv img {
     padding: 6px;
   }
 
-  .whyStarted{
+  .whyStarted {
     margin: 0 1rem;
   }
+
   .whyStarted h1 {
     margin-top: 30px;
     margin-left: 10px;
     font-size: 28px;
   }
-  .reasonForStart{
+
+  .reasonForStart {
     margin-top: 8px;
   }
+
   .reasonForStart p {
     margin: 0 1rem;
     font-size: 15px;
   }
-  .imageBox{
+
+  .imageBox {
     margin: 0 1rem;
   }
-  .content{
+
+  .content {
     margin: 0 1rem;
   }
-  .content p{
+
+  .content p {
     font-size: 14px;
   }
 
   /*****Changes by Anjali *****/
-  .section5{
+  .section5 {
     margin: 0 1rem;
   }
+
+  .sec5bgimage {
+    width: 95%;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+  }
+
   .para1 {
     font-size: 14px;
     text-align: justify;
   }
+
   .boxbg1 {
-    margin-top: 900px;
+    margin-top: 560px;
     height: 200px;
     justify-content: center;
     align-items: center;
@@ -2815,7 +2924,8 @@ body {
   .bgimage {
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 1rem;
+    width: 92%;
   }
 
   /* Css for 7a */
@@ -2834,11 +2944,12 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   /* Css for 8 */
-  .collabs{
+  .collabs {
     margin: 0 1rem;
   }
+
   .collabs h1 {
     font-size: 32px;
   }
@@ -2847,7 +2958,7 @@ body {
     font-size: 14px;
   }
 
-  .collabbutton{
+  .collabbutton {
     font-size: 14px;
   }
 }

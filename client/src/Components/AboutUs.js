@@ -694,7 +694,7 @@ class AboutUs extends Component {
             </Row>
           {/* **************** Row 8 **************** */}
           {/* Anjali */}
-          <Row>
+          <Row className={Modules.section8}>
             <img
               src={this.state.image.Section8}
               alt="dummy"

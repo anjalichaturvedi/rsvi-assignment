@@ -2814,6 +2814,14 @@ body {
   }
 
   /* Css for 8 */
+  .section8{
+    margin: 0 2rem;
+  }
+  .bgimage{
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 0px;
+  }
   .collabs {
     padding: 10px 20px 10px 20px;
     margin-right: 2rem;
@@ -2951,12 +2959,21 @@ body {
     align-items: center;
   }
 
-  .bgimage {
+  .section8{
+    margin: 0 1rem;
+  }
+  .bgimage{
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 0px;
+  }
+
+  /* .bgimage {
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
     width: 92%;
-  }
+  } */
 
   /* Css for 7a */
   .sectionSeven {

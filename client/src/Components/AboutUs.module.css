@@ -451,7 +451,7 @@ body {
 .collabs h1 {
   font-size: 48px;
   font-family: "Cormorant Garamond", serif;
-  font-weight: bolder; 
+  font-weight: bolder;
 }
 
 .collabs p {
@@ -1729,7 +1729,7 @@ body {
     height: 200px;
     justify-content: none;
     align-items: left;
-    margin-left: 80px;
+    margin-left: 40px;
   }
 
   .boxbg2 {
@@ -1834,6 +1834,7 @@ body {
 
   .boxbg1 {
     margin-top: 250px;
+    margin-left: 50px;
   }
 
   .boxbg2 {
@@ -1969,7 +1970,7 @@ body {
   .sbox {
     height: 31px;
     width: 79px;
-    transform: translate(-60%, -30%);
+    transform: translate(60%, -30%);
     font-size: 16px;
     align-items: center;
   }
@@ -2515,8 +2516,8 @@ body {
   }
 
   .boxbg1 {
-    margin-top: 440px;
-    height: 250px;
+    margin-top: 380px;
+    height: 280px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
@@ -2524,7 +2525,7 @@ body {
   }
 
   .boxbg2 {
-    height: 250px;
+    height: 280px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
@@ -2533,7 +2534,7 @@ body {
   }
 
   .boxbg3 {
-    height: 250px;
+    height: 280px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
@@ -2544,7 +2545,7 @@ body {
   .sbox {
     height: 35px;
     width: 120px;
-    transform: translate(45%, -30%);
+    transform: translate(55%, -30%);
     font-size: 20px;
     align-items: center;
   }

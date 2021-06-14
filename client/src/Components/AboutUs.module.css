@@ -120,7 +120,7 @@ body {
   font-family: "Noto Sans HK", "Source Sans Pro";
   word-spacing: 5px;
   font-size: 21px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 .imageBox {
@@ -164,7 +164,7 @@ body {
   font-family: "Noto Sans HK", "Source Sans Pro";
   word-spacing: 5px;
   font-size: 21px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 /* Default Css Anjali for Row 5 and Row 6 */
@@ -178,9 +178,6 @@ body {
   align-items: center;
 }
 
-/* .section6{
-  padding-top: 30px;
-} */
 .bgimage {
   margin-left: 10%;
   margin-top: 50px;
@@ -211,7 +208,7 @@ body {
   font-size: 21px;
   font-family: "Noto Sans HK", "Source Sans Pro";
   word-spacing: 5px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 .boxbg1 {
@@ -454,7 +451,7 @@ body {
 .collabs h1 {
   font-size: 48px;
   font-family: "Cormorant Garamond", serif;
-  font-weight: bolder;
+  font-weight: bolder; 
 }
 
 .collabs p {
